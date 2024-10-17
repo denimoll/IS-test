@@ -1,0 +1,804 @@
+1. B. The correct answer is a boot sector virus, which is one that will affect the boot sector of the hard drive. Thus, what operating system you boot to is irrelevant.
+Option A is incorrect. There is no element of ransom in the description of this attack.
+Option C is incorrect. A rootkit can sometimes also affect the boot sector, but in this case the boot sector virus is the most accurate description.
+Option D is incorrect. Nothing in this description indicates key logging.
+2. C. The correct answer is spear phishing. Spear phishing is targeted to a specific group, in this case insurance professionals. Attackers can find individuals from public sources to target. This is known as open source intelligence.
+Option A is incorrect because that is too broad a category.
+Option B is incorrect because, though social engineering is a part of every phishing attack, this is more than just social engineering.
+Option D is incorrect because this is not a Trojan horse. In fact, malware is not even part of the attack.
+3. B. A logic bomb is malware that performs its malicious activity when some condition is met.
+Option A is incorrect because a worm is malware that self-propagates.
+Option C is incorrect because a Trojan horse is malware attached to a legitimate program.
+Option D is incorrect because a rootkit is malware that gets root or administrative privileges.
+4. C. The text shown is the classic example of a basic SQL injection to log in to a site.
+Option A is incorrect. Cross-site scripting would have JavaScript in the text field.
+Option B is incorrect. Cross-site request forgery would not involve any text being entered in the web page.
+Option D is incorrect. ARP poisoning is altering the ARP table in a switch; it is not related to website hacking.
+5. B. Half-open connections are the hallmark of a SYN flood.
+Option A is incorrect. We know from the question that this is a denial of service, but nothing indicates that it is (or is not) a distributed denial of service.
+Option C is incorrect. Buffer overflow involves putting too much data into a variable or array.
+Option D is incorrect. ARP poisoning is altering the ARP table in a switch; it is not related to website hacking.
+6. B. The primary and best way to defend against the attacks mentioned is filtering user input.
+Option A is incorrect. Encrypting the web traffic will not have any effect on these two attacks.
+Option C is incorrect. A web application firewall (WAF) might mitigate these attacks, but it would be secondary to filtering user input.
+Option D is incorrect. An IDS will simply detect the attack—it won’t stop it.
+7. C. If users have been connecting but the WAP does not show them connecting, then they
+have been connecting to a rogue access point. This could be the cause of an architecture
+and design weakness such as a network without segmentation and control of devices connecting to the network.
+Option A is incorrect. Session hijacking involves taking over an already authenticated session.
+Most session hijacking attacks involve impersonation. The attacker attempts to gain access to
+another user’s session by posing as that user.
+Option B is incorrect. Clickjacking involves causing visitors to a website to click on the
+wrong item.
+Option D is incorrect. Bluejacking is a Bluetooth attack.
+8. C. Cross-site scripting involves entering a script into text areas that other users will view.
+Option A is incorrect. SQL injection is not about entering scripts, but rather SQL commands.
+Option B is incorrect. Clickjacking is about tricking users into clicking on the wrong thing.
+Option D is incorrect. Bluejacking is a Bluetooth attack.
+9. B. A Trojan horse wraps a malicious program to a legitimate program. When the user
+downloads and installs the legitimate program, they get the malware.
+Option A is incorrect. A logic bomb is malware that does its misdeeds when some condition is met.
+Option C is incorrect. A rootkit is malware that gets administrative, or root access.
+Option D is incorrect. A macro virus is a virus that is embedded in a document as a macro.
+10. C. A backdoor is a method for bypassing normal security and directly accessing the system.
+Option A is incorrect. A logic bomb is malware that performs its misdeeds when some
+condition is met.
+Option B is incorrect. A Trojan horse wraps a malicious program to a legitimate program.
+When the user downloads and installs the legitimate program, they get the malware.
+Option D is incorrect. A rootkit is malware that gets root or administrative privileges.
+11. C. The machines in her network are being used as bots, and the users are not aware that
+they are part of a DDoS attack.
+Option A is incorrect. Social engineering is when someone tries to manipulate you into
+giving information. Techniques involved in social engineering attacks include consensus,
+scarcity, and familiarity.
+Option B is incorrect. There is a slight chance that all computers could have a backdoor, but that is very unlikely, and attackers normally don’t manually log into each
+machine to do a distributed denial of service (DDoS)—it would be automated, as
+through a bot.
+Option D is incorrect. Crypto-viruses are not related to DDoS attacks.
+12. B. This is a classic example of ransomware.
+Option A is incorrect. A rootkit provides access to administrator/root privileges.
+Option C is incorrect. A logic bomb executes its malicious activity when some condition is met.
+Option D is incorrect. This scenario does not describe whaling.
+13. D. The primary method for stopping both cross-site scripting and SQL injection is to
+check or filter user input.
+Option A is incorrect. A web application firewall might help, but a basic SPI firewall won’t
+prevent this.
+Option B is incorrect. Most IDSs/IPSs won’t detect cross-site scripting, and even if one
+will, option A is still the best way to prevent cross-site scripting.
+Option C is incorrect. This is not a buffer overflow, and checking buffer boundaries
+won’t help.
+14. B. This is the description of a buffer overflow.
+Option A is incorrect. Bluesnarfing is a Bluetooth attack.
+Option C is incorrect. Bluejacking is a Bluetooth attack.
+Option D is incorrect. This is not a distributed denial of service.
+15. A. Vulnerability scan uses automated tools such as Nessus and Microsoft Baseline
+Security Analyzer to find known vulnerabilities.
+Option B is incorrect. Penetration tests seek to actually exploit the vulnerabilities and
+break into systems.
+Option C is incorrect. Security audits usually focus on checking policies, incident reports,
+and other documents.
+Option D is incorrect. Security test is a generic term for any sort of test.
+16. A. Credentials the WAP shipped with are an example of default configuration.
+Option B is incorrect. Race conditions involve multithreaded applications accessing shared
+variables.
+Option C is incorrect. Patches won’t change the default password.
+Option D is incorrect. Encryption does not affect logging into the administrative screen.
+17. C. Social engineering can only be countered by user training and education.
+Options A and B are incorrect. No technology can prevent social engineering.
+Option D is incorrect. Strong policies can only help if users are well trained in the policies.
+18. C. ARP poisoning is used to change the ARP tables routing data to a different MAC
+address, which would explain why there were no entries.
+Option A is incorrect. A backdoor would not explain that the log entries were sent, but not
+received.
+Option B is incorrect. A buffer overflow would not explain that the log entries were sent
+but not received.
+Option D is incorrect. An IDS would not stop log entries even if it was malfunctioning.
+19. A. From the description it appears that they are not logging into the real web server but
+rather a fake server. That indicates typosquatting: have a URL that is named very similarly
+to a real site so that when users mistype the real site’s URL they will go to the fake site.
+Options B, C, and D are all incorrect. These are all methods of attacking a website, but in
+this case, the actual website was not attacked. Instead, some users are visiting a fake site.
+20. D. The term for low-skilled hackers is script kiddie.
+Option A is incorrect. Nothing indicates this is being done for ideological reasons.
+Option B is incorrect. “Amateur” may be an appropriate description, but the correct term
+is script kiddie.
+Option C is incorrect. Nothing in this scenario indicates an insider threat.
+21. B. The term for this is botnet, usually spelled as one word.
+Options A, C, and D are all incorrect. Although these terms might sound the same, they
+are simply not the terms used in the industry.
+22. B. Passive reconnaissance is any reconnaissance that is done without actually connecting
+to the target.
+Option A is incorrect. Active reconnaissance involves communicating with the target
+network, such as doing a port scan.
+Option C is incorrect. The initial exploitation is not information gathering; it is actually
+breaking into the target network.
+Option D is incorrect. A pivot is when you have breached one system and use that to move
+to another system.
+23. C. Some spyware takes screen captures of the system, and it is common for such spyware
+to hide them in the temp folder.
+Option A is incorrect. There is no evidence of any corporate data, just screenshots from
+the salesperson’s own machine. And if he was stealing data, he would not draw attention
+to his computer by reporting a problem.
+Option B is incorrect. Nothing in this scenario indicates a backdoor.
+Option D is incorrect. Updates won’t affect this.
+24. A. This is an exact description of DNS poisoning or domain hijacking.
+Option B is incorrect. ARP poisoning involves altering the MAC-IP tables in a switch.
+Options C and D are incorrect. These are both Bluetooth attacks.
+25. C. A black-box test involves absolutely minimal information.
+Option A is incorrect. A white-box test involves very complete information being given to
+the tester.
+Option B is incorrect. This scenario is probably done from outside the network, but external test is not the correct terminology.
+Option D is incorrect. Threat test is not a term used in penetration testing.
+26. D. A pivot occurs when you exploit one machine and use that as a basis to attack other
+systems.
+Option A is incorrect. Pivots can be done from internal or external tests.
+Options B and C are incorrect. These describe how much information the tester is given in
+advance, not how the tester performs the test.
+27. A. Shimming is when the attacker places some malware between an application and some
+other file, and intercepts the communication to that file (usually to a library or system API).
+Option B is incorrect. A Trojan horse might be used to get the shim onto the system, but
+that is not described in this scenario.
+Option C is incorrect. A backdoor is a means to circumvent system authorization and get
+direct access to the system.
+Option D is incorrect. Refactoring is the process of changing names of variables, functions,
+etc. in a program.
+28. A. A white-box test involves providing extensive information, as described in this scenario.
+Option B is incorrect. A white-box test could be internal or external.
+Option C is incorrect. This is the opposite of a black-box test.
+Option D is incorrect. Threat test is not a term used in penetration testing.
+29. B. His machines are part of a distributed denial-of-service attack.
+Option A is incorrect. This scenario describes a generic DDoS, not a specific one like SYN
+flood.
+Option C is incorrect. These machines could be part of a botnet, or just have a trigger
+that causes them to launch the attack at a specific time. The real key in this scenario is the
+DDoS attack.
+Option D is incorrect. A backdoor gives an attacker access to the target system.
+30. D. This is a textbook example of how ransomware works.
+Option A is incorrect. A rootkit gives administrative, or root, access.
+Option B is incorrect. A logic bomb executes its malicious activity when some specific condition is met.
+Option C is incorrect. A boot sector virus, as the name suggests, infects the boot sector of
+the target computer.
+31. D. Whaling is targeting a specific individual.
+Option A is incorrect. Spear phishing targets a small group.
+Option B is incorrect. Targeted phishing is not a term used in the industry.
+Option C is incorrect. Phishing is the generic term for a wide range of related attacks.
+32. C. You are concerned about buffer overflows, and thus checking buffer boundaries is the
+best defense.
+Options A and B are incorrect. While these technological solutions can always be a benefit
+for security, they are unlikely to address buffer overflow attacks effectively.
+Option D is incorrect. Checking user input helps defend against SQL injection and crosssite scripting.
+33. C. Security audits typically focus on checking policies, documents, and so forth.
+Option A is incorrect. Vulnerability scans use automated and semiautomated processes to
+check for known vulnerabilities.
+Option B is incorrect. Penetration tests attempt to actually exploit vulnerabilities and
+breach systems.
+Option D is incorrect. Security test is too general a term.
+34. A. Although many things could explain what she is experiencing, the scenario most
+closely matches connecting to a rogue access point where her login credentials were stolen.
+Options B and C are incorrect. Both involve malware, and the scenario states no sign of
+malware was found.
+Option D is incorrect. This does not match the symptoms of a buffer overflow attack.
+35. D. This is a classic example of an attacker using social engineering on the accountant, in
+order to gain access to his system.
+Options A and B are incorrect. This scenario does not describe either IP or MAC spoofing.
+Option C is incorrect. A man-in-the-middle attack would require an attacker to get in
+between a source and destination for some sort of electronic communication. That is not
+described in this scenario.
+36. D. An intrusion detection system will simply report issues, and not block the traffic.
+Option A is incorrect. An intrusion prevention system will stop suspected traffic, and in
+the event of a false positive, will shut down legitimate traffic.
+Option B is incorrect. A web application firewall (WAF), as the name suggests, primarily
+protects a web server against external attacks.
+Option C is incorrect. SIEMs aggregate logs for analysis.
+37. A. A rainbow table is a table of precomputed hashes, used to retrieve passwords.
+Option B is incorrect. A backdoor is used to gain access to a system, not recover passwords.
+Options C and D are incorrect. While both of these can be used to gain access to passwords, they are not tables of precomputed hashes.
+38. A. Bluejacking involves sending unsolicited messages to Bluetooth devices when they are
+in range.
+Option B is incorrect. Bluesnarfing involves getting data from the Bluetooth device.
+Options C and D are incorrect. Evil twin uses a rogue access point whose name is similar
+or identical to that of a legitimate access point.
+39. A. This is the term for rummaging through the waste/trash.
+Options B and D are incorrect. These terms, though grammatically correct, are simply not
+the terms used in the industry.
+Option C is incorrect. Nothing in this scenario describes social engineering.
+40. B. Bluesnarfing involves accessing data from a Bluetooth device when it is in range.
+Option A is incorrect. Bluejacking involves sending unsolicited messages to Bluetooth
+devices when they are in range.
+Option C is incorrect. Evil twin uses a rogue access point whose name is similar or
+identical to that of a legitimate access point.
+Option D is incorrect. A RAT is a remote-access Trojan. Nothing in this scenario points to
+a RAT being the cause of the stolen data.
+41. A. This is a remote-access Trojan (RAT), malware that opens access for someone to
+remotely access the system.
+Option B is incorrect. A backdoor does provide access but it is usually in the system due to
+programmers putting it there, not due to malware on the system.
+Option C is incorrect. A logic bomb executes its misdeeds when some logical condition
+is met.
+Option D is incorrect. A rootkit provides root or administrative access to the system.
+42. D. The term used in the industry is excessive privileges, and it is the opposite of good
+security practice, which states that each user should have least privileges (i.e., just enough
+privileges to do his or her job).
+Options A through C are incorrect. While these are grammatically correct, they are not
+the terms used in the industry.
+43. Option B is correct; zero-day exploits are new, and they are not in the virus definitions for
+the antivirus programs. This makes them difficult to detect, except by their behavior.
+Options A, C, and D are incorrect. These are all forms of malware, but should be picked
+up by at least one of the antivirus programs.
+44. Option B is correct. When using products the vendor no longer supports, also known as
+end-of-life, one major concern is that there won’t be patches available for any issues or
+vulnerabilities.
+Option A is incorrect; this is certainly not normal.
+Option C is incorrect. SIEMs aggregate logs and are operating system agnostic.
+Option D is incorrect. An older system is not necessarily more susceptible to denial-ofservice (DoS) attacks.
+45. D. WiFi protected setup (WPS) uses a PIN to connect to the wireless access point (WAP).
+The WPS attack attempts to intercept that PIN in transmission, connect to the WAP, and
+then steal the WPA2 password.
+Options A and B are incorrect. Nothing in this scenario requires or describes a rogue
+access point/evil twin.
+Option C is incorrect. An IV attack is an obscure cryptographic attack.
+46. C. Initialization vectors are used with stream ciphers. An IV attack attempts to exploit a
+flaw to use the IV to expose encrypted data.
+Options A and B are incorrect. Nothing in this scenario requires or describes a rogue
+access point/evil twin.
+Option D is incorrect. WiFi protected setup (WPS) uses a PIN to connect to the wireless
+access point (WAP). The WPS attack attempts to intercept that PIN in transmission, connect to the WAP, and then steal the WPA2 password.
+47. A. Any of these systems could help with detecting malicious activity by an insider, but the
+intrusion prevention system will block such activity, if detected.
+Option B is incorrect. SIEMs simply aggregate logs.
+Option C is incorrect. A honeypot can be useful in trapping a malicious actor but not in
+stopping data exfiltration.
+Option D is incorrect. Firewalls can block traffic, but normally data exfiltration looks like
+normal traffic and is hard for a firewall to block.
+48. D. This appears to be a situation where your network’s DNS server is compromised and
+sending people to a fake site.
+Option A is incorrect. A Trojan horse is malware tied to a legitimate program.
+Option B is incorrect. IP spoofing would be using a fake IP address, but that is not
+described in this scenario. In fact, the users are not even typing in IP addresses—they are
+typing in URLs.
+Option C is incorrect. Clickjacking involves tricking users into clicking something other
+than what they intended.
+49. B. This is a classic description of jamming.
+Option A is incorrect. IV attacks are obscure cryptographic attacks on stream ciphers.
+Option C is incorrect. WiFi protected setup (WPS) uses a PIN to connect to the wireless
+access point (WAP). The WPS attack attempts to intercept that PIN in transmission, connect to the WAP, and then steal the WPA2 password.
+Option D is incorrect. A botnet is a group of machines that are being used, without their
+consent, as part of an attack.
+50. A. This is the classic description of clickjacking.
+Options B and C are incorrect. These are Bluetooth attacks.
+Option D is incorrect. Nothing in this scenario requires or describes an evil twin.
+51. B. Cross-site request forgery sends fake requests to a website that purport to be from a
+trusted, authenticated user.
+Option A is incorrect. Cross-site scripting exploits the trust the user has for the website
+and embeds scripts into that website.
+Option C is incorrect. Bluejacking is a Bluetooth attack.
+Option D is incorrect. Nothing in this scenario requires or describes an evil twin.
+52. C. This is a classic example of typosquatting. The website is off by only one or two letters,
+hoping that when users to the real website mistype the URL they will go to the fake
+website.
+Option A is incorrect. Session hijacking is taking over an authenticated session.
+Option B is incorrect. Cross-site request forgery sends fake requests to a website that purport to be from a trusted, authenticated user.
+Option D is incorrect. Clickjacking attempts to trick users into clicking on something
+other than what they intended.
+53. A. Bluesnarfing uses Bluetooth to extract data from a Bluetooth device.
+Option B is incorrect. Session hijacking is taking over an authenticated session.
+Option C is incorrect. Backdoors are built-in methods to circumvent authentication.
+Option D is incorrect. Cross-site request forgery sends fake requests to a website that purport to be from a trusted, authenticated user.
+54. B. This is a classic example of a disassociation attack. The attacker tricks users into disassociating from the device.
+Option A is incorrect. Misconfiguration won’t cause authenticated users to de-authenticate.
+Option C is incorrect. Session hijacking involves taking over an authenticated session.
+Option D is incorrect. Backdoors are built-in methods to circumvent authentication.
+55. A. This is an example of a dictionary attack. The attacker uses a list of words that are
+believed to be likely passwords.
+Option B is incorrect. A rainbow table is a precomputed table of hashes.
+Option C is incorrect. Brute force tries every possible random combination. If attacker has
+the original plaintext and ciphertext for a message, they can determine the key space used
+through brute force attempts targeting the keyspace.
+Option D is incorrect. Session hijacking is when the attacker takes over an authenticated
+session.
+56. B. This is a classic example of a downgrade attack.
+Option A is incorrect. In a disassociation attack, the attacker attempts to force the victim
+into disassociating from a resource.
+Option C is incorrect. Session hijacking is when the attacker takes over an authenticated
+session.
+Option D is incorrect. Brute force attempts every possible random combination to get the
+password or encryption key.
+57. D. A collision is when two different inputs produce the same hash.
+Option A is incorrect. A rainbow table is a table of precomputed hashes.
+Option B is incorrect. Brute force attempts every possible random combination to get the
+password or encryption key.
+Option C is incorrect. Session hijacking is when the attacker takes over an authenticated
+session.
+58. C. An advanced persistent threat (APT) involves sophisticated (i.e., advanced) attacks over
+a period of time (i.e., persistent)
+Option A is incorrect. A distributed denial of service could be a part of an APT, but in and
+of itself is unlikely to be an APT.
+Option B is incorrect. Brute force attempts every possible random combination to get the
+password or encryption key.
+Option D is incorrect. In a disassociation attack, the attacker attempts to force the victim
+into disassociating from a resource.
+59. D. Whether the attacker is an organized criminal, hacktivist, nation-state attacker, or
+script kiddie, the amount of data stolen could be large or small.
+Options A, B, and C are all incorrect. These are exactly the attributes of an attack you do
+examine to determine the most likely attacker.
+60. A. When an IDS or antivirus mistakes legitimate traffic for an attack, this is called a false
+positive.
+Option B is incorrect. A false negative is when the IDS mistakes an attack for legitimate
+traffic. It is the opposite of a false positive.
+Options C and D are both incorrect. While these may be grammatically correct, these are
+not the terms used in the industry.
+61. A. The term for attempting to gain any privileges beyond what you have is privilege
+escalation.
+Option B is incorrect. Session hijacking is taking over an authenticated session.
+Options C and D are incorrect. These are not terms used in the industry.
+62. C. This is a classic definition of a race condition: when multiple threads in an application
+are using the same variable and the situation is not properly handled.
+Option A is incorrect. A buffer overflow is attempting to put more data in a buffer than it
+is designed to hold.
+Option B is incorrect. A logic bomb is malware that performs its misdeed when some logical condition is met.
+Option D is incorrect. As the name suggests, improper error handling is the lack of adequate or appropriate error handling mechanisms within software.
+63. B. This is a classic example of a Trojan horse.
+Option A is incorrect. A rootkit gives root or administrative access.
+Option C is incorrect. Spyware is malware that records user activities.
+Option D is incorrect. A boot sector virus is a virus that infects the boot sector of the hard
+drive.
+64. A. If a certificate is revoked, it can be used until the new certificate revocation list is
+published.
+Options B, C, and D are all incorrect. They do not accurately describe the scenario given.
+65. C. A buffer overflow is possible when boundaries are not checked and the attacker tries to
+put in more data than the variable can hold.
+Option A is incorrect. Cross-site scripting is a web page attack.
+Option B is incorrect. Cross-site request forgery is a web page attack.
+Option D is incorrect. A logic bomb is malware that performs its misdeed when some condition is met.
+66. B. This is the definition of a logic bomb.
+Option A is incorrect. A boot sector virus infects the boot sector of the hard drive.
+Option C is incorrect. A buffer overflow occurs when the attacker attempts to put more
+data in a variable than it can hold.
+Option D is incorrect. A sparse infector virus performs its malicious activity intermittently
+to make it harder to detect.
+67. D. A polymorphic virus changes from time to time, and that would explain the different
+behavior on different computers.
+Option A is incorrect. The scenario is about malware.
+Option B is incorrect. A boot sector virus infects the boot sector of the hard drive.
+Option C is incorrect. A macro virus is embedded into a document as a macro.
+68. A. This is the definition of a Smurf attack.
+Option B is incorrect. The scenario does not state if this attack is coming from multiple
+sources, thus being distributed (i.e., distributed denial of service).
+Option C is incorrect. A hijacking attack attempts to take over an authenticated session.
+Option D is incorrect. The signature of a SYN flood is multiple half-open connections.
+69. C. Polymorphic viruses periodically change their signature or even their code.
+Option A is incorrect. A boot sector virus infects the boot sector of the hard drive.
+Option B is incorrect. This is not a hoax—it is an actual virus.
+Option D is incorrect. The category of stealth virus is very broad and might include
+polymorphic as well as armored and sparse infectors, but the scenario is more specific,
+pointing to polymorphic.
+70. A. This is the definition of a macro virus.
+Option B is incorrect. A boot sector virus infects the boot sector of the hard drive.
+Option C is incorrect. A Trojan horse is malware that is tied to a legitimate program. In
+this scenario, the malware is actually embedded in an Office document. The two are similar, but not the same.
+Option D is incorrect. A remote access Trojan (RAT) is a Trojan horse that gives the
+attacker remote access to the machine.
+71. C. The intermittent burst of malicious activity is the definition of a sparse infector virus.
+Option A is incorrect. A macro virus is embedded in a document as a macro.
+Option B is incorrect. A logic bomb executes its misdeeds when a specific condition is met.
+Option D is incorrect. A polymorphic virus changes its signature, or even its code,
+periodically.
+72. B. Multipartite viruses combine boot sector with file infection.
+Option A is incorrect. Polymorphic viruses periodically change their signature or even
+their code.
+Option C is incorrect. Stealth viruses use one or more techniques to make them harder
+to find.
+Option D is incorrect. This is not an industry term for any sort of virus.
+73. C. By giving the tester logins, you are allowing him to conduct a privileged scan (i.e., a
+scan with some privileges).
+Options A and B are incorrect. These describe the level of knowledge the tester is given of
+the network. A privilege scan cannot be a black-box test, but it could be either white-box
+or gray-box.
+Option D is incorrect. While this is grammatically correct, it is not the term used in the
+industry.
+74. C. Botnets are often used to launch DDoS attacks, with the attack coming from all the
+computers in the botnet simultaneously.
+Option A is incorrect. Phishing attacks attempt to get the user to give up information,
+click on a link, or open an attachment.
+Option B is incorrect. Adware consists of unwanted pop-up ads.
+Option D is incorrect. A Trojan horse attaches malware to a legitimate program.
+75. A. Accounts should be configured to expire. If this had occurred, then the account would
+no longer be active.
+Option B is incorrect. While properly trained users are important, that is not what caused
+this issue.
+Options C and D are incorrect. These are unrelated to an old account still being active.
+76. C. This is a classic example of the problem with default configurations.
+Option A is incorrect. Configuring the accounts is not the issue; changing default passwords and settings is.
+Option B is incorrect. Yes, training users is important, but that’s not the issue in this
+scenario.
+Option D is incorrect. Patching systems is important, but that won’t change default
+settings.
+77. D. In a DLL injection, the malware attempts to inject code into the process of some
+library. This is a rather advanced attack.
+Option A is incorrect. A logic bomb executes its misdeed when some condition is met.
+Option B is incorrect. Session hijacking is taking over an authenticated session.
+Option C is incorrect. Buffer overflows are done by sending more data to a variable than it
+can hold.
+78. D. This is the definition of pointer dereferencing. It is a somewhat obscure and sophisticated attack on a target program.
+Option A is incorrect. In a DLL injection, the malware tries to inject code into the memory
+process space of a library.
+Option B is incorrect. In a buffer overflow, the attacker sends more data to a variable than
+it can hold.
+Option C is incorrect. A memory leak occurs when memory is allocated in some programming function but not deallocated. Each time the function is called, more system memory
+is used up.
+79. B. System sprawl occurs when a system grows and there are devices on the system that are
+not documented.
+Options A, C, and D are all incorrect. While these are all serious security issues, they are
+unrelated to the scenario presented.
+80. C. An intrusive scan could possibly cause some disruption of operations. For this reason,
+it should be conducted outside normal business hours.
+Option A is incorrect. A penetration test actually attempts to breach the network by
+exploiting vulnerabilities.
+Option B is incorrect. An audit is primarily a document check.
+Option D is incorrect. Both intrusive and nonintrusive vulnerability scans can be effective
+at finding vulnerabilities.
+81. D. The fact that the website is defaced in a manner related to the company’s public policies is the definition of hacktivism.
+Options A, B, and C are incorrect. None of these account for the statements adverse to the
+company’s policies, which is why hacktivism is the real cause.
+82. C. While you might suppose that a nation-state attacker (the usual attacker behind an
+advanced persistent threat) would attack from a foreign IP address, they often use a compromised address in the target country as a base for attacks.
+Options A, B, and D are all incorrect. These are actually signs of an advanced persistent
+threat.
+83. A. The terms evil twin and rogue access point both refer to fake access points that broadcast
+what appear to be legitimate SSIDs.
+Options B, C, and D are incorrect. They do not adequately explain this attack.
+84. A. The fact that the IP addresses are within your country might make you discard the
+nation-state attacker, but it is common for nation-state attackers to use compromised IP
+addresses in the target country from which to attack. The other symptoms—a sophisticated attack, over time—are hallmarks of nation-state attackers.
+Option B is incorrect. Nothing in the scenario indicates an ideological motive.
+Option C is incorrect. In fact, this attack is the antithesis of the simple attack of a script
+kiddie.
+Option D is incorrect. A lone attacker, no matter how skilled, would have difficulty maintaining sustained attacks over a year.
+85. A. This is the definition of a zero-day attack.
+Options B, C, and D are incorrect. These do not adequately describe a zero-day attack.
+86. C. This is the definition of DNS poisoning.
+Option A is incorrect. A backdoor provides access to the system by circumventing normal
+authentication.
+Option B is incorrect. An APT is an advanced persistent threat.
+Option D is incorrect. A Trojan horse ties a malicious program to a legitimate program.
+87. B. This is, in fact, the definition of a Trojan horse.
+Options A, C, and D are incorrect. These are all possible attacks, but do not match what is
+described in the question scenario.
+88. A. A remote access Trojan (RAT) is malware that gives the attacker remote access to the
+victim machine.
+Option B is incorrect. While a backdoor will give access, it is usually something in the system put there by programmers, not introduced by malware.
+Option C is incorrect. A RAT is a type of Trojan horse, but Trojan horse is more general
+than what is described in the scenario.
+Option D is incorrect. A macro virus is a virus embedded in a document.
+89. B. Cross-site request forgery sends forged requests to a website, supposedly from a
+trusted user.
+Option A is incorrect. Cross-site scripting is the injection of scripts into a website to
+exploit the users.
+Option C is incorrect. A buffer overflow tries to put more data in a variable than the variable can hold.
+Option D is incorrect. A remote-access Trojan (RAT) is malware that gives the attacker
+access to the system.
+90. C. Sparse infector viruses perform their malicious activity sporadically.
+Option A is incorrect. This does not describe an advanced persistent threat.
+Option B is incorrect. A boot sector virus infects the boot sector of the hard drive.
+Option D is incorrect. A keylogger is spyware that records keystrokes.
+91. D. This is a classic example of whaling, phishing that targets a specific individual.
+Option A is incorrect. Clickjacking is an attack that tries to trick users into clicking on
+something other than what they believe they are clicking on.
+Option B is incorrect. While all phishing uses some social engineering, whaling is the most
+accurate description of this attack.
+Option C is incorrect. Spear phishing targets a group, not a single individual.
+92. B. Large, half-open connections are the hallmark of a SYN flood.
+Option A is incorrect. These are all coming from a single IP address, so they cannot be a
+distributed denial-of-service attack.
+Option C is incorrect. A buffer overflow seeks to put more data in a variable than it is
+designed to hold.
+Option D is incorrect. ARP poisoning poisons the address resolution table of a switch.
+93. A. SQL injection places malformed SQL into text boxes.
+Option B is incorrect. Clickjacking attempts to trick the user into clicking on something
+other than what he or she intended.
+Option C is incorrect. Cross-site scripting puts scripts into text fields that will be viewed
+by other users.
+Option D is incorrect. Bluejacking is a Bluetooth attack.
+94. C. The user-selected password is always a weak link in hard drive encryption.
+Option A is incorrect. Yes, it is good system, but there is a weakness.
+Option B is incorrect. 128-bit AES is more than adequate for corporate purposes.
+Option D is incorrect. DES is outdated, and AES should be used.
+95. A. If an attacker can induce the web application to generate the memory leak, then eventually the web application will consume all memory on the web server and the web server
+will freeze up.
+Option B is incorrect. Backdoors are not caused by memory leaks.
+Option C is incorrect. SQL injection places malformed SQL into text boxes.
+Option D is incorrect. A buffer overflow attempts to put more data in a variable than it
+can hold.
+96. D. This is the definition of a race condition.
+Option A is incorrect. Memory leaks occur when memory is allocated, but not
+deallocated.
+Option B is incorrect. A buffer overflow is when more data is put into a variable than it
+can hold.
+Option C is incorrect. An integer overflow occurs when an attempt is made to put an
+integer that is too large into a variable, such as trying to put a 64-bit integer into a 32-bit
+variable.
+97. B. Near-field communication (NFC) is susceptible to an attacker eavesdropping on the
+signal.
+Option A is incorrect. Tailgating is a physical attack and not affected by NFC technology.
+Options C and D are incorrect. These are both unrelated to NFC technology.
+98. B. Tailgating involves simply following a legitimate user through the door once he or she
+has opened it.
+Option A is incorrect. This is unrelated to physical security.
+Option C is incorrect. It is possible to generate a fake smartcard, but that is a very uncommon attack.
+Option D is incorrect. Again, this is possible but is very uncommon.
+99. D. This is the definition of shimming.
+Option A is incorrect. Application spoofing is not a term used in the industry.
+Options B and C are incorrect. These are both wireless attacks.
+100. D. This scenario is the definition of passing the hash.
+Option A is incorrect. A real hash was provided; it was not spoofed.
+Option B is incorrect. Evil twin is a wireless attack.
+Option C is incorrect. Shimming is inserting malicious code between an application and a
+library.
+101. B. Claiming to be from tech support is claiming authority, and the story the caller gave
+indicates urgency.
+Option A is incorrect. Yes, this caller used urgency (the virus spread) but did not attempt
+intimidation.
+Option C is incorrect. Authority and trust are closely related, and in this case urgency was
+the second major factor.
+Option D is incorrect. This caller used urgency but not intimidation.
+102. A. This is the definition of ARP poisoning.
+Option B is incorrect. In DNS poisoning domain name to IP address entries in a DNS
+server are altered.
+Option C is incorrect. This attack did not involve a man-in-the-middle.
+Option D is incorrect. A backdoor provides access to the attacker, which circumvents normal authentication.
+103. A. This is a classic multipartite virus. It infects the boot sector, as well as an operating
+system file.
+Option B is incorrect. This infects the boot sector, but also infects an operating system file
+as well.
+Option C is incorrect. A macro virus is embedded, as a macro, into a document.
+Option D is incorrect. A polymorphic virus changes periodically.
+104. C. Bluesnarfing accesses data on the cell phone.
+Option A is incorrect. Phonejacking is not a term used in the industry.
+Option B is incorrect. Bluejacking sends unwanted text messages to the phone.
+Option D is incorrect. Evil twin is a WiFi attack.
+105. D. A rainbow table is a table of precomputed hashes.
+Option A is incorrect. A dictionary attack is a table of common words used to guess the
+password.
+Option B is incorrect. Brute force involves trying every random possibility.
+Option C is incorrect. In pass the hash, the attacker has the hash and bypasses the application, passing the hash directly to the backend service.
+106. C. The fact that the attack is coming from multiple sources makes this a distributed denial
+of service.
+Option A is incorrect. A Smurf attack involves sending spoofed broadcast packets to the
+target network’s router.
+Option B is incorrect. Yes, this is a denial-of-service attack, but it is distributed.
+Option D is incorrect. A SYN flood involves lots of half-open connections.
+107. A. A downgrade attack is often used against secure communications such as TLS in an
+attempt to get the user to shift to less secure modes.
+Option B is incorrect. A brute-force attack tries either all possible passwords or all possible
+cryptography keys to gain access.
+Option C is incorrect. A rainbow table is a table of precomputed hashes used to retrieve
+passwords.
+Option D is incorrect. Bluesnarfing is a Bluetooth attack on cell phones.
+108. A. In a white-box test, the tester is given extensive knowledge of the target network.
+Option B is incorrect. This is not a term used to describe testing.
+Option C is incorrect. Black-box testing involves only very minimal information being
+given to the tester.
+Option D is incorrect. A red team test simulates a particular type of attacker, such as a
+nation-state attacker, an insider, or other type of attacker.
+109. C. Social engineering is about using people skills to get information you would not otherwise have access to.
+Option A is incorrect. Despite the word engineering, this has nothing to do with technical
+means.
+Option B is incorrect. This would be dumpster diving.
+Option D is incorrect. Yes, phishing emails use some social engineering, but that is one
+example of social engineering, not a definition.
+110. C. Shoulder surfing involves literally looking over someone’s shoulder in a public place
+and gathering information, perhaps login passwords.
+Option A is incorrect. ARP poisoning alters the address resolution protocol tables in the
+switch.
+Option B is incorrect. Phishing is an attempt to gather information, often via email, or to
+convince a user to click a link to, and/or download, an attachment.
+Option D is incorrect. Smurf is a type of denial-of-service attack.
+111. D. The sending of spoofed broadcast messages to the target network router is a Smurf
+attack.
+Option A is incorrect. In a SYN flood, a large number of SYN packets are sent but not
+responded to. This leads to a large number of half-open connections.
+Option B is incorrect. An ICMP flood is a large amount of ICMP (such as ping) packets
+sent to the target.
+Option C is incorrect. In a buffer overflow attack, more data is sent to a variable than it
+was designed to hold.
+112. C. Cross-site scripting involves entering code (script) into a text field that will be displayed
+to other users.
+Option A is incorrect. In SQL injection, malformed SQL statements are entered into a text
+box in an attempt to circumvent the website’s security.
+Option B is incorrect. A logic bomb is software that performs its malicious activity when
+some condition is met.
+Option D is incorrect. Session hijacking involves taking over an authenticated session.
+113. A. Putting false entries into the DNS records of a DNS server is DNS poisoning.
+Option B is incorrect. A denial-of-service attack attempts to overwhelm a server or service
+and render it inaccessible to legitimate users.
+Option C is incorrect. DNS caching is a method of normal DNS operations.
+Option D is incorrect. A Smurf attack is a type of denial of service.
+114. D. IP addresses in the range of 169.254 are automatic private IP addresses (APIPA) and
+indicate the system could not get a dynamic IP address from the DHCP server. This is a
+typical symptom of DHCP starvation.
+Option A is incorrect. Smurf attacks involve sending spoofed broadcast messages to the
+target network’s router.
+Option B is incorrect. Nothing in this scenario describes a man-in-the-middle attack.
+Option C is incorrect. Nothing in this scenario indicates a distributed denial-of-service
+attack.
+115. B. Distributed denial-of-service (DDoS) attacks often use bots in a botnet to perform the
+attack.
+Option A is incorrect. Denial of service (DoS) is too broad a category and does not adequately match the scenario description.
+Option C is incorrect. A buffer overflow attempts to put more data into a variable than it
+is designed to accept.
+Option D is incorrect. A Trojan horse links a malware program to a legitimate program.
+116. B. A logic bomb will perform its malicious activity when some condition is met, often a
+date or time. This is commonly done by disgruntled exiting employees.
+Options A, C, and D are all incorrect. It is certainly possible that any of these could be
+left by an exiting employee, but logic bombs are far more common. The reason is that the
+other three would execute their malicious activity immediately, making an obvious connection to the exiting employee.
+117. C. A correct three-way handshake involves the client sending a SYN packet, the server
+responding with SYN and ACK, and the client completing the handshake with an ACK. If
+you see a large number SYN packets without the corresponding ACK, that is likely to be a
+SYN flood.
+Options A and B are incorrect. Address and port numbers have nothing to do with SYN
+flood attacks.
+Option D is incorrect. RST is not the appropriate response to a SYN, and you should not
+expect to see RSTs in response to a SYN.
+118. A. In a white-box test, the tester has full or very nearly full knowledge of the system.
+Option B is incorrect. No knowledge is a black-box test.
+Options C and D are incorrect. In any test, the tester should have permission to access the
+system.
+119. A. Passive information gathering involves using methods other than directly accessing the
+network to gather information. Social media and newsgroups are commonly used.
+Option B is incorrect. Active information gathering involves tasks such as port scanning
+that actually do connect to the target network.
+Option C is incorrect. The initial exploit is when the tester tries to gain some access to
+some aspect of the system.
+Option D is incorrect. Vulnerability scanning involves automated and semiautomated processes to find known vulnerabilities in a system.
+120. B. This is the definition of session hijacking.
+Option A is incorrect. Man-in-the-middle involves having some process between the two
+ends of communication in order to compromise passwords or cryptography keys.
+Option C is incorrect. A backdoor is some means for accessing a system that circumvents
+normal authentication.
+Option D is incorrect. A Smurf attack is a specific type of denial-of-service attack.
+121. B. Vulnerability scans use automated and semiautomated processes to identify known
+vulnerabilities.
+Option A is incorrect. Audits usually involve document checks.
+Options C and D are incorrect. These are both types of penetration tests.
+122. A. Near-field communication (NFC) can be susceptible to eavesdropping. Smartphones
+with NFC can be used as payment methods and should utilize biometric/pin to avoid
+information being stolen.
+Option B is incorrect. Man-in-the-middle involves having some process between the two
+ends of communication in order to compromise passwords or cryptography keys.
+Option C is incorrect. A buffer overflow attack attempts to put more data in a variable
+than the variable is designed to hold. This is improper input handling is the root cause to
+many buffer overflow.
+Option D is incorrect. A Smurf attack is a type of denial of service.
+123. A. A gray-box test involves the tester being given partial information about the network.
+Option B is incorrect. A white-box test involves the tester being given full or nearly full
+information about the target network.
+Options C and D are incorrect. Neither of these is a testing term.
+124. D. In the man-in-the-middle attack, the attacker is between the client and the server, and
+to either end, the attacker appears like the legitimate other end.
+Option A is incorrect. This does not describe any denial-of-service attack.
+Option B is incorrect. A replay attack involves resending login information.
+Option C is incorrect. Although a man-in-the-middle can be used to perform eavesdropping, in this scenario the best answer is man-in-the-middle.
+125. A. In a man-in-the-browser attack, the malware intercepts calls from the browser to the
+system, such as system libraries.
+Option B is incorrect. Man-in-the-middle involves having some process between the two
+ends of communication in order to compromise passwords or cryptography keys.
+Option C is incorrect. In a buffer overflow attack, more data is put into a variable than the
+variable was intended to hold.
+Option D is incorrect. Session hijacking involves taking over an authenticated session.
+126. B. This is the initial exploit, which involves getting initial access to the system.
+Option A is incorrect. Vulnerability scanning is an automated process that checks for the
+presence of known vulnerabilities.
+Options C and D are incorrect. These both refer to how much information about the network the tester is given. In both black-box and white-box tests, there will still be an initial
+exploit.
+127. C. When a vendor no longer supports software, there won’t be patches for vulnerabilities
+or other issues.
+Option A is incorrect. Although this may be true, it is not a security issue.
+Option B is incorrect. Again, this may be true, but this is not the primary risk.
+Option D is incorrect. This may or may not be true.
+128. D. Placing a larger integer value into a smaller integer variable is an integer overflow.
+Option A is incorrect. Memory overflow is not a term used, and memory leak is about
+allocating memory and not deallocating it.
+Option B is incorrect. Buffer overflows usually involve arrays.
+Option C is incorrect. Variable overflow is not a term used in the industry.
+129. C. Armoring can be as simple as very trivial encryption, but any process that makes it difficult to reverse-engineer a virus is armoring.
+Option A is incorrect. A polymorphic virus periodically changes itself.
+Option B is incorrect. A macro virus is embedded, as a macro, into a document.
+Option D is incorrect. A boot sector virus infects the boot sector of a hard drive.
+130. A. Deauthorizing users from a resource is called disassociation.
+Option B is incorrect. Session hijacking involves taking over an authenticated session.
+Option C is incorrect. In the man-in-the-middle attack, the attacker is between the client
+and the server, and to either end, the attacker appears like the legitimate other end.
+Option D is incorrect. Smurf is a type of denial-of-service attack where the attacker
+attempts to exhaust the resources and prevent users from accessing necessary systems.
+131. A. Sending fake DNS requests that are overly large is called an amplification attack. It is a
+highly specialized type of denial of service.
+Option B is incorrect. DNS poisoning seeks to put fake DNS records in a DNS server.
+Option C is incorrect. DNS spoofing is using fake DNS information.
+Option D is incorrect. The Smurf attack is a denial of service.
+132. B. In this scenario, no technical issues are mentioned—just people seeing information. So
+shoulder surfing best fits the scenario.
+Option A is incorrect. No social engineering is involved in this scenario.
+Option C is incorrect. Although a man-in-the-middle attack on the wireless access point
+(WAP) could compromise data, that’s not what is described in this scenario.
+Option D is incorrect. Cross-site request forgery is a website attack.
+133. A. Cross-site scripting is an attack on the user that is based on the user trusting the website.
+Options B, C, and D are incorrect.
+134. A. Targeting a specific group is the definition of spear phishing.
+Option B is incorrect. In the man-in-the-middle attack, the attacker is between the client
+and the server, and to either end, the attacker appears like the legitimate other end.
+Option C is incorrect. Target phishing is not an industry term.
+Option D is incorrect. Vishing is phishing via voice over IP (VoIP).
+135. A. Encryption is one method for armored viruses.
+Option B is incorrect. Ransomware encrypts files but is not encrypted itself.
+Option C is incorrect. A polymorphic virus periodically changes itself.
+Option D is incorrect. A Trojan horse combines malware with a legitimate program.
+136. D. This is the definition of a rootkit.
+Option A is incorrect. A Trojan horse combines malware with a legitimate program.
+Option B is incorrect. A logic bomb performs its malicious activity when some condition
+is met.
+Option C is incorrect. A multipartite virus infects the boot sector and a file.
+137. B. This is vishing, or using voice calls for phishing.
+Option A is incorrect. Spear phishing is targeting a small, specific group.
+Option C is incorrect. War dialing is dialing numbers hoping a computer modem answers.
+Option D is incorrect. Robocalling is used to place unsolicited telemarketing calls.
+138. A. Cross-site request forgery is an attack on the website that is based on the website trusting the user.
+Options B, C, and D are all incorrect.
+139. A. This is the definition of a multipartite virus.
+Option B is incorrect. A rootkit gets admin or root privileges.
+Option C is incorrect. Ransomware encrypts files and demands a ransom.
+Option D is incorrect. A worm is a fast-spreading virus.
+140. A. This is the definition of a worm.
+Option B is incorrect. A virus is software that self-replicates.
+Option C is incorrect. A logic bomb executes its malicious activity when some condition
+is met.
+Option D is incorrect. A Trojan horse combines malware with a legitimate program.
+141. B. Dumpster diving is the process of going through the trash to find documents.
+Option A is incorrect. Phishing is often done via email or phone, and is an attempt to elicit
+information or convince a user to click a link or open an attachment.
+Option C is incorrect. Shoulder surfing is literally looking over someone’s shoulder.
+Option D is incorrect. In the man-in-the-middle attack the attacker is between the client
+and the server, and to either end, the attacker appears like the legitimate other end.
+142. D. This is the definition of a macro virus.
+Option A is incorrect. A logic bomb executes its malicious activity when some condition
+is met.
+Option B is incorrect. A rootkit obtains administrative or root access.
+Option C is incorrect. A Trojan horse connects malware to a legitimate program.
+143. A. URL hijacking or typosquatting is done by naming a phishing URL very similar to an
+actual URL.
+Option B is incorrect. DNS poisoning would be entering fake entries into a DNS server.
+Option C is incorrect. Cross-site scripting would show as a breach of the website.
+Option D is incorrect. In the man-in-the-middle attack, the attacker is between the client
+and the server, and to either end, the attacker appears like the legitimate other end.
+144. C. The dictionary attack uses common passwords.
+Option A is incorrect. Rainbow tables are tables of precomputed hashes.
+Option B is incorrect. The birthday attack is a method for generating collisions of hashes.
+Option D is incorrect. No spoofing is indicated in this scenario.
+145. A. This is the definition of a replay attack.
+Option B is incorrect. IP spoofing is the process of faking an IP address.
+Option C is incorrect. This is not a term used in the industry.
+Option D is incorrect. Session hijacking is done by taking over an authenticated session.
+146. D. Active reconnaissance actually connects to the network using techniques such as port
+scanning.
+Option A is incorrect. Either can be done manually or with tools.
+Option B is incorrect. Black-box and white-box refer to the amount of information the
+tester is given.
+Option C is incorrect. Attackers and testers use both types of reconnaissance.
+147. C. Vulnerability scans identify known vulnerabilities. Penetration tests actually exploit
+those vulnerabilities in order to breach the system.
+Option A is incorrect. Either insiders or outsiders can do both vulnerability scans and penetration tests.
+Option B is incorrect. Both vulnerability scans and penetration tests can use automated
+tools and manual techniques.
+Option D is incorrect. Black-box and white-box refer to the amount of information the
+tester is given.
+148. B. This is the definition of a pivot.
+Option A is incorrect. In the man-in-the-middle attack, the attacker is between the client
+and the server, and to either end, the attacker appears like the legitimate other end.
+Option C is incorrect. Shimming involves inserting code between a program and a library.
+Option D is incorrect. Vishing is phishing over the phone line, often VoIP.
+149. C. Active scanning actually connects to the target network.
+Option A is incorrect. Passive scanning does not actually connect to the target network.
+Options B and D are incorrect. Black-box and white-box refer to the amount of information the tester is given.
+150. D. A firewall not running is not a configuration issue.
+Options A, B, and C are all incorrect. These are all common security misconfiguration
+issues.

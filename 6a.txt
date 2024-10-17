@@ -1,0 +1,1063 @@
+1. A. A digital signature is a one-way hash and encrypted with the private key. The public
+key is used to decrypt the hash and validate the integrity of the digital signature. Digital
+signatures supports non-repudiation; where the sender can not refute sending the message.
+Option B is incorrect. TLS (Transport Layer Security) creates a secure connection by
+using symmetric cryptography based on a shared secret. The same key encrypts and
+decrypts the data.
+Option C is incorrect. Digital signatures are created with the private key.
+Option D is incorrect. TLS creates a secure connection by using symmetric cryptography
+based on a shared secret. The same key encrypts and decrypts the data.
+2. D. A revoked certificate is no longer valid for the intended purpose, and a new key pair
+and certificate will need to be generated.
+Option A is incorrect. The certificate cannot be renewed after its expiration date.
+Option B is incorrect. A self-signed certificate will generate errors within the client’s web
+browser and should not be used as a replacement since the self-signed certificate is not
+from a trusted certificate authority.
+Option C is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state. This scenario didn’t state the key was lost but rather that the
+certificate had expired.
+3. B. Digital signatures are created by using the user’s or computer’s private key that is accessible only to that user or computer. Nonrepudiation is the assurance that someone cannot
+deny something.
+Option A is incorrect. A symmetric algorithm, also known as a secret key algorithm, uses
+the same key to encrypt and decrypt data.
+Option C is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses public and private keys to encrypt and decrypt data.
+4. B. WiFi Alliance, a nonprofit organization that promotes WiFi technology, recommends a
+passphrase be at least eight characters long and include a mixture of upper- and lowercase
+letters and symbols.
+Options A, C, and D are incorrect.
+5. A. A CRL (certificate revocation list) is a list of digital certificates that have been revoked
+by the issuing certificate authority (CA) before their scheduled expiration date and should
+not be trusted.
+Option B is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored 
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+Option C is incorrect. Nonrepudiation is a method of guaranteeing a message transmission
+between parties by a digital signature.
+Option D is incorrect. A recovery agent is a user who is permitted to decrypt another
+user’s data in case of emergency or in special situations.
+6. A and D. DES and 3DES are symmetric-key block ciphers using a 64-bit block size.
+Option B is incorrect. SHA is a hashing algorithm and is used for integrity.
+Option C is incorrect. MD5 is a hashing algorithm and is used for integrity.
+7. D. You would need the supplicant. The authenticator, an AP or wireless controller, sends
+authentication messages between the supplicant and authentication server.
+Option A is incorrect. Network access control (NAC) increases the security of a proprietary
+network by restricting access to devices that do not comply with a defined security policy.
+Option B is incorrect. The authentication server is the RADIUS server and is responsible
+for authenticating users wanting to connect to the network.
+Option C is incorrect. The authenticator is the client that authenticates against the
+RADIUS server using an EAP method configured on the RADIUS server.
+8. D. ECC (elliptic curve cryptography) is an asymmetric algorithm that uses smaller keys
+and has the same level of strength compared to longer key length asymmetric algorithm.
+Option A is incorrect. Blowfish is a symmetric algorithm that uses the same key to encrypt
+and decrypt data.
+Option B is incorrect. RSA uses a longer key length than ECC.
+Option C is incorrect. DHE uses a longer key length than ECC.
+9. B. Initialization vectors (IVs) are random values that are used with algorithms to ensure
+patterns are not created during the encryption process. IVs are used with keys and are not
+encrypted when being sent to the destination.
+Option A is incorrect. A one-time pad is an encryption method and uses a pad with random values that are XORed against the message to produce ciphertext. One-time pad is at
+least as long as the message itself and is used once and then discarded. This technology is
+not addressed in this scenario.
+Option C is incorrect. Stream ciphers encrypt data one bit at a time. This concept is not
+addressed in this scenario.
+Option D is incorrect. Block ciphers encrypts data one block, or fixed block, at a time.
+This concept is not addressed in this scenario.
+10. D. An open wireless network does not require a user to enter credentials for access.
+Option A is incorrect. An IV (initialization vector) is an arbitrary number that is used with
+a secret key for data encryption.
+Option B is incorrect. WEP (Wired Equivalent Privacy) is a security standard for 802.11b.
+It is designed to provide a level of security for a WLAN.
+Option C is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP.
+Chapter 6: Cryptography and PKI 341
+11. C. RSA is an asymmetric algorithm and should be discontinued.
+Options A, B, and D are incorrect. AES, RC4, and Twofish are symmetric algorithms.
+12. B. OCSP (Online Certificate Status Protocol) is a protocol that can be used to query a certificate authority about the revocation status of a given certificate. It validates certificates
+by returning responses such as “good,” “revoked,” and “unknown.”
+Option A is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option C is incorrect. An RA (registered authority) is used to verify requests for certificates and forwards responses to the CA.
+Option D is incorrect. PKI (public key infrastructure) is an entire system of hardware,
+software, policies and procedures, and people. PKI creates, distributes, manages, stores,
+and revokes certificates. OCSP is part of the PKI.
+13. B and D. 3DES and Blowfish are a symmetric-key block cipher. 3DES and Blowfish use a
+block size of 64 bits.
+Option A is incorrect. MD5 is a hashing algorithm and is used for integrity.
+Option C is incorrect. RC4 is a stream cipher and uses key sizes of 40 to 2048 bits.
+14. C. DES (Data Encryption Standard) is a 56-bit key and is superseded by 3DES. DES is
+considered to be insurance for many applications.
+Option A is incorrect. Blowfish has a 64-bit block size and a variable key length up to
+448 bits.
+Option B is incorrect. AES (Advanced Encryption Standard) is a newer and stronger
+encryption standard and is capable of using 128-bit, 192-bit, and 256-bit keys.
+Option D is incorrect. SHA is a hashing algorithm.
+15. B. WEP uses the encryption protocol RC4 and is considered insecure.
+Options A, C, and D are incorrect. WEP does not use the RC6, AES, or DES encryption
+protocol.
+16. A. Key stretching increases the strength of stored passwords and protects passwords from
+brute-force attacks and rainbow table attacks.
+Option B is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+Option C is incorrect. Key strength is the length of the key that is being used to encrypt
+the data. According to NIST guidance, the use of keys that provide less than 112 bits of
+security strength for key agreement is disallowed.
+Option D is incorrect. ECC (elliptic curve cryptography) is an asymmetric algorithm that
+uses smaller keys and has the same level of strength compared to longer key length asymmetric algorithm.
+17. B. Complex passwords of 16 or more ASCII characters are considered strong. Passwords
+should follow the complexity rule of having three of the four following items: lowercase
+letter, uppercase letter, number, and special character.
+Option A is incorrect. This password is too common and can be easily guessed.
+Option C is incorrect. This password isn’t following the complexity rule and it has only six
+ASCII characters, which can easily be guessed through the use of brute force.
+Option D is incorrect. This password is commonly found in the dictionary and can be susceptible to a dictionary attack.
+18. A. WPA2 Enterprise uses an authentication server such as a RADIUS server to control
+access to a WLAN.
+Option B is incorrect. WPA2 Personal does not use an authentication server. It uses a passphrase that is entered into the SOHO router.
+Option C is incorrect. TKIP is a wrapper that wraps around existing WEP encryption and
+is used in WPA. TKIP replaced WEP in WLAN devices.
+Option D is incorrect. WEP does not use an authentication server. Users enter a passphrase
+to connect to the SOHO router.
+19. B. Block ciphers encrypt data one block, or fixed block, at a time. Cryptographic service
+provider, a cryptographic module, performs block and stream cryptography algorithms.
+Option A is incorrect. Stream ciphers encrypt data one bit at a time.
+Option C is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses public and private keys to encrypt and decrypt data.
+Option D is incorrect. A symmetric algorithm, also known as a secret key algorithm, uses
+the same key to encrypt and decrypt data.
+20. B. Twofish is a symmetric block cipher that replaced Blowfish.
+Option A is incorrect. RSA is an asymmetric algorithm.
+Option C is incorrect. MD5 is a hashing algorithm.
+Option D is incorrect. PBKDF2 is a key stretching algorithm.
+21. B. In a certification hierarchy, the root CA certifies the intermediate CA and can issue certificates to users, computers, or services.
+Option A is incorrect. A registered authority (RA) is used to verify requests for certificates
+and forwards responses to the CA.
+Option C is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. A CSR (certificate signing request) is a request an applicant sends to
+a CA for the purpose of applying for a digital identity certificate.
+Chapter 6: Cryptography and PKI 343
+22. B. EAP-TLS is a remote access authentication protocol that supports the use of smartcards.
+Option A is incorrect. PEAP is an encapsulating protocol that uses a certificate on
+the authentication server and a certificate on the client. It supports password-based
+authentication.
+Option C is incorrect. CHAP authenticates by using PPP servers to validate the identity of
+remote clients. It supports password-based authentication.
+Option D is incorrect. MS-CHAPv2 is Microsoft’s version of CHAP and is used as an
+authentication option with RADIUS. It supports password-based authentication.
+23. D. Digital signatures are created by using the user’s or computer’s private key that is accessible only to that user or computer. Nonrepudiation is the assurance that someone cannot
+deny something.
+Option A is incorrect. TKIP is a wrapper that wraps around existing WEP encryption and
+is used in WPA. TKIP replaced WEP in WLAN devices.
+Option B is incorrect. An intermediate certificate authority sits between the root certificate
+authority and the end entity to better secure the root certificate authority. Intermediate
+certificate authorities can also help a large organization handle large requests for
+certifications.
+Option C is incorrect. A public key is held by the certificate authority and is available for
+anyone to use to encrypt data or verify a user’s digital signature.
+24. D. EAP-TTLS determines how user authentication will perform during phase 2. The
+user authentication may be a legacy protocol such as PAP, CHAP, MS-CHAP, or MSCHAPV2.
+Options A, B, and C are incorrect. PEAP, EAP-FAST, and EAP-TLS create a TLS tunnel to
+protect the supplicant credentials but do not support legacy authentication protocols.
+25. C and D. RSA is an asymmetric algorithm (also known as public key cryptography) that
+uses a public and a private key to encrypt and decrypt data during transmissions. ECC
+(elliptical curve cryptography) is based on elliptic curve theory that uses points on a curve
+to define more efficient public and private keys.
+Option A is incorrect. RC4 is a symmetric algorithm and uses one key to encrypt and
+decrypt data.
+Option B is incorrect. DES is a symmetric algorithm and uses one key to encrypt and
+decrypt data.
+26. A. Substitution ROT13 replaces a letter with the 13th letter after it in the alphabet.
+Option B is incorrect. Transposition scrambles data by reordering the plain text in some
+certain way.
+Option C is incorrect. Diffusion is a change in the plain text resulting in multiple changes
+that are spread out throughout the ciphertext.
+Option D is incorrect. Confusion encryption is a method that uses a relationship between
+the plain text and the key that is so complicated the plain text can’t be altered and the key
+can’t be determined by a threat actor.
+27. C. With asymmetric algorithms, every user must have at least one pair of keys (private
+and public). The two keys are mathematically related. If a message is encrypted with one
+key, the other key is required to decrypt the message. The formula to determine the number of keys needed is N × 2, where N is the number of people.
+Option A is incorrect. This is the number of keys needed in a symmetric key cryptosystem.
+Each pair of users who are exchanging data must have two instances of the same key. The formula for calculating the number of symmetric keys needed is: N (N–1) / 2 = number of keys.
+Option B is incorrect. Each user in a public key infrastructure requires at least one pair of
+keys (private and public). The formula for determining the number of keys that are needed
+is N × 2.
+Option D is incorrect. This total is derived from N (N–1), which is part of the formula for
+calculating the number of symmetric keys needed.
+28. B. A symmetric algorithm, also known as a secret key algorithm, uses the same key to
+encrypt and decrypt data.
+Option A is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses public and private keys to encrypt and decrypt data.
+Option C is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key also known as a hash value. Hashes ensure the integrity of data or messages.
+Option D is incorrect. Steganography is a process of hiding data within data. This technique can be applied to images, video files, or audio files.
+29. D. RSA is an asymmetric algorithm (also known as public key cryptography) that uses a
+public and a private key to encrypt and decrypt data during transmissions.
+Options A, B, and C are incorrect. Twofish, 3DES, and RC4 are symmetric algorithms.
+Also known as a secret key algorithm, a symmetric algorithm uses the same key to encrypt
+and decrypt data.
+30. A. Full-disk encryption on data-at-rest will help protect the inactive data should the storage device be stolen. The thief would not be able to read the data.
+Option B is incorrect. Implementing biometrics will control who enters the location. An
+unauthorized user can tailgate and obtain the storage device and read the data-at-rest.
+Option C is incorrect. Implementing a host-based intrusion detection system is designed to
+alert you when an attack occurs on a network but does not protect the data-at-rest if the
+storage device is stolen.
+Option D is incorrect. Implementing a host-based intrusion prevention system is designed
+to prevent an attack on a network but does not protect the data-at-rest if the storage device
+is stolen.
+31. A. EAP-FAST is for situations where strong password policy cannot be enforced and
+certificates are not used. EAP-FAST consists of three phases: EAP-FAST authentication,
+establishment of a secure tunnel, and client authentication.
+Options B, C, and D are incorrect. These EAP types do not use a three-phase phase.
+Chapter 6: Cryptography and PKI 345
+32. A. DES is a symmetric encryption standard that uses a key length of 56 bits.
+Option B is incorrect.
+Option C is incorrect. AES uses a block length of 128 bits and key lengths of 128, 192, or
+256 bits.
+Option D is incorrect. WPS is a network security standard that allows home users to easily
+add new devices to an existing wireless network without entering long passphrases.
+33. B. Hashing is a one-way encryption that transforms a string of characters into a fixedlength value or key, also known as a hash value. Hashes ensure the integrity of data or
+messages.
+Option A is incorrect. Steganography is a process of hiding data within data, also known
+as security through obscurity. This technique can be applied to images, video files, or
+audio files.
+Option C is incorrect. A collision occurs when a hashing algorithm creates the same hash
+from two different messages.
+Option D is incorrect. An IV (initialization vector) is an arbitrary number that is used with
+a secret key for data encryption. IV makes it more difficult for hackers to break a cipher.
+34. B. SSL (Secure Socket Layer) uses public key encryption. When a client accesses a secured
+website, it will generate a session key and encrypt it with the server’s public key. The session key is decrypted with the server’s private key, and the session key is used to encrypt
+and decrypt data sent back and forth.
+Option A is incorrect. The server’s private key is held privately by the server and is used
+only to decrypt data the client encrypted with the server’s public key.
+Option C is incorrect. The server doesn’t create the session key as the client is accessing the
+secured website.
+Option D is incorrect. The server doesn’t create the session key as the client is accessing
+the secured website. The server’s public key is used to encrypt the session key created by
+the client.
+35. C. EAP-TLS requires both client and server to have certificates. The authentication is
+mutual where the server authenticates to the client and the client authenticates to the
+server.
+Options A, B, and D are incorrect. The other EAP types may use client certificates but
+they are not required.
+36. A. PGP (Pretty Good Privacy) or GPG (GNU Privacy Guard) provides a low-cost or open
+source alternative solution that allows users to encrypt their outgoing emails.
+Option B is incorrect. WPA2 is a security standard that secures computers connected to a
+WiFi network.
+Option C is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. EAP-TLS is a remote access authentication protocol that supports
+the use of smartcards.
+37. C. SHA-1 is a hashing algorithm that produces a 160-bit digest.
+Option A is incorrect. MD5 is a hashing algorithm that produces a 128-bit digest.
+Option B is incorrect. RC4 is a symmetric algorithm and encrypts data.
+Option D is incorrect. AES is a symmetric algorithm and encrypts data.
+38. A. Wildcard certificates allow the company to secure an unlimited number of subdomain
+certificates on a domain name from a third party.
+Option B is incorrect. Object identifiers (OIDs) identify an object or entity. OIDs are used
+in X.509 certificates to name almost every object type.
+Option C is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+Option D is incorrect. OCSP (Online Certificate Status Protocol) is a protocol that can be
+used to query a certificate authority about the revocation status of a given certificate. An
+OCSP response contains signed assertions that a certificate is not revoked.
+39. B and D. EAP and IEEE 802.1x are authentication protocols that transfer authentication
+data between two devices.
+Option A is incorrect. WPS (WiFi Protected Setup) is a network security standard that
+allows home users to easily add new devices to an existing wireless network without entering long passphrases.
+Option C is incorrect. IPSec is a framework of open standards that ensures communications are private and secure over IP networks.
+40. A. Digital signatures are created by using the user’s or computer’s private key that is accessible only to that user or computer. Nonrepudiation is the assurance that someone cannot
+deny something.
+Option B is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option C is incorrect. Steganography is a process of hiding data within data. This technique can be applied to images, video files, or audio files.
+Option D is incorrect. Perfect forward secrecy is a way to ensure the safety of session keys
+from future abuse by threat actors.
+41. D. Hashing is a one-way encryption that transforms a string of characters into a fixedlength value or key, also known as a hash value. Hashes ensure the integrity of data or
+messages.
+Option A is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+Option B is incorrect. File backup allows the data to be available in case the original files
+are deleted or become corrupted.
+Chapter 6: Cryptography and PKI 347
+Option C is incorrect. Encryption is the process of using an algorithm to change plain text
+data into unreadable information to protect it from unauthorized users. The main purpose
+of encryption is to protect the confidentiality of digital data stored on a computer system
+or transmitted via a network.
+42. D. RADIUS is a client-server protocol that enables remote access servers to communicate with
+a central server to authenticate users. RADIUS uses symmetric encryption for security.
+Option A is incorrect. TACACS+ is a Cisco proprietary authentication protocol and is
+used to securely access Cisco devices.
+Option B is incorrect. XTACACS is a Cisco proprietary authentication protocol that
+replaced TACACS and was used to securely access Cisco devices.
+Option C is incorrect. Kerberos is a protocol for authenticating service requests between
+trusted hosts across an untrusted network such as the Internet.
+43. A. Encryption provides confidentiality because the data is scrambled and cannot be read
+by an unauthorized user. Symmetric encryption uses one key to encrypt, and decrypting
+data with one key is considered fast.
+Option B is incorrect. Nonrepudiation is a method of guaranteeing a message transmission
+between parties by a digital signature.
+Option C is incorrect. Steganography is a process of hiding data within data. This technique can be applied to images, video files, or audio files.
+Option D is incorrect. A collision occurs when a hashing algorithm creates the same hash
+from two different messages.
+44. B. Steganography is a process of hiding data within data. This technique can be applied to
+images, video files, or audio files.
+Option A is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option C is incorrect. A symmetric algorithm, also known as a secret key algorithm, uses
+the same key to encrypt and decrypt data.
+Option D is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses public and private keys to encrypt and decrypt data.
+45. A. Enable perfect forward secrecy (PFS) at the main office and branch office end of the
+VPN. Perfect forward secrecy is a way to ensure the safety of session keys from future
+abuse by threat actors.
+Options B, C, and D are incorrect. You should enable PFS at both ends of the VPN since
+PFS depends on asymmetric encryption and ensures the session key created from the public
+and private keys will not be compromised if one of the private keys is compromised.
+46. B. WPS is a network security standard that allows home users to easily add new devices to
+an existing wireless network without entering long passphrases. Users enter a PIN to allow
+the device to connect after pressing the WPS button on the SOHO router.
+Options A, C, and D are incorrect. WEP and WPA have passphrases, not PINs, that are
+entered. Bluetooth PINs are used to set up devices to communicate via Bluetooth, not with
+a SOHO router.
+47. A and B. Digital signatures provide three core benefits: authentication, integrity, and nonrepudiation.
+Option C is incorrect. A digital signature is a one-way hash and encrypted with the private
+key. A digital signature does not encrypt data.
+Option D is incorrect. A digital signature is used for authentication, integrity, and nonrepudiation—not to securely exchange keys.
+48. C and D. PBKDF2 applies a pseudo-random function such as a HMAC to the password
+along with a salt value and produces a derived key. PBKDF2 is designed to protect against
+brute-force attacks. BCRYPT is a password-hashing function derived from the Blowfish
+cipher. It adds a salt value to protect against rainbow table attacks.
+Option A is incorrect. ROT13 is a substitution cipher, also known as a Caesar cipher, that
+replaces a letter with the 13th letter after it in the alphabet. ROT13 is not recommended in
+this scenario due to patterns it creates.
+Option B is incorrect. MD5 is a hashing algorithm that transforms a string of characters
+into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of
+data or messages. MD5 is considered weak and is not recommended.
+49. A. Users are receiving the error because the website certificate has expired. The user can
+continue accessing the website, but the error will state the user could be accessing an
+untrusted site.
+Option B is incorrect. The scenario states that users are receiving an error when they
+access the company’s website. Users are not logging into the company’s website, so any
+username and password issue would not fit in this scenario.
+Option C is incorrect. If the domain had expired, the users would receive a page stating
+that the website domain is unavailable. Domain name expiration does not relate to this
+scenario.
+Option D is incorrect. If the network was unavailable, the users would not be able to
+access the company’s website whether or not the certificate was expired. The users would
+possibly not be able to access other resources.
+50. A. In asymmetric encryption, sometimes referred to as public key encryption, the private
+key is used to decrypt an encrypted file.
+Option B is incorrect. A public key is used to encrypt a file.
+Option C is incorrect. A message digest is created to check the integrity of a file to ensure
+it hasn’t changed.
+Option D is incorrect. Ciphertext is plain text that has been encrypted.
+51. A. A threat actor can spoof a device’s MAC address and bypass 802.1x authentication.
+Using 802.1x with client certificates or tunneled authentication can help prevent this
+attack.
+Option B is incorrect. ARP poisoning is an attack where a threat actor sends spoofed ARP
+messages over a LAN.
+Option C is incorrect. Ping of death is a denial-of-service attack in which a threat actor
+sends a larger IP packet than allowed by the IP protocol. The IP packet is broken down
+into smaller segments, which would cause the system to crash.
+Chapter 6: Cryptography and PKI 349
+Option D is incorrect. The Xmas attack is a specifically crafted TCP packet that turns on
+flags to scan the system and determine what operating system it’s using.
+52. A, C, and D. A one-time pad must be delivered by a secure method and properly guarded
+at each destination. The pad must be used one time only to avoid introducing patterns,
+and it must be made up of truly random values. Today’s computer systems have pseudorandom-number generators, which are seeded by an initial value from some component
+within the computer system.
+Option B is incorrect. The one-time pad must be at least as long as the message. If the pad
+is not as long as the message, it will need to be reused to be the same length as the message. This could introduce patterns and make it easy to crack.
+53. C. In asymmetric encryption, sometimes referred to as public key encryption, the private
+key is used to decrypt an encrypted file.
+Option A is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option B is incorrect. Symmetric encryption uses the same key to encrypt and decrypt the
+data.
+Option D is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+54. B and D. To sign the data for nonrepudiation purposes, the sender uses their private key
+and when encrypting the data, the sender uses the receiver’s public key.
+Option A is incorrect. The receiver’s private key is kept private by the receiver.
+Option C is incorrect. The sender’s public key is used to encrypt data that is being sent to
+the sender and decrypted by its private key.
+55. D. Symmetric encryption uses the same key to encrypt and decrypt data, so the key must
+be sent to the receiver in a secure manner. If a person were to get the key somewhere in the
+middle, they would be able to decrypt the information and read the data or inject it with
+malware.
+Options A, B, C are incorrect. These statements describe asymmetric encryption.
+56. B. Key escrow is a security measure where cryptographic keys are held in escrow by a
+third party and under normal circumstances, the key should not be released to someone
+other than the sender or receiver without proper authorization.
+Option A is incorrect. A CSR (certificate signing request) is a request an applicant sends to
+a CA for the purpose of applying for a digital identity certificate.
+Option C is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. A CA (certificate authority) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+57. B. ECC (elliptical curve cryptography) is based on elliptic curve theory that uses points on
+a curve to define more efficient public and private keys.
+Option A is incorrect. Obfuscation is the action of making something difficult to read and
+understand.
+Option C is incorrect. Stream ciphers encrypt data one bit at a time.
+Option D is incorrect. Block ciphers encrypt data one block, or fixed block, at a time.
+58. B. WPA2 CCMP replaced TKIP and is a more advanced encryption standard. CCMP provides data confidentiality and authentication.
+Option A is incorrect. WEP is a security standard for wireless networks and devices but is
+not as secure as WPA.
+Option C is incorrect. Enabling MAC filtering by allowing or prohibiting a MAC address
+is not a secure option since threat actors can spoof MAC addresses.
+Option D is incorrect. Disabling SSID broadcast will not help better secure the network
+since threat actors can use tools to sniff hidden SSIDs.
+59. D. RC4 is an example of a stream cipher that encrypts data one bit at a time.
+Options A, B, and C are incorrect. AES, DES, and 3DES are examples of block ciphers
+that encrypt data one fixed block of data at a time.
+60. A and B. DHE (Diffie-Hellman Ephemeral) and ECDHE (Elliptic Curve Diffie-Hellman
+Ephemeral) are commonly used with TLS to provide perfect forward secrecy.
+Option C is incorrect. RSA is an asymmetric algorithm (also known as public key cryptography) that uses a public and a private key to encrypt and decrypt data during transmissions.
+Option D is incorrect. SHA is a hashing algorithm and is used for integrity.
+61. D. A symmetric key system uses the same key to encrypt and decrypt data during the
+transport.
+Options A, B, and C are incorrect. These statements refer to an asymmetric key system,
+where it uses two keys to encrypt and decrypt data and creates digital signatures for nonrepudiation purposes.
+62. B. AES is a subset of the Rijndael cipher developed by Vincent Rijmen and Joan Daemen.
+Rijndael is a family of ciphers with different key and block sizes.
+Option A is incorrect. TKIP uses RC4. RC4 was designed by Ron Rivest of RSA Security.
+Option C is incorrect. DES is a block cipher and is unrelated to Rijndael.
+Option D is incorrect. 3DES is a block cipher and is unrelated to Rijndael.
+63. A. Digital signatures are created with the sender’s private key and verified by the sender’s
+public key.
+Answers B, C, and D are incorrect. Katelyn is sending the digital signature created by her
+private key and Zackary verifies the digital signature by obtaining Katelyn’s public key.
+Chapter 6: Cryptography and PKI 351
+64. B. MD5 is a hashing algorithm that transforms a string of characters into a fixed-length
+value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Options A, C, and D are incorrect. 3DES, AES, and Blowfish are symmetric algorithms.
+Also known as a secret key algorithm, a symmetric algorithm uses the same key to encrypt
+and decrypt data.
+65. A. AES is a symmetric encryption that supports key sizes of 128, 192, and 256 bits.
+Option B is incorrect. DES is a symmetric encryption that supports a key size of 56 bits.
+Option C is incorrect. RSA is an asymmetric encryption.
+Option D is incorrect. TKIP is a wrapper that wraps around existing WEP encryption and
+supports a key size of 128 bits.
+66. A and C. The structure of an X.509 digital signature includes a serial number and public
+key of the user or device.
+Option B is incorrect. A default gateway is an access point that a device uses to send data
+to a device in another network or to the Internet.
+Option D is incorrect. A session key is a symmetric key that uses the same key for encryption and decryption.
+67. A and D. The authentication server and supplicant mutually authenticate with each other.
+This helps prevent rogue devices from connecting to the network.
+Option B is incorrect. A certificate authority (CA) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+Option C is incorrect. A domain controller (DC) is a server computer within a Windows
+domain that responds to requests such as logging in or checking permissions.
+68. C. Confusion encryption is a method that uses a relationship between the plain text and
+the key that is so complicated the plain text can’t be altered and the key can’t be determined by a threat actor.
+Option A is incorrect. This method defines substitution.
+Option B is incorrect. This method defines transposition.
+Option D is incorrect. This method defines diffusion.
+69. C. Key escrow is a database of stored keys that can be retrieved should the original user’s
+key be lost or compromised. The stored key can be used to decrypt encrypted material,
+allowing restoration of the original material to its unencrypted state.
+Option A is incorrect. A certificate authority (CA) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+Option B is incorrect. A certificate revocation list (CRL) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. CER is a certificate file extension for an SSL certificate and is used
+by web servers to help confirm the identity and security of the site a user is visiting.
+70. D. The private key is used to encrypt the signature of an email, and the sender’s public key
+is used to decrypt the signature and verify the hash value.
+Option A is incorrect. CER is a certificate file extension for an SSL certificate and is used
+by web servers to help confirm the identity and security of the site a user is visiting.
+Option B is incorrect. The public key is used to decrypt the signature to verify the sender.
+Option C is incorrect. The shared key is used in a symmetric algorithm and should not be
+used to encrypt and decrypt a signature of an email.
+71. C. 802.11i is an amendment to the original IEEE 802.11 and is implemented as WPA2.
+The amendment deprecated WEP.
+Option A is incorrect. A NIC (network interface card) enables a device to network with
+other devices.
+Option B is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP.
+Option D is incorrect. TKIP is a wrapper that wraps around existing WEP encryption and
+is used in WPA. TKIP replaced WEP in WLAN devices.
+72. A. WPA (WiFi Protected Access) is a security standard that replaced and improved on
+WEP and is designed to work with older wireless clients.
+Option B is incorrect. WPA2 implements the 802.11i standard completely but does not
+support the use of older wireless cards.
+Option C is incorrect. WEP is a security standard for wireless networks and devices but is
+not as secure as WPA.
+Option D is incorrect. An IV (initialization vector) is an arbitrary number that is used with
+a secret key for data encryption.
+73. D. RSA is a public key encryption algorithm that can both encrypt and authenticate
+messages.
+Option A is incorrect. Diffie-Hellman encrypts data only and is used to exchange keys.
+Option B is incorrect. MD5 is a cryptography hashing function that transforms a string of
+characters into a fixed-length value.
+Option C is incorrect. SHA is a cryptography hashing function that transforms a string of
+characters into a fixed-length value.
+74. C. ECC (elliptical curve cryptography) uses less processing power and works best in
+devices such as wireless devices and cellular phones. ECC generates keys faster than other
+asymmetric algorithms. Determining the correct set of security and resource constraints is
+an important beginning step when planning a cryptographic implementation.
+Options A, B, and D are incorrect. 3DES, DES, and AES are not used in mobile devices
+because they use more computing power to generate cryptographic keys than ECC. It’s
+important that there be high resiliency in cryptography, or the ability to resume normal
+operations after an external disruption. 
+Chapter 6: Cryptography and PKI 353
+75. C. Public key cryptography is also known as asymmetric cryptography. Public key cryptography is one piece of the PKI (public key infrastructure).
+Option A is incorrect. Public key cryptography is also known as asymmetric cryptography and PKI (public key infrastructure) is an entire system of hardware, software, policies and procedures, and people. PKI creates, distributes, manages, stores, and revokes
+certificates.
+Option B is incorrect. Public key cryptography uses two keys to encrypt and decrypt
+the data, also known as asymmetric encryption. PKI (public key infrastructure) is not
+known as an asymmetric encryption (using two keys to encrypt and decrypt data) but
+rather as an entire system that creates, distributes, manages, stores, and revokes certificates.
+Option D is incorrect. Public key cryptography can provide authentication and nonrepudiation, but PKI (public key infrastructure) cannot provide confidentiality and integrity.
+PKI can use algorithms that can provide these security services.
+76. B. A CRL (certificate revocation list) is a list of digital certificates that have been revoked
+by the issuing certificate authority (CA) before their scheduled expiration date and should
+not be trusted.
+Option A is incorrect. A certificate authority (CA) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+Option C is incorrect. A registered authority (RA) is used to verify requests for certificates
+and forwards responses to the CA.
+Option D is incorrect. A certificate signing request (CSR) is a request an applicant sends to
+a CA for the purpose of applying for a digital identity certificate.
+77. A and D. Most small office, home office (SOHO) networks use WPS and WPA2-Personal.
+WPS is a network security standard that allows home users to easily add new devices to an
+existing wireless network without entering long passphrases. WPA2-Personal uses a passphrase that is entered into the SOHO router.
+Options B and C are incorrect. WPA-Enterprise and WPA2-Enterprise, also known as
+802.1x, use a RADIUS server for authentication purposes.
+78. A. A trust model is a collection of rules that informs applications as to how to decide the
+validity of a digital certificate.
+Option B is incorrect. Key escrow is a security measure where cryptographic keys are
+held in escrow by a third party, and under normal circumstances, the key should not be
+released to someone other than the sender or receiver without proper authorization.
+Option C is incorrect. PKI (public key infrastructure) is an entire system of hardware, software, policies and procedures, and people. PKI creates, distributes, manages, stores, and
+revokes certificates.
+Option D is incorrect. A registered authority (RA) is used to verify requests for certificates
+and forwards responses to the CA.
+79. A. EAP-TLS uses the concepts of public key infrastructure (PKI). It eliminates the need for
+a shared secret between the client and the server. Digital certificates are used instead.
+Options B, C, and D are incorrect. These EAP types do not use PKI.
+80. B and C. Security used in SOHO environments is PSK (preshared key) authentication.
+WPA-Personal and WPA2-Personal use the PSK authentication method.
+Options A and D are incorrect. WPA-Enterprise and WPA2-Enterprise, also known as
+802.1x, use a RADIUS server for authentication purposes.
+81. D. A captive portal is a web page where the user must view and agree to the terms before
+access to the network is granted. They are typically used by business centers, airports,
+hotels, and coffee shops.
+Option A is incorrect. WEP (Wired Equivalent Privacy) is a security standard for 802.11b.
+It is designed to provide a level of security for a WLAN.
+Option B is incorrect. Key stretching increases the strength of stored passwords and protects passwords from brute-force attacks and rainbow table attacks.
+Option C is incorrect. MAC filtering is a technique that allows or prohibits MAC addresses
+to access a network. It is not a secure option since threat actors can spoof MAC addresses.
+82. A and D. Elliptic curve cryptosystem (ECC) differs from other asymmetric algorithms due
+to its efficiency. ECC uses less processing power and works best in low power devices such
+as wireless devices and cellular phones. ECC generates keys faster than other asymmetric
+algorithms.
+Option B is incorrect. ECC is not the only asymmetric algorithm that provides digital signatures, secure key distribution, and encryption.
+Option C is incorrect. ECC uses less processing power than other asymmetric algorithms.
+83. B. IV (initialization vector) is an arbitrary number that is used with a secret key for data
+encryption. IV makes it more difficult for hackers to break a cipher.
+Option A is incorrect. Diffusion is a property of cryptography that makes cryptanalysis
+hard. A change of a single character of the input will change many characters of the output.
+Option C is incorrect. A session key is a symmetric key that uses the same key for encryption and decryption.
+Option D is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+84. D. 802.1x enhances security within a WLAN by providing an authentication framework.
+Users are authenticated by a central authority before they are allowed within the network.
+Option A is incorrect. An HIDS (host intrusion detection system) is a security management for networks and computers. It gathers information within the network or computer
+and identifies potential threats.
+Option B is incorrect. UTM (unified threat management) is a network appliance that provides firewall, intrusion detection, anti-malware, spam, and content filtering in one integrated device.
+Option C is incorrect. A VLAN allows network administrators to partition a switch
+within their network to provide security without having multiple switches.
+Chapter 6: Cryptography and PKI 355
+85. B. The data can be decrypted with a recovery agent if the company configured one before.
+If there is no recovery agent, the encrypted file will be unrecoverable.
+Option A is incorrect. The backup user account does not have the ability to recover the
+files that were encrypted by the other user.
+Option C is incorrect. The encrypted file cannot be recovered by re-creating the user’s
+account. The new user account will have a different SID even though the name is the same,
+and it will not be able to access the files.
+Option D is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+86. B. A symmetric algorithm, also known as a secret key algorithm, uses the same key to
+encrypt and decrypt data.
+Option A is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses two keys (a public and private key) to encrypt and decrypt data.
+Option C is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option D is incorrect. Steganography is a process of hiding data within data. This technique can be applied to images, video files, or audio files.
+87. A. WPA2 CCMP replaced TKIP and is a more advanced encryption standard. CCMP provides data confidentiality and authentication.
+Option B is incorrect. WEP (Wired Equivalent Privacy) is a security standard for 802.11b.
+It is designed to provide the least security for a WLAN.
+Option C is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP. WPA is less secure than WPA2.
+Option D is incorrect. TKIP is an older encryption protocol introduced with WPA to
+replace the insecure WEP encryption. TKIP is considered deprecated and should not be
+used.
+88. D. A collision occurs when a hashing algorithm creates the same hash from two different
+messages.
+Option A is incorrect. AES (Advanced Encryption Standard) is a symmetric algorithm.
+Option B is incorrect. MD5 (Message Digest 5) is a hashing algorithm.
+Option C is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+89. A. EAP-TLS is a remote access authentication protocol that supports the use of smartcards or user and computer certificates, also known as machine certificates, to authenticate
+wireless access clients. EAP-TLS can use tunnels for encryption by use of TLS.
+Option B is incorrect. EAP-FAST is designed to increase the speed of reauthentication
+when a user roams from one AP to another. It authenticates the user over an encrypted
+TLS tunnel but uses a shared secret key.
+Option C is incorrect. PEAP is an encapsulating protocol that uses a certificate on the
+authentication server and a certificate on the client. It supports password-based authentication but does not use TLS for encryption.
+Option D is incorrect. EAP is a framework for authentication in a WLAN and point-topoint connections. EAP defines message formats and doesn’t use tunnels for encryption.
+90. B. A self-signed certificate will display an error in the browser stating the site is not trusted
+because the self-signed certificate is not from a trusted certificate authority.
+Option A is incorrect. The web browser needing an update will not display an error message that the site certificate is invalid and the site is not trusted.
+Option C is incorrect. A web proxy blocking the connection would not allow the site to
+load and display a message regarding the invalid certificate.
+Option D is incorrect. If the web server was unavailable, the user would not be able to
+receive any information about the status of the certificate.
+91. A. A CSR (certificate signing request) is a request an applicant sends to a CA for the purpose of applying for a digital identity certificate.
+Option B is incorrect. Key escrow is a cryptographic key exchange process in which a key
+is stored by a third party. Should the original user’s key be lost or compromised, the stored
+key can be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state.
+Option C is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+Option D is incorrect. OCSP (Online Certificate Status Protocol) is a protocol that can be
+used to query a certificate authority about the revocation status of a given certificate. It
+validates certificates by returning responses such as “good,” “revoked,” and “unknown.”
+92. B. Asymmetric encryption is also known as public key cryptography and uses public and
+private keys to exchange a session key between two parties. It offers key management by
+administering the life cycle of cryptographic keys and protecting them from loss or misuse.
+Option A is incorrect. Obfuscation is the action of making something difficult to read and
+understand.
+Option C is incorrect. Symmetric encryption, also known as a secret key algorithm, uses
+the same key to encrypt and decrypt data.
+Option D is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+93. A. Diffie-Hellman is used to establish a shared secret between two users and is primarily
+used as a method of exchanging cryptography keys.
+Option B is incorrect. HMAC is known as a message authentication code and is used for
+integrity.
+Option C is incorrect. ROT13 is a substitution cipher, also known as a Caesar cipher, that
+replaces a letter with the 13th letter after it in the alphabet.
+Option D is incorrect. RC4 is an example of a stream cipher that encrypts data one bit at a
+time.
+Chapter 6: Cryptography and PKI 357
+94. D. RC4 is a stream cipher used for encrypting and decrypting data, but there are known
+weaknesses and using it is not recommended.
+Option A is incorrect. MD5 is a hashing algorithm used to verify integrity.
+Option B is incorrect. HMAC is known as a message authentication code and it is used for
+integrity.
+Option C is incorrect. Kerberos is a protocol for authenticating service requests between
+trusted hosts across an untrusted network such as the Internet. Kerberos uses tickets to
+provide mutual authentication.
+95. A. 3DES is a symmetric algorithm used to encrypt data by applying the DES cipher algorithm three times to the data.
+Options B, C, and D are incorrect. AES, Twofish, and Blowfish do not repeat the encryption process with additional keys.
+96. B. Digital signatures are created by using the user’s or computer’s private key that is accessible only to that user or computer. Nonrepudiation is the assurance that someone cannot
+deny something.
+Option A is incorrect. Encryption is the process of using an algorithm to change plain text
+data into unreadable information to protect it from unauthorized users. The main purpose
+of encryption is to protect the confidentiality of digital data stored on a computer system
+or transmitted via a network.
+Option C is incorrect. A collision occurs when a hashing algorithm creates the same hash
+from two different messages.
+Option D is incorrect. A CA (certificate authority) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+97. C. With a single number appended to the company name, the preshared key can be easily
+guessed. A secure preshared key is at least eight ASCII characters in length and follows the
+complexity rule.
+Option A is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP. Replacing WEP with WPA is not secure enough as the preshared
+key must follow the complexity rule and be at least eight ASCII characters in length.
+Option B is incorrect. The preshared key must be at least eight ASCII characters in length
+and follow the complexity rule.
+Option D is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP.
+98. A. A CRL (certificate revocation list) is a list of digital certificates that have been revoked
+by the issuing certificate authority (CA) before their scheduled expiration date and should
+not be trusted.
+Option B is incorrect. OCSP (Online Certificate Status Protocol) is a protocol that can be
+used to query a certificate authority about the revocation status of a given certificate. An
+OCSP response contains signed assertions that a certificate is not revoked.
+Option C is incorrect. Key escrow is a security measure where cryptographic keys are held
+in escrow by a third party and under normal circumstances, the key should not be released
+to someone other than the sender or receiver without proper authorization.
+Option D is incorrect. A CA (certificate authority) is a trusted entity that issues electronic
+documents that verify a digital entity’s identity on the Internet or computer network.
+99. A, C, and D. The WiFi Protected Setup protocols define the following devices in a network. A registrar is the device with the authority to issue or revoke access to the network.
+The enrollee is a client device that is seeking to join the wireless network. The AP (access
+point) functions as a proxy between the registrar and the enrollee.
+Option B is incorrect. A supplicant is the client that authenticates against the RADIUS
+server using an EAP method configured on the RADIUS server.
+100. D. WPA2-Enterprise will implement AES and require an authentication infrastructure with
+an authentication server (RADIUS) and an authenticator. WPA2-Enterprise provides better
+protection of critically important information with BYOD (Bring Your Own Device).
+Option A is incorrect. WEP is the weakest security protocol. WEP does not support AES
+or RADIUS.
+Option B is incorrect. WPA does not support AES or RADIUS.
+Option C is incorrect. WPA2-Personal supports AES but requires a preshared key passphrase to be entered on each device connecting to the network. This leads to shared passwords and doesn’t control which device connects.
+101. D. Data-at-rest is all data that is inactive and physically stored in a physical digital form
+such as nonvolatile memory.
+Option A is incorrect. Data-in-transit is data that flows over the public or private network.
+Option B is incorrect. Data-over-the-network is not defined as the three states of digital data.
+Option C is incorrect. Data-in-use is all data that is active and stored in volatile memory
+such as RAM, CPU caches, or CPU registers.
+102. B. RADIUS is a client-server protocol that enables remote access servers to communicate
+with a central server to authenticate users. RADIUS uses symmetric encryption for security, and messages are sent as UDP.
+Option A is incorrect. TACACS+ is a Cisco proprietary authentication protocol and is
+used to securely access Cisco devices. TACACS+ uses TCP to send messages.
+Option C is incorrect. LDAP (Lightweight Directory Access Protocol) is a software protocol to help locate individuals and other resources within a network.
+Option D is incorrect. Kerberos is a protocol for authenticating service requests between
+trusted hosts across an untrusted network such as the Internet. Kerberos uses tickets to
+provide mutual authentication.
+103. C. Should a hard drive be stolen, the data will not be able to be read as the data is scrambled, or encrypted, and can be read only by the corresponding key.
+Option A and D are incorrect Encrypting data-at-rest will not help a user decrypt their
+data should they lose their password.
+Option B is incorrect. Encrypting data-at-rest will not help verify the integrity of the data.
+Hashing is designed to verify the integrity of data.
+Chapter 6: Cryptography and PKI 359
+104. C. Using AES with CCMP incorporates two cryptographic techniques that provide a more
+secure protocol between a mobile client and the access point.
+Option A is incorrect. RC4 is an example of a stream cipher that encrypts data one bit at a
+time and is not used along with CCMP.
+Option B is incorrect. DES is a symmetric encryption that supports a key size of 56 bits
+and is not used along with CCMP.
+Option D is incorrect. 3DES is a symmetric algorithm that is used to encrypt data by applying
+the DES cipher algorithm three times to the data and is not used along with CCMP.
+105. A. MD5 produces a 128-bit message digest regardless of the length of the input text.
+Option B is incorrect. RIPEMD produces a 128-, 160-, 256-, and 320-bit message digest.
+RIPEMD was not often seen in practical implementations.
+Option C is incorrect. SHA-1 produces a 160-bit message digest regardless of the length of
+the input text.
+Option D is incorrect. AES (Advanced Encryption Standard) is a symmetric algorithm
+used for encryption and not considered a hashing algorithm.
+106. D. A birthday attack can be used to find hash collisions. It’s based off the birthday paradox stating there is a 50 percent chance of someone sharing your birthday with at least
+23 people in the room.
+Option A is incorrect. A Xmas attack is a specifically crafted TCP packet that turns on
+flags to scan the system and determine what operating system it’s using.
+Option B is incorrect. A denial of service (DoS) is a an attack that prevents legitimate users
+from accessing services or resources within a network.
+Option C is incorrect. A logic bomb is a piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met.
+107. D. PKCS #12 is a file that contains both the private key and the X.509 certificate and can
+be installed by the user on servers or workstations. X.509 certificates can be a wildcard
+certificate for multiple entities under a single fully qualified domain name.
+Option A is incorrect. PKCS #1 defines the mathematical properties and format of RSA
+public and private keys.
+Option B is incorrect. PKCS #3 is a cryptographic protocol that allows two parties to
+jointly establish a shared key over an insecure network such as the Internet.
+Option C is incorrect. PKCS #7 is used to sign and/or encrypt messages within a PKI (public key infrastructure).
+108. B and D. Stream ciphers is a low latency operation that encrypt data one bit at a time, and
+block ciphers encrypt data one block, or fixed block, at a time.
+Option A is incorrect. Stream ciphers do not encrypt data one block at a time.
+Option C is incorrect. Block ciphers do not encrypt data one bit at a time.
+109. A, B, and D. 3DES is a symmetric key block cipher that applies the DES cipher algorithm
+three times to each data block. 3DES has three keying options. First, all three keys are
+independent, so 3 × 56 = 168-bit key length. Second, key 1 and key 2 are independent and
+the third key is the same as the first key, so 2 × 56 = 112-bit key length. Third, all three
+keys are identical, so 1 × 56 = 56-bit key length.
+Option C is incorrect. With three keying options, 3DES has effective key sizes of 56, 128,
+and 168 bits.
+110. C. A symmetric algorithm, also known as a secret key algorithm, uses the same key to
+encrypt and decrypt data.
+Option A is incorrect. Steganography is the process of hiding data within data. This technique can be applied to images, video files, or audio files.
+Option B is incorrect. An asymmetric algorithm, also known as public key cryptography,
+uses public and private keys to encrypt and decrypt data.
+Option D is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value, by using a mathematical
+function, not a key. Hashes ensure the integrity of data or messages.
+111. D. Revoked certificates are stored on a CRL (certificate revocation list). The CA continuously pushes out CRL values to clients to ensure they have the updated CRL. OCSP (Online
+Certificate Status Protocol) performs this work automatically in the background and returns
+a response such as “good,” “revoked,” and “unknown.” OCSP uses a process called stapling
+to reduce communication from the user to the CA to check the validity of a certificate.
+Option A is incorrect. OCSP does not submit revoked certificates to the CRL. The CA is
+responsible for creating, distributing, and maintaining certificates and revoking the certificates when necessary as part of this process.
+Option B is incorrect. OCSP is a more streamlined approach as it works in the background
+and checks a central CRL to see if a certificate has been revoked.
+Option C is incorrect. OCSP, not the CRL, performs real-time validation of a certificate.
+112. D. A one-time pad is a stream cipher that encrypts the plain text with a secret random key
+that is the same length as the plain text. The encryption algorithm is the XOR operation.
+Option A is incorrect. ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is commonly
+used with TLS to provide perfect forward secrecy.
+Option B is incorrect. PBKDF2 is a key stretching algorithm. Key stretching makes a possibly weak key, typically a password or passphrase, more secure against a brute-force
+attack by increasing the time it takes to test each possible key.
+Option C is incorrect. Obfuscation is the action of making something difficult to read and
+understand.
+113. A. A stream cipher encrypts one plain text digit at a time with the corresponding digit of
+the keystream. Stream ciphers provide the same type of protection as one-time pads do.
+Option B is incorrect. RSA is an asymmetric algorithm and uses a different type of mathematics to encrypt the data.
+Option C is incorrect. AES is a symmetric block cipher, and the message is divided into
+blocks of bits and then encrypted one block at a time.
+Option D is incorrect. DES is a symmetric block cipher, and the message is divided into
+blocks of bits and then encrypted one block at a time.
+Chapter 6: Cryptography and PKI 361
+114. C. Whole-disk encryption, such as BitLocker on a Windows OS, will protect the contents
+of a laptop if it is lost or stolen. If the thief were to take the hard drive out of the laptop
+and try reading the content, they would be unsuccessful.
+Option A is incorrect. WPS (WiFi Protected Setup) is a network security standard that
+allows home users to easily add new devices to an existing wireless network without entering long passphrases.
+Option B is incorrect. A BIOS password would prevent an unauthorized user from booting
+to the OS and possibly reading the data content. A BIOS password does not protect the
+data should the hard drive be removed and accessed.
+Option D is incorrect. A cable lock is a security device designed to deter theft of a laptop.
+A cable lock does not protect the data from being accessed.
+115. D. Steganography is a process of hiding data within data. This technique can be applied to
+images, video files, or audio files.
+Option A is incorrect. AES (Advanced Encryption Standard) is a symmetric algorithm
+used to encrypt data. The question stated that you didn’t have a way of encrypting the
+message.
+Option B is incorrect. A collision occurs when a hashing algorithm creates the same hash
+from two different messages.
+Option C is incorrect. RSA is an asymmetric algorithm used to encrypt data. The question
+stated that you didn’t have a way of encrypting the message.
+116. B. CBC (Cipher Block Chaining) mode uses feedback information to ensure the current
+block ciphertext differs from other blocks even if the same data is being encrypted.
+Option A is incorrect. ECB (Electronic Code Book) encrypts each data block individually.
+Repetitive data can result in the same ciphertext.
+Option C is incorrect. GCM (Galois/Counter Mode) encrypts data and checks integrity.
+Option D is incorrect. CTM (counter mode), also abbreviated as CTR, is similar to CBC
+except it does not use a random number and does not chain the blocks.
+117. B. Secure ciphers can be reverse engineered, but hashes cannot be reversed when reverse
+engineered attempting to re-create a data file. Hashing is a one-way encryption that is used
+for integrity purposes.
+Options A, C, and D are incorrect. These statements are incorrect about the difference
+between a secure cipher and a secure hash. A secure hash creates the same size for any
+input size.
+118. D. PFX (personal information exchange) files are typically used with Windows OSs that
+include digital certificates and are used for authentication processes involved in determining if a user or device can access certain files.
+Option A is incorrect. DER (distinguished encoding rules) is a binary form of PEM certificate and is typically used in Java platform.
+Option B is incorrect. AES is an asymmetric encryption algorithm.
+Option C is incorrect. PEM (privacy-enhanced electronic mail) is a certificate format used
+for securing email using public key cryptography. PEM became an IETF proposed standard; it was never widely developed or used.
+119. D. A session key is another name for an ephemeral key. An ephemeral key includes a private and public key, and systems use this key pair for a single session and then discard it.
+Option A is incorrect. A PKI private key is held by the owner of the key pair to decrypt
+data or to create a digital signature.
+Option B is incorrect. MD5 is a hashing algorithm that transforms a string of characters
+into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of
+data or messages.
+Option C is incorrect. A PKI public key is held by the certificate authority and is available
+for anyone to use to encrypt data or verify a user’s digital signature.
+120. B. Steganography is a process of hiding data within data. This technique can be applied to
+images, video files, or audio files.
+Option A is incorrect. Hashing is used to test integrity.
+Option C is incorrect. Encryption is the process of using an algorithm to change plain text
+data into unreadable information to protect it from unauthorized users.
+Option D is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+121. A. AES (Advanced Encryption Standard) is a symmetric algorithm used to encrypt data
+that uses the least amount of CPU usage.
+Option B is incorrect. SHA-1 is a hashing algorithm that transforms a string of characters
+into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of
+data or messages.
+Option C is incorrect. MD5 is a hashing algorithm that transforms a string of characters
+into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of
+data or messages.
+Option D is incorrect. 3DES is a symmetric algorithm used to encrypt data by applying the
+DES cipher algorithm three times to the data, and it uses a lot of CPU resources.
+122. B. RADIUS is a client-server protocol that enables remote access servers to communicate
+with a central server to authenticate users. RADIUS uses symmetric encryption for security.
+Option A is incorrect. RADIUS does not use asymmetric encryption. Asymmetric encryption uses a key pair, and RADIUS uses the same key to encrypt and decrypt information.
+Option C is incorrect. Elliptic curve cryptography is a public key encryption based on the
+elliptic curve equation rather than large prime numbers.
+Option D is incorrect. RSA is a public key encryption and includes hardware and software
+tokens.
+123. A. WPA (WiFi Protected Access) is a security standard that replaced and improved on
+WEP. WPA is less secure than WPA2.
+Option B is incorrect. WPA2 provides message authenticity and integrity verification by
+the use of the AES algorithm and is stronger and more reliable than WPA.
+Chapter 6: Cryptography and PKI 363
+Option C is incorrect. EAP-TLS is a remote access authentication protocol that supports
+the use of smartcards. EAP-TLS is more secure than WPA.
+Option D is incorrect. PEAP is an encapsulating protocol that uses a certificate on
+the authentication server and a certificate on the client. It supports password-based
+authentication.
+124. D. RADIUS is a networking protocol that provides centralized AAA for users connecting
+and using a network service. EAP-TLS offers a good deal of security with the use of TLS
+and uses PKI to secure communication to the RADIUS authentication server.
+Option A is incorrect. Kerberos is a protocol for authenticating service requests between
+trusted hosts across an untrusted network such as the Internet. Kerberos uses tickets to
+provide mutual authentication.
+Option B is incorrect. LDAP (Lightweight Directory Access Protocol) is a software protocol to help locate individuals and other resources within a network.
+Option C is incorrect. SAML (Security Assertion Markup Language) is an open-standard
+data format centered on XML. It supports the exchange of authentication and authorization details between systems, services, and devices. It does not authenticate and log connections from wireless users.
+125. D. 802.1x enhances security within a WLAN by providing an authentication framework.
+Users are authenticated by a central authority before they are allowed within the network.
+Option A is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP and is designed to work with older wireless clients, but it does not
+transverse traffic from a wireless network to an internal network.
+Option B is incorrect. WEP (Wired Equivalent Privacy) is a security standard for 802.11b
+but does not transverse traffic from a wireless network to an internal network.
+Option C is incorrect. A load-balancer improves the workload by distributing traffic across
+multiple computer resources such as servers.
+126. D. SHA-1 is a hashing algorithm that creates message digests and is used for integrity.
+Options A, B, and C are incorrect. They are symmetric algorithms used for encryption.
+127. C. Block ciphers encrypt data one block, or fixed block, at a time.
+Option A is incorrect. Stream ciphers encrypt data one bit at a time.
+Option B is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option D is incorrect. Obfuscation is the action of making something difficult to read and
+understand.
+128. B and D. MD5 and SHA are considered cryptography hashing functions that transform a
+string of characters into a fixed-length value.
+Options A and C are incorrect. They are symmetric encryption algorithms.
+129. B. Data-at-rest is all data that is inactive and physically stored in a physical digital form
+such as nonvolatile memory. If the device the data is stored on is stolen, the unauthorized
+person will not be able to read the data due to the encryption.
+Option A is incorrect. SSL is designed to protect data in transit.
+Option C is incorrect. Hashing is a one-way encryption that transforms a string of characters
+into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of
+data or messages.
+Option D is incorrect. TLS is the successor to SSL and is designed to protect data in transit.
+130. A and B. USB flash drives and smartcards can carry a token and store keys for authentication to systems. They are often used in a multifactor authentication situation.
+Option C is incorrect. A PCI expansion card is internal to a PC and normally doesn’t store
+keys for authentication purposes.
+Option D is incorrect. A cipher lock is a programmable lock used for controlling access to
+a secure area.
+131. B. AES (Advanced Encryption Standard) is a symmetric algorithm used to encrypt data
+that is fast and secure.
+Option A is incorrect. SHA-256 is a hashing algorithm not used to encrypt data but rather
+to verify the integrity of the data.
+Option C is incorrect. RSA is an asymmetric algorithm that is considered slow when
+encrypting data.
+Option D is incorrect. MD5 is a hashing algorithm not used to encrypt data but rather to
+verify the integrity of the data.
+132. C. OCSP (Online Certificate Status Protocol) is a protocol that can be used to query a
+certificate authority about the revocation status of a given certificate. OCSP can prepackage a list of revoked certificates and distribute them through browser updates and can be
+checked if there is an Internet outage.
+Option A is incorrect. Key escrow is a security measure in which cryptographic keys are
+held in escrow by a third party, and under normal circumstances, the key should not be
+released to someone other than the sender or receiver without proper authorization.
+Option B is incorrect. A recovery agent is a user who is permitted to decrypt another user’s
+data in case of emergency or in special situations.
+Option D is incorrect. A CSR (certificate signing request) is a request an applicant sends to
+a CA for the purpose of applying for a digital identity certificate. A CSR can be generated
+for code signing purposes.
+133. D. PKI (public key infrastructure) is an entire system of hardware, software, policies and
+procedures, and people. PKI creates, distributes, manages, stores, and revokes certificates.
+A trust model is used to set up trust between CAs. A certificate has a subject alternative
+name (SAN) for machines (fully qualified domain names) or users (user principal name).
+Option A is incorrect. ROT13 is a substitution cipher, also known as a Caesar cipher, and
+it replaces a letter with the 13th letter after it in the alphabet.
+Option B is incorrect. PGP (Pretty Good Privacy) is a method used for encrypting and
+decrypting digital files and communications over the Internet. It also provides data and file
+integrity services by digitally signing messages.
+Chapter 6: Cryptography and PKI 365
+Option C is incorrect. WPA2 is a security standard that secures computers connected to a
+WiFi network.
+134. A and B. A threat actor can create an eavesdropping and a man-in-the-middle attack.
+Eavesdropping with a private key can allow the threat actor to see data in clear text. A
+man-in-the-middle attack can allow the threat actor to modify the data transmitting to the
+server, such as adding malware to the data.
+Option C is incorrect. Social engineering is exploiting a person’s trust to give up confidential information.
+Option D is incorrect. A brute-force attack is used to obtain information such as a user
+password or personal identification number (PIN) by use of a trial-and-error method.
+135. B. Hashing is a one-way encryption that transforms a string of characters into a fixed-length
+value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+Option A is incorrect. A symmetric algorithm, also known as a secret key algorithm, uses
+the same key to encrypt and decrypt data.
+Option C is incorrect. Asymmetric encryption is also known as public key cryptography,
+and it uses public and private keys to exchange a session key between two parties.
+Option D is incorrect. PKI (public key infrastructure) is an entire system of hardware,
+software, policies and procedures, and people. PKI creates, distributes, manages, stores,
+and revokes certificates.
+136. A. A CA (certificate authority) is a trusted entity that creates and digitally signs certificates so the receiver can verify the certificate came from that specific CA.
+Option B is incorrect. The RA (registered authority) does not digitally sign the certificate;
+the CA (certificate authority) performs this action.
+Option C is incorrect. The RA (registered authority) performs the certification registration
+duties. The RA identifies the individual requesting a certificate and initiates the certification
+process with the CA on behalf of the individuals. The CA creates and signs the certificate.
+Option D is incorrect. The CA (certificate authority) creates and digitally signs the certificate. The RA (registered authority) performs the certification registration duties.
+137. C. A digital signature is a hash value (message digest) that is encrypted with the sender’s
+private key. The receiver performs a hashing function on the message and decrypts the
+sent hash value with the sender’s public key and compares the two hash values. If the hash
+values are the same, the message actually came from the sender. This is performed by DSA
+(digital signature algorithm) and allows traceability to the person signing the message
+through the use of their private key.
+Option A is incorrect. The sender will encrypt a hash value (message digest) with its
+own private key, not the receiver’s public key. The receiver’s public key is not part of the
+process.
+Option B is incorrect. The sender encrypts the hash value (message digest) with its own
+private key, not the receiver’s private key. The receiver’s private key is always kept private
+by the owner.
+Option D is incorrect. The receiver uses the sender’s public key to decrypt the hash value
+(message digest) and compares the hash value produced by the receiver to verify that the
+message came from the sender.
+138. A. AES (Advanced Encryption Standard) is a symmetric algorithm used to encrypt large
+amounts of data (bulk).
+Option B is incorrect. Asymmetric algorithms are used to encrypt a small amount of data.
+Option C is incorrect. A key escrow is a database of stored keys that can be recovered
+should the original user’s key be lost or compromised.
+Option D is incorrect. A CRL (certificate revocation list) is a list of digital certificates that
+have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should not be trusted.
+139. A. PEAP is a protocol that encapsulates the EAP within a TLS tunnel.
+Option B is incorrect. SSL was superseded by TLS and is considered not as secure as TLS.
+Option C is incorrect. AES (Advanced Encryption Standard) is a symmetric algorithm
+used to encrypt data.
+Option D is incorrect. SHA is a hashing algorithm and is used for integrity. SHA is used
+with SSL, and HMAC is used with TLS.
+140. C. The AES-CCMP encryption algorithm used in the 802.11i security protocol uses the
+AES block cipher and limits the key length to 128 bits. AES-CCMP makes it difficult for
+an eavesdropper to spot patterns.
+Options A, B, and D are incorrect. AES-CCMP is restricted to a key length of 128 bits.
+141. C and D. Message Integrity Code (MIC) is a security improvement for WEP encryption
+within wireless networks. TKIP and CCMP use MIC, which provides an integrity check
+on the data packet.
+Options A and B are incorrect. They are encryption algorithms and are not concerned
+with message integrity.
+142. A and C. Preshared passphrases can be obtained from a threat actor by the use of social
+engineering skills and connect to the AP. WPA-Personal uses TKIP encryption, which is
+considered a weak option.
+Option B is incorrect. WPA-Personal uses a preshared passphrase that is entered in the AP
+and each device that wants to connect to the network.
+Option D is incorrect. WPA-Enterprise uses a RADIUS server, not WPA-Personal.
+143. B. A root certificate is a public key certificate that identifies the root CA (certificate
+authority). Digital certificates are verified using a chain of trust (certificate chaining) and
+the trust anchor for the certificate is the root certificate authority (CA).
+Option A is incorrect. A root certificate has an expiration date, also known as the validity
+period.
+Option C is incorrect. A root certificate contains information about the CA (certificate
+authority), not the user.
+Option D is incorrect. A root certificate is able to authorize subordinate CAs to issue certificates on its behalf.
+Chapter 6: Cryptography and PKI 367
+144. B and C. Public and private keys work with each other to encrypt and decrypt data. If the
+data is encrypted with the receiver’s public key, the receiver decrypts the data with their
+private key.
+Option A is incorrect. Public and private keys are not isolated from each other. If you
+encrypt data with one key, the other key is used to decrypt the data.
+Option D is incorrect. Data that is encrypted with the private key will be decrypted with
+the corresponding public key. The private key is designed to be held privately by the owner
+and not shared.
+145. A and C. .p12 and .pfx are filename extensions for PKCS #12 files.
+Option B is incorrect. KEY is used for both private and public PKCS #8 keys.
+Option D is incorrect. p7b is a filename extension for PKCS #7 and is used to sign and/or
+encrypt messages under a PKI. It also provides a syntax for disseminating certificates.
+146. C and D. PGP and GPG use a web of trust to establish the authenticity of the binding
+between a public key and its owner.
+Option A is incorrect. RC4 is a symmetric algorithm and does not use the web of trust
+concept.
+Option B is incorrect. AES is a symmetric algorithm and does not use the web of trust
+concept.
+147. A. A symmetric algorithm, sometimes called a secret key algorithm, uses the same key to
+encrypt and decrypt data and is typically used to encrypt data-at-rest.
+Option B is incorrect. An asymmetric algorithm, also known as public key cryptography, uses public and private keys to encrypt and decrypt data and is typically not used to
+encrypt data-at-rest.
+Option C is incorrect. Stream ciphers encrypt data one bit at a time.
+Option D is incorrect. Hashing is a one-way encryption that transforms a string of characters into a fixed-length value or key, also known as a hash value. Hashes ensure the integrity of data or messages.
+148. C. A registered authority (RA) is used to verify requests for certificates and forwards
+responses to the CA.
+Option A is incorrect. A root CA is the top of the hierarchy and certifies intermediate CAs
+to issue certificates to users, computers, or services.
+Option B is incorrect. An intermediate CA is certified by the root CA and can issue certificates to users, computers, or services.
+Option D is incorrect. OCSP (Online Certificate Status Protocol) is a protocol that can be
+used to query a certificate authority about the revocation status of a given certificate. It
+validates certificates by returning responses such as “good,” “revoked,” and “unknown.”
+149. C. WPA2 is a security standard that secures computers connected to the 802.11n WiFi
+network. It provides the strongest available encryption for wireless networks.
+Option A is incorrect. WEP (Wired Equivalent Privacy) is a security standard for 802.11b.
+It is designed to provide a level of security for a WLAN.
+Option B is incorrect. WPA (WiFi Protected Access) is a security standard that replaced
+and improved on WEP. WPA is not as secure as WPA2.
+Option D is incorrect. WPS (WiFi Protected Setup) is a network security standard that
+allows home users to easily add new devices to an existing wireless network without entering long passphrases. WPS is known to have vulnerabilities and is not recommended.
+150. C. AES-256 can encrypt data quickly and securely with a USB flash drive.
+Option A is incorrect. 3DES is an encryption algorithm but is not effective for sending
+information in a highly secure manner and quickly to a USB flash drive.
+Options B and D are incorrect. They are examples of hash algorithms used to verify the
+integrity of the data.

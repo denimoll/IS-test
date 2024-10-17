@@ -1,0 +1,935 @@
+1. A. The correct answer is ISO 27002. ISO 27002 is an international standard for implementing and maintaining information security systems.
+Option B is incorrect. ISO 27017 is an international standard for cloud security.
+Option C is incorrect. NIST 800-12 is a general security standard and it is a U.S. standard, not an international one.
+Option D is incorrect. NIST 800-14 is a standard for policy development, and it is a U.S.
+standard, not an international one.
+2. A. The correct answer is the Open Web Application Security Project. It is the de facto
+standard for web application security.
+Option B is incorrect. The North American Electric Reliability Corporation is concerned
+with electrical power plant security.
+Option C is incorrect. The National Institute of Standards does not, as of this writing,
+publish web application standards.
+Option D is incorrect. ISA/IEC standards are for securing industrial automation and control systems (IACSs).
+3. B. Vendor diversity gives two security benefits. The first is that there is not a single point
+of failure should one vendor cease operations. The second benefit is that each vendor has a
+specific methodology and algorithms used for detecting malware. If you use the same vendor at all points where you need malware detection, any flaw or weakness in that vendor’s
+methodology will persist across the network.
+Option A is incorrect. Using a single vendor means that any weakness in that vendor’s
+methodology permeates the entire network.
+Option C is incorrect. Vendor forking is not a term in the industry.
+Option D is incorrect. This is not a neutral act. Vendor diversity improves security.
+4. D. Control diversity means utilizing different controls to mitigate the same threat. For
+malware, the use of technical controls, such as anti-malware, is critical. But it is also
+important to have administrative controls, such as good policies, and to ensure employees
+are properly trained.
+Option A is incorrect. This approach ignores training employees. Policies are only useful if
+employees are properly trained.
+Option B is incorrect. This approach uses only one type of control: technical controls.
+Option C is incorrect. This approach ignores training employees. Policies are useful only
+if employees are properly trained. Furthermore, website whitelisting can be beneficial but
+leaves many websites unchecked, each of which could be hosting malware.
+5. A. The demilitarized zone (DMZ) is a zone between an outer firewall and an inner firewall. It is specifically designed as a place to locate public-facing servers. The outer firewall
+is more permissive, thus allowing public access to the servers in the DMZ. However, the
+inner firewall is more secure, thus preventing outside access to the corporate network.
+Option B is incorrect. An intranet is for internal web pages.
+Option C is incorrect. Guest networks provide network access, often wireless, to guests.
+This is not an appropriate place for any server.
+Option D is incorrect. An extranet is a scenario wherein external partners are allowed
+access to limited portions of the company network.
+6. B. Air gapping refers to the server not being on a network. This means literally that there
+is “air” between the server and the network. This prevents malware from infecting the
+backup server.
+Options A and C are incorrect. A separate VLAN or physical network segment can
+enhance security but is not as effective as air gapping.
+Option D is incorrect. A honeynet is a good security measure, but it won’t provide the best
+protection against malware.
+7. C. The first step in security is hardening the operating system, and one of the most
+elementary aspects of that is turning off unneeded services. This is true regardless of the
+operating system.
+Options A, B, and D are incorrect. Each of these is a good security measure and should be
+implemented. However, none of these are as fundamental as turning off unneeded services
+and therefore would not be done first.
+8. C. Administrative controls are policies and processes designed to mitigate some threat.
+The use of policies that govern the opening of email attachments and the downloading of
+files is an administrative control for malware.
+Options A, B, and D are incorrect. Each of these are good steps to take, but they are all
+technical controls, not administrative ones.
+9. A. A guest network is separate from your production network; therefore, even if there
+is some breach of that network, it won’t affect your production network. It is a common
+security practice to establish a guest network so that guests can access the Internet, without providing them with access to the corporate network resources.
+Option B is incorrect. A DMZ is used to locate public-facing servers such as web servers.
+Option C is incorrect. An intranet consists of internal web-based resources for employees.
+Option D is incorrect. This would provide nonemployees with access to the corporate network.
+10. A. Full disk encryption fully encrypts the hard drive on a computer. This is an effective
+method for ensuring the security of data on a computer.
+Option B is incorrect. Trusted platform modules are crypto-processors and won’t affect
+this problem.
+Option C is incorrect. Software-defined networking is virtualized networking and won’t
+affect this problem.
+Option D is incorrect. Demilitarized zones are used to segment a network and won’t affect
+this problem.
+11. A. A VPN concentrator is a hardware device used to create remote access VPNs. The
+concentrator creates encrypted tunnel sessions between hosts, and many use two-factor
+authentication for additional security.
+Option B is incorrect. SSL accelerators are a method of offloading processor-intensive
+public-key encryption for Transport Layer Security (TLS) and Secure Sockets Layer (SSL)
+to a hardware accelerator.
+Option C is incorrect. A demilitarized zone is a place to locate public-facing servers.
+Option D is incorrect. Guest networks provide nonemployees with Internet access.
+12. B. If a system is infected with malware, the malware will operate with the privileges of
+the current user. If you use nonadministrative accounts, with least privileges, then the malware won’t be able to access administrative functionality.
+Options A, C, and D are all incorrect. These are all good security measures, but they
+won’t address the issue of malware accessing administrative functionality.
+13. B. The network operating system is determined by the operating system running on a
+domain controller. A network could be mostly Windows, but as long as the domain controller is Unix, the network operating system is Unix.
+Options A, C, and D are all correct. These items do not determine the network operating
+system.
+14. A. A Type I hypervisor is also known as a bare-metal hypervisor. It installs directly onto
+hardware and does not require an operating system to be installed first.
+Options B, C, and D are all incorrect. Type I hypervisors do not require a preinstalled
+operating system.
+15. D. ISO 27017 is an international standard for cloud security.
+Option A is incorrect. NIST 800-14 describes common security principles that should be
+addressed within security policies.
+Option B is incorrect. NIST 800-53 organizes security measures into families of controls,
+such as risk assessment, access control, incident response, and others.
+Option D is incorrect. ISO 27002 recommends best practices for initiating, implementing,
+and maintaining information security management systems (ISMSs).
+16. B. A kiosk computer must be limited to only those functions that are required. It is important to remove or disable any unnecessary functions, and to have the system logged in with
+the least privileges necessary for the kiosk functionality.
+Option A is incorrect. Although this is always a good idea, it is not the most important
+issue for a kiosk computer.
+Option C is incorrect. Yes, antivirus is important. However, if this machine is locked
+down so that it only performs the specified functions, it is unlikely to get a virus.
+Option D is incorrect. A host-based firewall is not even absolutely necessary in this scenario, and it is certainly less important that limiting the computer’s functionality.
+17. A. The correct answer is to disable WiFi if it is not absolutely needed. Many peripheral
+devices are WiFi enabled. If you don’t require this functionality, then disabling it is a very
+basic and essential security measure you can take. For example, WiFi enabled MiroSD
+cards is vulnerable to attacks.
+Option B is incorrect. Very few peripheral devices will even have a BIOS.
+Option C is incorrect. Encryption may be warranted for some specific peripherals, but
+many don’t have storage that can be encrypted, and this would not be the first step one
+takes.
+Option D is incorrect. Many peripherals don’t have a hard drive to install antivirus on.
+18. A. A DMZ provides limited access to public facing servers, for outside users, but blocks
+outside users from accessing systems inside the LAN. It is a common practice to place web
+servers in the DMZ.
+Option B is incorrect. A VLAN is most often used to segment the internal network.
+Option C is incorrect. Routers direct traffic based on IP address.
+Option D is incorrect. A guest network allows internal users who are not employees to get
+access to the Internet.
+19. B. Physically portioning your network is the physical equivalent of a VLAN. A VLAN is
+designed to emulate physical partitioning.
+Option A is incorrect. Perimeter security does not segment the network.
+Option C is incorrect. Security zones are useful, but don’t, by themselves, segment a network. Often a network is segmented, using physical partitions or VLAN, to create security
+zones.
+Option D is incorrect. A firewall is meant to block certain traffic, not to segment the
+network.
+20. D. Honeypots are designed to attract a hacker by appearing to be security holes that are
+ripe and ready for exploitation. A honeynet is a network honeypot. This security technique
+is used to observe hackers in action while not exposing vital network resources.
+Option A is incorrect. Active detection is not a term used in the industry.
+Option B is incorrect. False subnet is not a term used in the industry.
+Option C is incorrect. An intrusion detection system is used to detect activity that could
+indicate an intrusion or attack.
+21. A. Nonessential protocols provide additional areas for attack. The fact that all protocols
+have weaknesses would be sufficient to eliminate nonessential protocols. Those nonessential protocols’ ports provide possible avenues of attack. You should always follow the
+principle of least privilege.
+Option B is incorrect. Any port can be secured. This is an example of security control.
+Option C is incorrect. It is not the case that specific ports are less secure. But every port
+that is open provides a possible mode of entry into a system.
+Option D is incorrect. There is no additional effort to secure a port that is nonessential.
+22. B. A stateful inspection firewall examines the content and context of each packet it
+encounters. This means that an SPI firewall understands the preceding packets that
+came from the same IP address. This makes certain attacks, like a SYN flood, almost
+impossible.
+Option A is incorrect. Packet filtering firewalls examine each packet, but not the context.
+Option C is incorrect. Application layer firewalls can use SPI or simple packet filtering,
+but their primary role is to examine application-specific issues. A classic example is a web
+application firewall.
+Option D is incorrect. A gateway firewall is simply a firewall at the network gateway. This
+does not tell us whether it is packet filtering or SPI.
+23. A. Whitelists are lists of approved software. Only if software appears on the whitelist can
+it be installed.
+Option B is incorrect. Blacklisting blocks specific applications, but it cannot account for
+every possible malicious application.
+Option C is incorrect. Access control lists determine who can access a resource.
+Option D is incorrect. A host intrusion detection system (HIDS) does not prevent software
+from being installed.
+24. B. A demilitarized zone (DMZ) is a separate subnet coming off the separate router interface. Public traffic may be allowed to pass from the external public interface to the DMZ,
+but it won’t be allowed to pass to the interface that connects to the internal private
+network.
+Option A is incorrect. A guest network provides visitors with internet access.
+Option C is incorrect. An intranet consists of internal web resources. Frequently companies put up web pages that are accessible only from within the network for items like
+human resources notifications, requesting vacation, and so forth.
+Option D is incorrect. A VLAN is used to segment your internal network.
+25. A. Filters prevent unauthorized packets from entering or leaving a network. Packet filters
+are a type of firewall that blocks specified port traffic.
+Options B and C are incorrect. A packet filter will allow some packets to enter and will
+block others. The same goes for exiting packets: some will be allowed and others will be
+blocked, based on the rules implemented in the firewall.
+Option D is incorrect. Packet filtering does nothing to eliminate collisions in the network.
+26. C. WiFi Protected Access 2 (WPA2) was intended to provide security that’s equivalent to
+that on a wired network, and it implements elements of the 802.11i standard.
+Option A is incorrect. A WAP is a wireless access point.
+Option B is incorrect. A WPA is not as secure as WPA2.
+Option D is incorrect. WEP is the oldest, and least secure, wireless security protocol.
+27. A. An IV attack is usually associated with the WEP wireless protocol. This is because
+WEP uses the RC4 stream cipher with an initialization vector. However, WEP improperly
+implements RC4 and reuses its IVs (an IV should only be used once, then discarded), making it vulnerable to IV attacks.
+Option B is incorrect. A WAP is a wireless access point, not a protocol.
+Option C is incorrect. WPA does not use an IV; it uses TKIP.
+Option D is incorrect. WPA2 does not use an IV; it uses AES with CBC and a MAC.
+28. C. A test server should be identical to the production server. This can be used for functional testing as well as security testing, prior to deploying the application.
+Option A is incorrect. The production server is the live server.
+Option B is incorrect. A development server would be one the programmers use during
+development of a web application.
+Option D is incorrect. Predeployment server is not a term used in the industry.
+29. B. Kernel integrity subsystems are a form of integrity measurement used to detect whether
+files have been accidentally or maliciously altered, both remotely and locally; to appraise a
+file’s measurement against a “good” value stored as an extended attribute; and to enforce
+local file integrity. These goals are complementary to Mandatory Access Control (MAC)
+protections provided by Linux Security Modules.
+Option A is incorrect. Antivirus software is used to detect malware.
+Option C is incorrect. Kernel integrity subsystems cannot detect what programs have been
+installed.
+Option D is incorrect. Kernel integrity systems don’t detect changes to user accounts.
+30. C. BIOS password management is the most basic security measure for the BIOS. Without
+this fundamental step, any other steps will be far less effective.
+Options A and B are incorrect. NIST 800-155 does list both of these as BIOS integrity
+measures, but they are not the most fundamental measures—passwords are.
+Option D is incorrect. Backing up the BIOS is not a common security measure, and it certainly would not be the most fundamental step.
+31. A. The correct answer is NIST 800-82. Special Publication 800-82, Revision 2, “Guide to
+Industrial Control System (ICS) Security,” is specific to industrial control systems. Industrial systems include SCADA (Supervisor Control And Data Acquisition) and PLCs (primary logic controllers).
+Option B is incorrect. PCI-DSS is a standard for credit card security.
+Option C is incorrect. NIST 800-30 is the U.S. standard for conducting risk assessments.
+Option D is incorrect. This standard recommends best practices for initiating, implementing, and maintaining information security management systems (ISMSs).
+32. B. Wearable devices have storage and thus can be used to bring in files to a network, or to
+exfiltrate data from the network.
+Option A is incorrect. Distractions are not a security concern, though they may be a management issue.
+Options C and D are incorrect. Although either of these might be appropriate security
+concerns to mitigate, they are not the most significant concern.
+33. B. A heating, ventilation, and air conditioning system will affect availability. By maintaining temperature and humidity, the servers in the datacenter are less likely to crash and thus
+be more available.
+Option A is incorrect. HVACs have no effect on data confidentiality.
+Option C is incorrect. HVACs are not fire suppression systems.
+Option D is incorrect. HVACs are not monitoring systems.
+34. B. Maria should implement ongoing auditing of the account usage on the SCADA system.
+This will provide a warning that someone’s account is being used when they are not actually using it.
+Option A is incorrect. Host based antivirus is almost never a bad idea. But this scenario
+did not indicate that the compromise was due to malware, so anti-malware may not
+address the threat.
+Option C is incorrect. Since the engineer has access to the SCADA system, a NIPS is
+unlikely to block him from accessing the system.
+Option D is incorrect. Full disk encryption will not mitigate this threat.
+35. B. The correct answer is virtualization. By virtualizing the servers Lucy can administer
+them all in a single location, and it is very easy to set up a new virtual server, should it be
+needed.
+Option A is incorrect. A cluster won’t make installing a new server any more streamlined.
+Options C and D are incorrect. Segmenting the servers, such as with a VLAN or subnet,
+won’t address the issues presented in this question.
+36. A. A hardware security module (HSM) is the most secure way to store private keys for the
+e-commerce server. An HSM is a physical device that safeguards and manages digital keys.
+Option B is incorrect. Full disk encryption will protect the data on the e-commerce server,
+but it won’t help store the key. It is also difficult to fully encrypt the e-commerce server
+drive, since the drive will need to be in use for the e-commerce to function.
+Option C is incorrect. A self-encrypting drive (SED) is just an automatic full disk encryption.
+Option D is incorrect. Software-defined networking won’t address the issues in this scenario.
+37. B. The correct answer is to use a sandboxed environment to test the malware and determine its complete functionality. A sandboxed system could be an isolated virtual machine
+or an actual physical machine that is entirely isolated from the network.
+Option A is incorrect. Leaving the malware on a production system is never the correct
+approach.
+Option C is incorrect. You should test the malware to determine exactly what damage it
+causes.
+Option D is incorrect. A honeypot is used for trapping attackers, not for testing malware.
+38. C. You should implement a staging server so that code can be deployed to an intermediate
+staging environment. This will allow testing of security features, as well as checking to see
+that the code integrates with the entire system. Using third-party libraries and SDKs can
+help reduce errors and vulnerabilities in the code.
+Option A is incorrect. Sandboxing is used to isolate a particular environment.
+Option B is incorrect. Virtualization will not mitigate this risk. Even if the production
+server is virtualized, the risks are the same.
+Option D is incorrect. Deployment policies are a good idea, but they are not the most
+effective way to mitigate this particular risk.
+39. A. A real-time operating system is a secure system used for embedded devices. RTOSs
+were originally developed for military applications but were not available to the public.
+Option B is incorrect. Although SCADA systems can sometimes be embedded systems, this
+won’t address the security concerns.
+Option C is incorrect. Full drive encryption won’t address issues with the security of the
+operating system.
+Option D is incorrect. A trusted platform module can be very useful for cryptographic
+applications, but it will not address the security of the operating system.
+40. C. The WPA2 standard fully implements the 802.11i security standard.
+Options A, B, and D are incorrect. These standards are concerning bandwidth and frequency, not security.
+41. A. The encryption technology associated with WPA is TKIP.
+Option B is incorrect. CCMP is the technology used in WPA2. It combines AES in cipherblock chaining mode with a message authentication code.
+Option C is incorrect. WEP uses RC4.
+Option D is incorrect. WPA2 uses CCMP.
+42. C. Disabling the SSID broadcast keeps it from being seen in the list of available networks,
+but it is still possible to connect to it and use the wireless network.
+Options A, B, and D are all incorrect. These are not accurate descriptions of what happens
+when you disable SSID broadcast.
+43. B. In the Platform as a Service (PaaS) model, the consumer has access to the infrastructure
+to create applications and host them.
+Option A is incorrect. Software as a Service simply supplies a particular application.
+Option C is incorrect. Infrastructure as a Service provides entire network infrastructure.
+Option D is incorrect. Cloud as a Service provides access to cloud storage.
+44. A. With the Software as a Service (SaaS) model, the consumer has the ability to use applications provided by the cloud provider over the Internet. SaaS is a subscription service
+where software is licensed on a subscription basis.
+Answer B is incorrect. Platform as a Service provides an operating system.
+Option C is incorrect. Infrastructure as a Service provides entire network infrastructure.
+Option D is incorrect. Cloud as a Service provides access to cloud storage.
+45. B. Elasticity is a feature of cloud computing that involves dynamically provisioning (or
+deprovisioning) resources as needed.
+Option A is incorrect. Multitenancy refers to the ability to host multiple different virtualized environments.
+Option C is incorrect. A configuration management database is used to store configuration
+information.
+Option D is incorrect. Sandboxing refers to the ability to isolate an environment.
+46. A. Type I hypervisor implementations are known as “bare metal.”
+Option B is incorrect. Type II hypervisors have to be installed on an underlying operating
+system.
+Options C and D are incorrect. These are not valid hypervisor types.
+47. C. A snapshot is an image of the virtual machine at some point in time. It is standard
+practice to periodically take a snapshot of a virtual system so that you can return that system to a last known good state.
+Option A is incorrect. Sandboxing is the process of isolating a system.
+Option B is incorrect. The hypervisor is the mechanism whereby the virtual environment
+interacts with the hardware.
+Option D is incorrect. Elasticity is the ability for the system to scale.
+48. D. RAID level 5 is disk striping with distributed parity. It can withstand the loss of any
+single disk.
+Option A is incorrect. RAID 0 is disk striping; it does not provide any fault tolerance.
+Option B is incorrect. RAID 1 is mirroring. It does protect against the loss of a single disk
+but not with distributed parity.
+Option C is incorrect. RAID 3 is disk striping with dedicated parity. This means a dedicated drive containing all the parity bits.
+49. D. A Faraday cage, named after the famous physicist Michael Faraday, involves placing
+wire mesh around an area or device to block electromagnetic signals.
+Option A is incorrect. A VLAN can segment a network but won’t block EMI.
+Option B is incorrect. Software-defined networking virtualizes a network but does not
+protect against EMI.
+Option C is incorrect. A trusted platform module is used for cryptographic applications.
+50. B. The correct answer is bollards. These are large objects, often made of concrete or similar material, designed specifically to prevent a vehicle getting past them.
+Option A is incorrect. Most gates can be breached with a vehicle.
+Option C is incorrect. A security guard is a good idea, but he or she would not be able to
+stop a vehicle from ramming the building.
+Option D is incorrect. Security cameras will provide evidence of a crime that was committed, but won’t prevent the crime.
+51. A. The correct answer is to attach cable locks to the computers that lock them to the table.
+This makes it more difficult for someone to steal a computer.
+Option B is incorrect. Full disk encryption won’t stop someone from stealing the computer.
+Option C is incorrect. Strong passwords won’t stop someone from stealing a computer.
+Option D is incorrect. A sign-in sheet is a good idea and may deter some thefts. But it is
+not the best approach to stopping theft.
+52. B. The correct answer is to incorporate two-factor authentication with a mantrap. By having
+a smartcard at one door (type II authentication) and a pin number (type I authentication) at
+the other door, Joanne will combine strong two-factor authentication with physical security.
+Option A is incorrect. Smartcards by themselves are single-factor authentication.
+Option C is incorrect. Video surveillance, though often a good idea, won’t help with twofactor authentication.
+Option D is incorrect. Again, the smartcard by itself is a single-factor authentication.
+53. A. Baselining is the process of establishing a standard for security. A change from the
+original baseline value is referred to as baseline deviation.
+Option B is incorrect. Security evaluations or audits check security but don’t establish
+security standards.
+Option C is incorrect. Hardening is the process of securing a given system, but it does not
+establish security standards.
+Option D is incorrect. Normalization is the process of removing redundant entries from a
+database.
+54. B. Hardening is the process of improving the security of an operating system or application.
+One of the primary methods of hardening an trusted OS is to eliminate unneeded protocols.
+This is also known as creating a secure baseline that allows the OS to run safely and securely.
+Option A is incorrect. FDE is full disk encryption.
+Option C is incorrect. SED is self-encrypting drive.
+Option D is incorrect. Baselining is the process of establishing security standards.
+55. A. RAID 1+0 is a mirrored data set (RAID 1), which is then striped (RAID 0): a “stripe of
+mirrors.”
+Option B is incorrect. RAID 6 is disk striping with dual parity (distributed).
+Option C is incorrect. RAID 0 is just striping.
+Option D is incorrect. RAID 1 is just mirroring.
+56. D. Normalization is the process of removing duplication or redundant data from a database. There are typically four levels of normalization ranging from 1N at the lowest (i.e.,
+the most duplication) to 4N at the highest (i.e., the least duplication).
+Option A is incorrect. Although database integrity is important, that is not what is
+described in the question. Furthermore, integrity checking usually refers to checking the
+integrity of files.
+Option B is incorrect. Deprovisioning is a virtualization term for removing a virtual system (server, workstation, etc.) and reclaiming those resources.
+Option C is incorrect. Baselining involves setting security standards.
+57. C. “Whitelists” are lists of those items that are allowed (as opposed to a blacklist—things
+that are prohibited).
+Answer A is incorrect. Blacklists are lists of blocked items (applications or websites).
+Options B and D are incorrect. These are not terms used in the industry.
+58. C. The correct answer is to only allow signed components to be loaded in the browser.
+Code signing verifies the originator of the component (such as an ActiveX component) and
+thus makes malware far less likely.
+Option A is incorrect. Although host-based anti-malware is a good idea, it is not the best
+remedy for this specific threat.
+Option B is incorrect. Blacklists cannot cover all sites that are infected, just the sites you
+know about. And given that users on Hans’s network visit a lot of websites, blacklisting is
+likely to be ineffective.
+Option D is incorrect. If you block all active content, many websites will be completely
+unusable.
+59. D. Agile development works in cycles, each cycle producing specific deliverables. This
+means that phases like design and development are repeated.
+Options A and B are incorrect. The issue is not how many phases; it is the fact that in
+waterfall when a phase is finished, there is no returning to that phase.
+Option C is incorrect. Neither method is inherently more secure.
+60. D. Security should be addressed at every stage of development. This means requirements,
+design, implementation, verification/testing, and maintenance.
+Options A, B, and C are incorrect. These are all only partially correct.
+61. D. Stored procedures are the best way to have standardized SQL. Rather than programmers writing their own SQL commands, they simply call the stored procedures that the
+database administrator creates.
+Options A and B are both incorrect. Although these are good ideas, they are not as effective as stored procedures in addressing concerns about bad SQL commands.
+Option C is incorrect. Agile programming is a method for developing applications rapidly
+and won’t determine how SQL commands are created.
+62. A. Proper error handling is the most fundamental item to address in application development. Robust and thorough error handling will mitigate many security risks.
+Options B, C, and D are all incorrect. Each of these is a good security measure but not the
+most important step for Mary to take.
+63. B. When virtualization reaches the point that IT can no longer effectively manage it, the
+condition is known as VM sprawl.
+Options A and C are incorrect. These are not the terms used in industry.
+Option D is incorrect. VM zombie is a term for a virtual machine that is running and consuming resources but no longer has a purpose.
+64. A. VM escape is a situation wherein an attacker is able to go through the VM to interact
+directly with the hypervisor, and potentially the host operating system. The best way to
+prevent this is to limit the ability of the host and the VM to share resources. If possible,
+they should not share any resources.
+Option B is incorrect. This is one method that might mitigate the situation, but it is not the
+most effective.
+Options C and D are incorrect. Both of these are good security practices but would have
+minimal effect on mitigating VM escape.
+65. A. The correct answer is to implement a virtual desktop environment. If all the desktops
+are virtualized, then from a single central location you can manage patches, configuration,
+and software installation. This single implementation will solve all the issues mentioned in
+the question.
+Option B is incorrect. Strong policies are a good idea but are often difficult to enforce.
+Option C is incorrect. Imaging workstations affects only their original configuration. It
+won’t keep them patched or prevent rogue software from being installed.
+Option D is incorrect. Strong patch management will address only one of the three
+concerns.
+66. C. Pre-action fire suppression is ideal for computers. The pipes have no water in them during normal operations. When the temperature rises to a certain level, water fills the pipes.
+Then if the temperature continues to rise, the fire suppression system activates. This provides time to stop the fire before the servers are soaked with water.
+Option A is incorrect. Wet pipes have water in them at all times. If a pipe freezes and/or
+bursts, then the servers will be damaged.
+Option B is incorrect. Deluge fire suppression, as the name suggests, uses a very large
+amount of water. This is not appropriate for computers.
+Option D is incorrect. Halon is now banned.
+67. A. The correct answer is to have a motion-activated camera that records everyone who
+enters the server room.
+Options B, C, and D are all incorrect. These are all good security measures but won’t
+detect theft.
+68. B. Session tokens are used to authenticate sessions. These can be effective against replay
+attacks and session hijacking.
+Options A, C, and D are all incorrect. Session tokens will not be effective in mitigating
+these attacks.
+69. C. Hot aisle/cold aisle is a layout design for server racks and other computing equipment
+in a data center. The goal of a hot aisle/cold aisle configuration is to conserve energy and
+lower cooling costs by managing airflow. An infrared camera will detect heat levels on the
+aisles.
+Options A, B, and D are all incorrect. Although these are issues to be concerned about in a
+data center, the infrared camera is not an appropriate way to monitor them.
+70. D. A security guard is the most effective way to prevent unauthorized access to a building.
+Options A, B, and C are all incorrect. These are all good physical security measures, but
+they are not the most effective ways to prevent entry into a building.
+71. B. Software-defined networking makes the network very scalable. It is relatively easy to
+add on new resources or remove unneeded resources.
+Options A, C, and D are all incorrect. SDN does not accomplish these goals.
+72. A. The correct answer is to use an application container to isolate that application from
+the host operating system. Applications containers provide a virtualized environment in
+which to run an application.
+Option B is incorrect. Moving to software-defined networking is a very involved process
+and does not provide an efficient solution.
+Option C is incorrect. Not only will this not separate the application from the host operating system; it might not solve the problem.
+Option D is incorrect. This is not an option in this question. Mark must support the legacy
+application.
+73. D. The fence should reach within 2 inches of hard surfaces like pavement or concrete. For
+soft dirt it should actually go into the ground.
+Options A and B are incorrect. These are not the correct measurements.
+Option C is incorrect. Per the standard, chain-link fence should reach within 2 inches
+of hard surfaces like pavement or concrete. For soft dirt, it should actually go into the
+ground.
+74. A. An immutable server’s configuration cannot be changed.
+Option B is incorrect. A virtual machine won’t stop the application or the OS from being
+altered.
+Option C is incorrect. This won’t prevent the OS from being altered.
+Option D is incorrect. Segregating the application on a separate VLAN won’t address the
+issues.
+75. B. The correct answer is to have the source code for the application stored with a thirdparty source code escrow. Should the vendor go out of business, or otherwise be unable
+to continue to support the application, the source code escrow will supply you with the
+source code you can then maintain yourself (or hire a new company).
+Option A is incorrect. Detailed credit checks of vendors are a good idea, but are no guarantee against the vendor failing.
+Option C is incorrect. If the vendor goes out of business, contractual penalties will be
+ineffective.
+Option D is incorrect. Even if another vendor is willing to be a backup for you, they cannot effectively support the application without the source code.
+76. C. The correct answer is to implement IaC. Infrastructure as Code (IaC) is the process
+of managing and provisioning computer datacenters through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+Whether the data center(s) use physical machines or virtual machines, this is an effective
+way to manage the data centers.
+Option A is incorrect. Although data center managers may be needed, that won’t necessarily provide consistent management across the enterprise.
+Option B is incorrect. Software-defined networking will not fix this problem.
+Option D is incorrect. The issue is not just provisioning; it is management.
+77. C. These particular web application attacks are best mitigated with proper input validation. Any user input should be checked for indicators of XSS or SQL injection.
+Option A is incorrect. Error handling is always important, but it won’t mitigate these particular issues.
+Option B is incorrect. Stored procedures can be a good way of ensuring SQL commands
+are standardized, but that won’t prevent these attacks.
+Option D is incorrect. Code signing is used for code that is downloaded from a web application to the client computer. It is used to protect the client, not the web application.
+78. B. Fuzzing is a technique whereby the tester intentionally enters incorrect values into input
+fields to see how the application will handle it.
+Option A is incorrect. Static code analysis tools simply scan the code for known issues.
+Option C is incorrect. Baselining is the process of establishing security standards.
+Option D is incorrect. Version control simply tracks changes in the code; it does not test
+the code.
+79. A. The waterfall method has the steps of requirements gathering, design, implementation
+(also called coding), testing (also called verification), deployment, and maintenance.
+Options B, C, and D are all incorrect. These are not the proper steps for the waterfall
+method.
+80. D. Both client-side and server-side validation are important, so both should be used for a
+complete validation solution.
+Options A and B are both incorrect since they are both incomplete.
+Option C is incorrect. This is not a validation method.
+81. A. The correct answer is to assign digital certificates to the authorized users and to use
+these to authenticate them when logging in. This is an effective way to ensure that only
+authorized users can access the application.
+Options B, C, and D are all incorrect. These are each good security measures but not the
+best way to authenticate the client and prevent unauthorized access to the application.
+82. D. The correct answer is to first test patches. It is always possible that a patch might cause
+issues for one or more current applications. This is particularly a concern with applications
+that have a lot of interaction with the host operating system. An operating system patch 
+can prevent the application from executing properly. But as soon as the patches are tested,
+a phased rollout to the company should begin.
+Option A is incorrect. Automatic patching is not recommended in corporate environments
+because a patch could possibly interfere with one or more applications.
+Option B is incorrect. This is a very bad idea and will lead to inconsistent patching and the
+application of untested patches.
+Option C is incorrect. This is only slightly better than having end users handle their own
+patching.
+83. B. In a code reuse attack, the attacker executes code that is meant for some other purposes. In many cases this can be old code that is no longer even used (dead code), even if
+that code is in a third-party library.
+Option A is incorrect. A buffer overflow occurs when too much data is sent to a buffer.
+For example, say a buffer is designed to hold 10 bytes, and it is sent 100 bytes.
+Option C is incorrect. A denial-of-service attack is meant to make a service unavailable to
+legitimate users.
+Option D is incorrect. Session hijacking involves taking over an existing authenticated
+session.
+84. B. The correct answer is to turn off any remote access to such devices that is not absolutely needed. Many peripheral devices come with SSH, telnet, or similar services. If you
+are not using them, turn them off.
+Option A is incorrect. Full disk encryption will improve peripheral security, and many
+peripherals don’t have a disk to encrypt.
+Option C is incorrect. Fuzzy testing is for applications.
+Option D is incorrect. Not all devices are even capable of having a digital certificate
+assigned to them.
+85. C. The correct answer is to use static code analysis. Memory leaks are usually caused by
+failure to deallocate memory that has been allocated. A static code analyzer can check to
+see if all memory allocation commands (malloc, alloc, etc.) have a matching deallocation
+command.
+Option A is incorrect. Fuzzing involves entering data that is outside expected values to see
+how the application handles it.
+Option B is incorrect. Stress testing involves testing how a system handles extreme workloads.
+Option D is incorrect. Normalization is a technique for deduplicating a database.
+86. A. The correct answer is to use Secure Shell. This protocol is encrypted. SSH also authenticates the user with public key cryptography.
+Option B is incorrect. Telnet is insecure. It does not encrypt data.
+Option C is incorrect. Remote Shell sends at least some data unencrypted and is thus
+insecure.
+Option D is incorrect. Simple Network Management Protocol is used to manage a network
+and is not used for remote communications.
+87. B. Software attestation is often done with digital certificates and digital signing. The software proves that it is the legitimate program before being allowed to execute.
+Option A is incorrect. Secure boot involves the system booting into a trusted configuration.
+Option C is incorrect. Sandboxing is used to isolate an application.
+Option D is incorrect. Trusted platform module is a cryptoprocessor, often used for key
+management.
+88. D. When two or more components are tested together, this is referred to as integration
+testing.
+Option A is incorrect. Unit testing is testing a single unit of code.
+Option B is incorrect. Regression testing is testing a system after a change to ensure that
+the change did not cause any other problems.
+Option C is incorrect. Stress testing involves subjecting a system to extensive loads to
+determine if it can handle them.
+89. B. Intrusion prevention systems are critical for a system that needs high availability.
+Depending on the nature of the system, it may require an HIPS, NIPS, or both.
+Option A is incorrect. Security information and event management consolidates logs.
+Although this can be a valuable security feature, it is not the most important in this
+situation.
+Option C is incorrect. Automated patch control is usually a good idea; however, it is not
+the most important in this situation.
+Option D is incorrect. Honeypots can be a valuable security control, but they are far less
+important than IPS or patch control.
+90. B. System on a Chip devices are complete self-contained systems on a single chip. Therefore, having their own unique cryptographic keys is the best way to implement authentication and security.
+Option A is incorrect. A system on a chip is self-contained, so a TPM would not be an
+appropriate solution.
+Option C is incorrect. A self-encrypting drive is not relevant to system on a chip, since that
+system does not have a “drive.”
+Option D is incorrect. Many SoC technologies don’t use a BIOS.
+91. A. Such systems need to have all communications encrypted. As of the current date,
+breaches of portable network devices have all involved unencrypted communications.
+Option B is incorrect. Full disk encryption may or may not even be appropriate for such
+devices. Many don’t have a disk to encrypt.
+Option C is incorrect. It may not be possible to install anti-malware on many such devices.
+Option D is incorrect. Fuzz testing is used for applications.
+92. D. The more vehicles utilize computers and have network communication capabilities, the
+more they will be vulnerable to cyberattacks.
+Options A, B, and C are all incorrect. These are incomplete.
+93. B. DevOps is a compound term: software DEVelopment and information technology
+OPerationS. The term refers to collaboration between software developers and IT professionals to align software development with infrastructure issues.
+Option A is incorrect. Integration testing refers to testing two or more components.
+Options C and D are both incorrect. Although clear policies and employee training are
+usually a good idea, they won’t be the best way to address Ariel’s concerns.
+94. A. All software changes must go through proper change management. That includes a
+request for changes (RFC) that will be evaluated.
+Option B is incorrect. Greg cannot know what effect the change might have on other
+aspects of the system. This fix could cause additional problems.
+Option C is incorrect. This is a better answer than B but still does not follow change control procedures.
+Option D is incorrect. Simply documenting the issue does nothing to correct it.
+95. C. Model verification must be completed before you can rely on the models used. It is
+important to verify that all aspects of a simulation model are accurate. If the model has
+any inaccurate data or settings, then the results will not be accurate.
+Option A is incorrect. Change approval boards (CABs) are part of the change control
+process.
+Option B is incorrect. Although it is always a good idea to thoroughly read documentation, this is not the most critical issue in this scenario.
+Option D is incorrect. Integration testing involves testing two or more components to
+ensure they function together.
+96. D. Any change to a system requires regression testing. Regression testing ensures that the
+change made does not cause any new issues.
+Option A is incorrect. Full disk encryption may or may not even be appropriate for such
+devices. Many don’t have a disk to encrypt.
+Option B is incorrect. You should have received approval from the change approval board
+prior to making the change.
+Option C is incorrect. Stress testing is designed to see what loads the system can handle.
+97. A. Compiled code runs faster. This is because runtime code, such as Java, is compiled at
+runtime (thus the name) and thus performance is slower.
+Option B is incorrect. In fact, the opposite is true. Runtime code can be platform independent, as with Java. Compiled code is compiled for a specific operating system.
+Option C is incorrect. Security is not directly related to whether the code is compiled or
+runtime. This issue has minimal impact on security.
+Option D is incorrect. Development time is not impacted by whether the code will be compiled or runtime code.
+98. C. A community cloud presents a compromise solution. Community clouds are semiprivate. They are not accessible to the general public but only to a small community of
+specific entities.
+Option A is incorrect. This would not be true.
+Option B is incorrect. The cost of a private cloud is beyond many small companies.
+Option D is incorrect. This is not a good answer. It ignores the company’s desire to find a
+cloud solution.
+99. B. Platform as a Service is a good solution to this problem. The programmer can access a
+virtualized Linux machine with PaaS.
+Options A and C are both incorrect. Although these would work, they are less efficient
+than using PaaS.
+Option D is incorrect. Infrastructure as a Service is used to provide networking infrastructure via virtualization. In this scenario, you only need an operating system.
+100. A. A cloud access security broker (CASB) is a software tool or service that sits between an organization’s on-premises network and a cloud provider’s infrastructure. A CASB acts as a gatekeeper, allowing the organization to extend the reach of their security policies into the cloud.
+Option B is incorrect. Integration testing is used to test two or more components to ensure
+they integrate.
+Option C is incorrect. Although security policies are a good idea, just having policies in
+your company won’t affect the cloud solution.
+Option D is incorrect. Security as a Service is a process of outsourcing certain security
+functions.
+101. B. Stress testing is designed to test an application under workloads that are larger than
+normal. Although this may not be adequate to test for DoS response, it is the most relevant
+software test.
+Option A is incorrect. Regression testing is done after a change to ensure the change did
+not cause any other issues.
+Option C is incorrect. Integration testing is done to see whether two or more components
+function together.
+Option D is incorrect. Fuzz testing is testing an application by entering nonstandard/
+unexpected values.
+102. C. The correct answer is a public cloud. Public clouds are usually less expensive. The
+cloud provider has a number of customers and costs are dispersed. Even individuals can
+afford to use cloud storage with services like iCloud and Amazon Cloud.
+Option A is incorrect. A community cloud is usually private for a small group of partners.
+Each of the partners must share a greater part of the expense than they would with a public cloud. But they retain more control over the cloud than they would with a public cloud.
+Option B is incorrect. Private clouds are the most expensive. The company must completely develop and maintain the cloud resources.
+Option D is incorrect. A hybrid deployment model is a good compromise for many situations, but it will be more expensive than a public cloud.
+103. D. The correct answer is continuous monitoring. There are technologies that perform continuous monitoring of a network. These systems can identify any issue as it is occurring, or
+very soon thereafter.
+Option A is incorrect. Monthly audits won’t give notice of an issue until they are conducted, as much as a month after the issue.
+Options B and C are incorrect. A network intrusion detection system or network intrusion
+prevention system could certainly be part of the solution. But such systems would only
+detect breaches, not policy violations, login issues, and so forth.
+104. B. The correct answer is to use an SSL accelerator. SSL accelerators are a method of
+offloading processor-intensive public-key encryption for Transport Layer Security (TLS)
+and Secure Sockets Layer (SSL) to a hardware accelerator.
+Option A is incorrect. A VPN concentrator is a hardware device used to create remote
+access VPNs. The concentrator creates encrypted tunnel sessions between hosts, and many
+use two-factor authentication for additional security.
+Option C is incorrect. Returning to smaller encryption keys would have a deleterious
+effect on security.
+Option D is incorrect. This may, or may not, correct the problem, but it would entail a
+significantly greater cost and difficulty than implementing and SSL accelerator.
+105. C. Only using code that is digitally signed verifies the creator of the software. For example, if a printer/MFD driver is digitally signed, this gives you confidence that it really is a
+printer driver from the vendor it purports to be from, and not malware masquerading as a
+printer driver.
+Option A is incorrect. Signed software gives you a high degree of confidence that it is not
+malware but does not provide a guarantee. For example, the infamous Flame virus was
+signed with a compromised Microsoft digital certificate.
+Option B is incorrect. Digital signing of software has no effect on patch management.
+Option D is incorrect. Digitally signed software will not execute faster or slower than nonsigned software.
+106. B. VM sprawl refers to a situation in which the network has more virtual machines than
+the IT staff can effectively manage.
+Options A, C, and D are incorrect. These descriptions have nothing to do with the term
+VM sprawl.
+107. C. Stored procedures are commonly used in many database management systems to contain SQL statements. The database administrator, or someone designated by the DBA, creates the various SQL statements that are needed in that business, and then programmers
+can simply call the stored procedures.
+Option A is incorrect. Stored procedures are not related to dynamic linked libraries.
+Option B is incorrect. This is close but inaccurate, because stored procedures can be called
+by other stored procedures that are also on the server.
+Option D is incorrect. Stored procedures are not related to middleware.
+108. D. Bollards are large barriers that are often made of strong substances like concrete. They
+are effective in preventing a vehicle from being driven into a building.
+Options A, B, and C are incorrect. These do not describe the purpose of a bollard.
+109. A. Electromagnetic interference could cause damage to circuitry, including the RAM or
+CPU chips. At a minimum, it could wipe data from memory and drives.
+Options A, B, and C are incorrect. These do not describe the effects of electromagnetic
+inference.
+110. A. The correct answer is VM escape attacks are attacks that find some method for moving
+from the VM to the hypervisor and then the host. The most effective way to prevent this is
+to completely isolate the VM.
+Option B is incorrect. Antivirus is always a good idea and may even stop some malwarebased VM escape attacks. But isolating the VM is more effective.
+Option C is incorrect. Full disk encryption will have no effect since the disk must be unencrypted during operation.
+Option D is incorrect. A trusted platform module is used for storing cryptographic keys.
+111. C. Security as a Service uses an outside company to handle security tasks. Some or even
+all security tasks can be outsourced, including IDS/IPS management, SIEM integration,
+and other security controls.
+Option A is incorrect. Software-defined networking would make managing security somewhat easier but would itself be difficult to implement.
+Option B is incorrect. Automating as much security activity as is practical would help alleviate the problem but would not be as effective as Security as a Service.
+Option D is incorrect. This would mean intentionally not implementing some security
+controls.
+112. B. Cryptographic hashes are used for integrity checking of files, network packets, and a
+variety of other applications. Storing a cryptographic hash of the application and comparing the application on the network to that hash will confirm (or refute) whether the application has been altered in any way.
+Options A and D are both incorrect. Network intrusion detection or network intrusion
+prevention systems are useful, but they won’t prevent an application from being altered.
+Option C is incorrect. Sandboxing is used to isolate an application, but it won’t detect
+whether it has been tampered with.
+113. C. Separating the SCADA system from the main network makes it less likely that the
+SCADA system can be affected from the main network. This includes malware as well
+human action.
+Option A is incorrect. Software-defined networking would make isolating the SCADA system easier but would not actually isolate it.
+Option B is incorrect. Patch management is always important, but in this case it would not
+have prevented the issue.
+Option D is incorrect. Encrypted data transmissions, such as TLS, would have no effect on
+this situation.
+114. C. Authentication headers provide complete packet integrity, authenticating the packet
+and the header.
+Options A and B are incorrect. Authentication headers do not provide any encryption at all.
+Option D is incorrect. Authentication headers authenticate the entire packet, not just the
+header.
+115. D. Transport Layer Security provides a reliable method of encrypting web traffic. It supports mutual authentication and is considered secure.
+Option A is incorrect. Although SSL can encrypt web traffic, TLS was created in 1999 as
+its successor. Although many network administrators still use the term SSL, in most cases
+today what you are using is actually TLS, not the outdated SSL.
+Options B and C are incorrect. These are protocols for establishing a VPN, not for
+encrypting web traffic.
+116. A. Network taps are analogous to phone taps. They are completely passive methods of
+getting network traffic to a central location.
+Option B is incorrect. Port mirroring would get all the traffic to the NIPS but is not completely
+passive. It requires the use of resources on switches to route a copy of the traffic. Incorrect
+switch configurations can cause looping. Configuring loop detection can prevent looped ports.
+Option C is incorrect. It is not clear that this answer would even work.
+Option D is incorrect. This is not the assignment. Setting up an NIPS on each segment
+would also dramatically increase administrative efforts.
+117. B. Internet key exchange is used to set up security associations on each end of the tunnel.
+The security associations have all the settings (i.e., cryptographic algorithms, hashes, etc.)
+for the tunnel.
+Options A and C are incorrect. IKE is not directly involved in encrypting or authenticating.
+Option D is incorrect. One might argue that by establishing the security associations, IKE
+is establishing the tunnel. However, answer B is a more accurate answer.
+118. A. A DDoS mitigator is a tool or service designed specifically to respond to distributed
+denial-of-service attacks. Such tools can both inhibit the attacking traffic and temporarily
+increase bandwidth to prevent legitimate users from being adversely affected by the attack.
+Option B is incorrect. Certainly, a web application firewall with stateful packet inspection
+would help, but it is not the most effective means of addressing this threat.
+Option C is incorrect. A network intrusion prevention system would be a good idea and would
+mitigate this threat. However, it is not the most effective means of mitigating this threat.
+Option D is incorrect. This would probably not help in a DDoS with attacks coming from
+multiple sources.
+119. D. Link aggregation switches allow you to combine the bandwidth of multiple links into
+one connection. This would allow Doug to improve bandwidth to the e-commerce server.
+Option A is incorrect. This would reduce the impact on the rest of the network but would
+not address the bandwidth needs of the e-commerce server.
+Options B and C are both incorrect. Each of these would most likely address the problem,
+but neither is cost effective.
+120. C. A correlation engine is software that is used to aggregate events and to seek out correlations. In some cases, this is done with advanced analytic algorithms, including fuzzy logic.
+Option A is incorrect. A network intrusion detection system would be helpful but will not
+(by itself) necessarily correlate events.
+Option B is incorrect. A security information event manager will certainly aggregate log
+information but may not correlate the events.
+Option D is incorrect. An aggregation switch simply combines bandwidth.
+121. A. The NIPS is not seeing the traffic on that network segment. By implementing port
+mirroring, the traffic from that segment can be copied to the segment where the NIPS is
+installed.
+Option B is incorrect. This would work but is not the most efficient approach.
+Option C is incorrect. Nothing in this scenario suggests that the NIPS is inadequate. It just
+is not seeing all the traffic.
+Option D is incorrect. This would isolate that network segment but would still not allow
+the NIPS to analyze the traffic from that segment.
+122. C. Layer 2 Tunneling Protocol is a VPN technology that supports a wide range of remote
+access methods, including TACACS+. L2TP also supports a range of protocols, including
+ATM and X.25.
+Option A is incorrect. Point-to-Point Tunneling Protocol is a VPN protocol but won’t support TACACS+.
+Option B is incorrect. Remote Authentication Dial-In User Service is a remote access protocol, not a VPN protocol. It is an early predecessor to TACACS+.
+Option D is incorrect. Challenge Handshake Authentication Protocol is an authentication
+protocol, not a VPN protocol.
+123. C. Whenever any part of your business process is outsourced, you need to ensure that the
+vendor meets or exceeds all of your security policies and procedures. Supply chain assessment security is a critical issue.
+Options A, B, and D are all incorrect. Each of these is something that needs to be
+addressed, but the most important issue is the supply chain assessment security.
+124. B. Infrared can still detect at night. A burglar is likely to be in the building at dark, so
+detecting via infrared is important.
+Options A and C are both incorrect. It does not matter how the camera is activated
+(motion or sound) if the area is dark the camera will not record adequate imagery.
+Option D is incorrect. High definition is a good choice if the area is well lit.
+125. D. A Faraday cage is a metal wire mesh designed to block electromagnetic interference.
+Options A, B, and C are all incorrect. These are not functions of a Faraday cage.
+126. B. Smartcards can be used to allow entrance into a building. The smartcard can also store
+information about the user, and thus the system can log who enters the building.
+Option A is incorrect. A security guard with a sign-in sheet would function, but there are
+many ways to subvert a sign-in sheet, and a guard can be distracted or become inattentive.
+This makes smartcard access a better solution.
+Option C is incorrect. Yes, a camera would record who enters but would not control
+access. A nonemployee could enter the building.
+Option D is incorrect. An uncontrolled/supervised sign-in sheet would not be secure.
+127. C. Certificate revocation lists are designed specifically for revoking certificates. Since
+public keys are distributed via certificates, this is the most effective way to deauthorize a
+public key.
+Option A is incorrect. Simply notifying users that a key/certificate is no longer valid is not
+effective.
+Option B is incorrect. Deleting a certificate is not always possible and ignores the possibility of a duplicate of that certificate existing.
+Option D is incorrect. The registration authority is used in creating new certificates, not in
+revoking them.
+128. C. Type C fire extinguishers are used for electrical fires, including computer equipment
+fires.
+Option A is incorrect. Type A fire extinguishers are for paper and wood fires.
+Option B is incorrect. Type B fire extinguishers are for fuel fires such as gasoline.
+Option D is incorrect. Type D fire extinguishers are for chemical fires.
+129. C. Of the locks listed here, deadbolts are the most secure. The locking bolt goes into the
+door frame, making it more secure.
+Option A is incorrect. Whether a lock uses a key or combination does not change how
+secure it is.
+Option B is incorrect. Key-in-knob is a very common, and fairly insecure, solution.
+Option D is incorrect. Padlocks can be cut off with common bolt cutters.
+130. B. Forty percent to 60 percent is considered ideal humidity. High humidity can cause corrosion, and low humidity can cause electrostatic discharge.
+Options A, C, and D are all incorrect. These are not the proper humidity values.
+131. A. False acceptance rate is the rate at which the system incorrectly allows in someone it
+should not. This is clearly a significant concern.
+Option B is incorrect. Any error is a concern, but the false rejection rate is less troublesome than the false acceptance rate.
+Option C is incorrect. The cross-over error rate is when the FAR and FRR become equal.
+This actually indicates a consistent operation of the biometric system.
+Option D is incorrect. The equal error rate is another name for cross-over error rate.
+132. C. Physical locks must always fail open, which is also called fail safe. The safety of
+employees must take precedence over the safety of property. If the lock does not fail open,
+then employees could be trapped in the building.
+Options A, B, and D are incorrect. Fail secure is the usual term, but it also means fail
+closed or fail locked. This puts lives at danger. In the case of fire, power will fail, and then
+the doors would fail locked, trapping people in the building.
+133. B. Protected cabling will secure the cable and prevent anyone from eavesdropping. These
+systems, also called protected distribution systems, use a variety of safeguards so that classified information can be sent unencrypted.
+Option A is incorrect. Cat 7 will improve bandwidth, not security.
+Option C is incorrect. This is not even a practical solution. To place a Faraday cage around
+all cable would require extensive rework of the building(s).
+Option D is incorrect. That is not a viable option. The scenario indicates that Donald
+needs to send classified data.
+134. A. A secure cabinet is tamper proof and provides a good place to store anything you are
+trying to physically protect.
+Option B is incorrect. This would then require you to store the key used to encrypt the
+thumb drive, thus continuing the problem.
+Option C is incorrect. It is actually a good practice to store BitLocker keys on removable
+media, provided that media is safeguarded.
+Option D is incorrect. Desk drawers are not secure and can easily be broken into.
+135. D. RAID 6, disk striping with dual parity, uses a minimum of four disks with distributed
+parity bits. RAID 6 can handle up to two disks failing.
+Option A is incorrect. RAID 1+0 is disk striping with mirroring.
+Option B is incorrect. RAID 3, disk striping with dedicated parity, can only handle one
+disk failing.
+Option C is incorrect. RAID 5, disk striping with distributed parity, can only handle one
+disk failing.
+136. D. The correct answer is to use a master image that is properly configured and to create
+all workstations from that image. This is a standard way large corporations configure
+systems.
+Option A is incorrect. Many things cannot be configured by a single configuration file, so
+this option simply would not work.
+Option B is incorrect. Policies are always a good idea, but this would not ensure that all
+systems are properly configured.
+Option C is incorrect. The operating system and applications are only a part of configuration. This solution would not fully configure the workstations.
+137. B. There is now a serious security issue on the web server. The primary concern must be
+to correct this. Rolling back to the last known good state will immediately correct the
+problem; then Mike can investigate to find the cause.
+Option A is incorrect. This would be too slow, and in the interim the flaw would be on the
+live website.
+Options C and D are both incorrect. These would be the slowest solutions and thus leave
+the security flaw in place for an unacceptable amount of time.
+138. D. A firewall has two types of rules. One type is to allow specific traffic on a given port.
+The other type of rule is to deny traffic. What is shown here is a typical firewall rule.
+Options A, B, and C are incorrect. The rule shown is clearly a firewall rule.
+139. A. A web proxy can be used to block certain websites. It is common practice for network
+administrators to block either individual sites or general classes of sites (like job-hunting
+sites).
+Option B is incorrect. Network address translation is used to translate the private IP
+addresses of internal computers to public IP addresses.
+Option C is incorrect. A firewall can block traffic on a given port or using a particular
+protocol, but generally they are not able to block specific websites.
+Option D is incorrect. Network intrusion prevention systems identify and block attacks.
+They cannot prevent users from visiting specific websites.
+140. D. Load balancing the cluster will prevent any single server from being overloaded. And if
+a given server is offline, other servers can take on its workload.
+Option A is incorrect. A VPN concentrator, as the name suggests, is used to initiate VPNs.
+Option B is incorrect. Aggregate switching can shunt more bandwidth to the servers but
+won’t mitigate the threat of one or more servers being offline.
+Option C is incorrect. SSL accelerators are a method of offloading processor-intensive
+public-key encryption for Transport Layer Security (TLS) and Secure Sockets Layer (SSL)
+to a hardware accelerator.
+141. D. Failure to release memory you have allocated can lead to a memory leak. Therefore, if
+you are using a programming language like C++ that allows you to allocate memory, make
+certain you deallocate that memory as soon as you are finished using it.
+Options A and C are incorrect. Both of these are good programming practices. However,
+failure to follow them just leads to wasteful use of memory; it does not lead to a security
+problem like a memory leak.
+Option B is incorrect. Although this is a good idea to prevent buffer overflows, it is not a
+memory management issue.
+142. A. Off-premises clouds are always less expensive and require less changes to the existing
+infrastructure. That is true for public, private, or community clouds.
+Option B is incorrect. An on-premises cloud is always the most expensive solution and
+has a tremendous impact on the existing IT infrastructure. Few companies opt for this
+approach.
+Option C is incorrect. A hybrid solution is better than on-premises but not as good as offpremises.
+Option D is incorrect. It need not be a community cloud. An off-premises public cloud or
+even a private cloud would fulfill the requirements.
+143. B. The correct answer is to encrypt all the web traffic to this application using Transport Layer
+Security (TLS). This is one of the most fundamental security steps to take with any website.
+Option A is incorrect. A web application firewall is probably a good idea, but it is not the
+most important thing for Ryan to implement.
+Options C and D are incorrect. Either a network intrusion detection service or network
+intrusion prevent service may be a good idea, but those should be considered after TLS is
+configured.
+144. C. This is commonly called obfuscation. Many years ago (i.e., late 1990s) it was thought
+of as a weak security measure. Today it can only be thought of as a possible security flaw
+and should not be used.
+Options A, B, and D are all incorrect. These are not accurate descriptions of what is being
+done in this scenario.
+145. A. Agile programming was developed specifically to speed up development time. Although
+it is not appropriate for all projects, it has become quite popular.
+Option B is incorrect. Usually the opposite occurs, and Agile programming leads to less
+documentation.
+Option C is incorrect. You could argue that if done properly, the many cycles of Agile programming, each with repeated design, lead to more focus on design. But this is not always
+the case, and it is not the reason companies consider Agile.
+Option D is incorrect. You could argue that if done properly, that the many cycles of Agile
+programming, each with repeated testing, lead to more focus on testing. But this is not
+always the case, and it is not the reason companies consider Agile.
+146. D. The most important issue is that the camera itself is tamper proof and that the data
+stored is tamper proof. Wireless security cameras are an example of home automation and
+is one of the driving factors behind the IoT movement.
+Options A, B, and C are all incorrect. These are important considerations, and you should
+consider all three of these. But the most important issue is the security of the camera and
+the video storage.
+147. A. A monitor displays data, and it is possible others can see that data. For example, traveling employees with laptops may inadvertently disclose data on their monitor that someone
+else can see. For this reason, screen filters are recommended for laptops.
+Option B is incorrect. This may be theoretically possible but has not been reported to have actually ever occurred. And even if it should be encountered, it is not the primary security issue.
+Option C is incorrect. Although the monitor displays login screens, it is not where the
+actual authentication processing occurs.
+Option D is incorrect. Old CRT monitors were very susceptible to this issue. For modern
+monitors, screen burn is very unlikely to occur. If it is a concern, it is certainly not the primary concern.
+148. B. Just like desktops, laptops, and servers, patch management is a fundamental security
+issue and must be addressed. Many malware outbreaks and other breaches can be prevented by simply having good patch management.
+Options A, C, and D are all incorrect. Each of these is a good idea and should at least be
+considered. However, they apply only to specific security issues, primarily how to handle
+lost or stolen mobile devices. Patch management affects all mobile devices, even if the
+device is never lost or stolen, and is thus more important.
+149. A. Phishing depends on deceiving the user. The only true protection against that is proper
+user training. There are some technologies that can reduce the chance of phishing emails
+getting through, but none can stop all phishing emails. The best protection is user training
+Option B is incorrect. Network intrusion prevention systems are usually not effective
+against phishing emails.
+Options C and D are incorrect. Both of these should block at least some phishing emails.
+But no filter can block all phishing emails; therefore, user training is the most important
+security measure against phishing.
+150. D. Regulatory requirements are enforced by law. You must implement these; therefore,
+they are the most important.
+Options A, B, and C are incorrect. Each is very important, and you should implement all
+three. But they are less important than regulatory requirements.

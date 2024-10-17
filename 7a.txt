@@ -1,0 +1,823 @@
+1. C. A virtual LAN (VLAN) is designed to allow network administrators to segment networks within a LAN. Each network will not be able to see traffic assigned to other systems
+within other VLANs within the same LAN.
+Option A is incorrect. Media access control (MAC) is a unique identification number on a
+network device. This is also known as a physical address.
+Option B is incorrect. Network Address Translation (NAT) is a function in a router that
+translates the private IP address to the public IP address and vice versa. A NAT will hide
+the private IP address from the Internet world and is also a solution for the limited IPv4
+addresses available.
+Option D is incorrect. A demilitarized zone (DMZ) is designed to protect the internal network but allow access to resources from the Internet. This provides an additional layer of
+protection to the LAN.
+2. C. Passive reconnaissance is an attempt to obtain information about a computer system
+and networks without actively engaging with the system.
+Option A is incorrect. Escalation of privilege attack allows an attacker to gain elevated
+access to the network due to programming errors or design flaws.
+Option B is incorrect. Active reconnaissance is a type of network attack where the attacker
+engages with the targeted system. The attacker can use a port scanner to gather information about any vulnerable ports.
+Option D is incorrect. Black-box testing can simulate a realistic scenario as the tester
+examines the functionality of a network without peering into the internal workings. Since
+the network administrator is an employee, he or she will have information about the internal structures of the network.
+3. C. A personal identity verification (PIV) card contains the necessary data for the cardholder to be allowed to enter federal facilities.
+Option A is incorrect. A proximity card is a contactless smartcard that is held near an
+electronic reader to grant access to a particular area.
+Option B is incorrect. Time-Based One-Time Password (TOTP) is a temporary passcode
+that is generated for the use of authenticating to a computer system, and the passcode is
+valid for only a certain amount of time—for example, 30 seconds.
+Option D is incorrect. HMAC-Based One-Time Password (HOTP) is a temporary passcode that is generated for the use of authenticating to a computer system; the passcode is
+valid until it is used by the user.
+4. D. A Network Access Control (NAC) enforces security policies and manages access to a
+network. It enables compliant, authenticated, and trusted devices to enter the network and
+access resources. If the device isn’t compliant, it will either be denied access or have limited
+access until the device becomes compliant.
+Option A is incorrect. Network Address Translation (NAT) is a function in a router that
+translates the private IP address to the public IP address and vice versa. A NAT will hide
+the private IP address from the Internet world and is also a solution for the limited IPv4
+addresses available.
+Option B is incorrect. A host intrusion prevention system (HIPS) is used to monitor a client computer for malicious activity and performs an action based on an implemented rule.
+Option C is incorrect. A demilitarized zone (DMZ) is designed to protect the internal network but allow access to resources from the Internet. This provides an additional layer of
+protection to the LAN.
+5. A. A mantrap is a physical security access control that contains two sets of doors. When
+the first set of doors is closed, the second set opens. This access control prevents unauthorized access to a secure area.
+Option B is incorrect. A Faraday cage is a metallic enclosure that prevents an electromagnetic field from escaping from a device such as a smartphone. The emitting of electromagnetic fields can allow an attacker to capture sensitive data.
+Option C is incorrect. An airgap is the practice of isolating a computer or network to prevent it from connecting to external connections.
+Option D is incorrect. Cable locks are used to prevent theft of computer equipment at the
+office or on the go.
+6. B. A dematerialized zone (DMZ) separates the local area network (LAN) from untrusted
+networks such as the Internet. Resources that are placed in the DMZ are accessible from
+the Internet and protect resources located in the LAN.
+Option A is incorrect. A honeynet is a collection of honeypots. A honeypot is a system that
+is set up with vulnerabilities to entice an attacker so as to view their activity and methods
+for research purposes.
+Option C is incorrect. A proxy server sends requests on behalf of the client. Proxy servers
+mask the client’s public IP address and can cache frequently requested websites to reduce
+bandwidth and improve the client’s response times.
+Option D is incorrect. An intranet is a private network found within a company accessed
+from within the LAN.
+7. D. A load-balancer will distribute and manage network traffic across several servers to
+increase performance.
+Option A is incorrect. A VPN concentrator is a router device that manages a large amount
+of VPN tunnels.
+Option B is incorrect. A network intrusion prevention system (NIPS) is used to monitor a
+network for malicious activity and performs an action based on an implemented rule.
+Option C is incorrect. Security incident and event management (SIEM) identifies, monitors, records, and analyzes any security event or incident in real time.
+8. A. A security guard is a major role in all layers of security. A guard can execute many
+functions such as patrolling checkpoints, overseeing electronic access control, replying to
+alarms, and examining video surveillance.
+Options B, C, and D are incorrect. Implementing these technologies is not as useful as
+employing a security guard.
+9. A. A zero-day attack takes advantage of a security vulnerability on the same day the vulnerability becomes known. Attackers may find vulnerabilities before the company discovers it.
+Option B is incorrect. Cross-site scripting enables attackers to insert client-side script into
+a webpage that other users can view.
+Option C is incorrect. Address Resolution Protocol (ARP) poisoning occurs when an
+attacker changes the MAC address on the target’s ARP cache to steal sensitive data and
+cause a denial of service.
+Option D is incorrect. Domain hijacking occurs when an attacker uses a domain for their
+own purpose. Attackers can collect data about visitors.
+10. B. Electromagnetic interference (EMI) will disrupt the operation of an electronic device
+when it is in the area of an electromagnetic field.
+Option A is incorrect. A demilitarized zone (DMZ) is designed to protect the internal network but allow access to resources from the Internet. This provides an additional layer of
+protection to the LAN.
+Option C is incorrect. A Basic Input/Output System (BIOS) manages the data between the
+computer’s OS and the attached devices and peripherals such as the video display adapter,
+network interface card, wireless keyboard, and mouse.
+Option D is incorrect. A Trusted Platform Module (TPM) is a specialized chip that stores
+RSA encryption keys that is specific to the operating system for hardware authentication.
+11. C. A VPN concentrator is a device that creates a remote access or site-to-site VPN connection. A VPN concentrator is used when a company has a large number of VPN tunnels.
+Option A is incorrect. A router determines the best route to pass a packet to its
+destination.
+Option B is incorrect. A proxy server sends requests on behalf of the client. Proxy servers
+mask the client’s public IP address and can cache frequently requested websites to reduce
+bandwidth and improve clients’ response times.
+Option D is incorrect. A firewall uses rules to control incoming and outgoing traffic in a
+network. Firewalls can be either hardware or software.
+12. B. A key escrow is a location in where keys can be gained by authorized users to decrypt
+encrypted data.
+Option A is incorrect. A certificate revocation list (CRL) is a list of certificates that were
+revoked by a CA before their expiration date. The certificates listed in the CRL should not
+be considered trusted.
+Option C is incorrect. A trust model allows the encryption keys to be trusted; the names
+associated with the keys are the names associated with the person or entity.
+Option D is incorrect. An intermediate certificate authority (CA) issues certificates to
+verify a digital device within a network or on the Internet.
+13. B. Availability would be the biggest concern because the computers would not operate
+properly if the HVAC system does not work properly. Should the HVAC system not cool
+the server room adequately, the computers would not operate and become unavailable to
+their users.
+Option A is incorrect. Confidentiality allows authorized users to gain access to sensitive
+and protected data.
+Option C is incorrect. Integrity ensures that the data hasn’t been altered and is protected
+from unauthorized modification.
+Option D is incorrect. An airgap is the practice of isolating a computer or network to prevent it from connecting to external connections.
+14. B. The correct answer is that the SSID broadcast is disabled. Disabling the SSID, the user
+must enter the SSID to attempt to connect the wireless access point.
+Option A is incorrect. MAC filtering is the act of defining a list of devices that are permitted or prohibited on your WiFi network.
+Option C is incorrect. The antenna type and placement will not prevent users from viewing the wireless SSID. The antenna type determines if the signal transmits in a 360-degree
+direction (omnidirectional) or in a direction between 80 and 120 degrees (directional).
+Option D is incorrect. The band selection will not prevent users from viewing the
+wireless SSID. The band selection references the channel the wireless access point uses.
+In a 2.4 GHz spectrum, using channels near each other will stop the data from being
+received or sent.
+15. B. Time-of-day restrictions are a form of logical access control where specific applications
+or systems are restricted access outside of specific hours.
+Option A is incorrect. Job rotation is the practice of rotating employees who are assigned
+jobs within their employment to promote flexibility and keep employees interested in their
+jobs.
+Option C is incorrect. Least privilege gives users the lowest level of rights so they can do
+their job to limit the potential chance of security breach.
+Option D is incorrect. A location-based policy uses a device’s location data to control
+features such as disabling a smartphone’s camera in a sensitive area.
+16. A, D, F. 3DES, RC4, and Twofish are known as symmetric algorithms. They use the same
+key to encrypt and decrypt data.
+Options B and C are incorrect. ECDHE and RSA are known as asymmetric algorithms.
+They use private and public keys to encrypt and decrypt data.
+Option E is incorrect. SHA is known as a hashing algorithm. Hashing transforms a string
+of characters into a key that represents the original string. This is also known as a one-way
+encryption because the hash cannot be decrypted to reveal the original string.
+17. D. The correct answer is looking for weak passwords. A password-cracking tool can
+potentially discover users who are currently using weak passwords.
+Options A, B, and C are incorrect. A password cracking program will not discover any
+strong passwords. It will not inform you if users are following the password complexity
+policy and minimum password length policy.
+18. A. White-box testing refers to the process of testing a network with all information
+known about the network or layout.
+Option B is incorrect. Black-box testing refers to the process of testing a network without
+any information known about the network or layout.
+Option C is incorrect. Gray-box testing refers to the process of testing a network with
+some information known about the network or layout.
+Option D is incorrect. Purple box is not a term referred to in a penetration test.
+19. A. Remote Authentication Dial-In User Service (RADIUS) enables remote access servers to
+communicate with a central server. This central server is used to authenticate and authorize users to access network services and resources.
+Option B is incorrect. TACACS+ is a protocol developed by Cisco and uses TCP for
+authentication, authorization, and accounting services.
+Option C is incorrect. Kerberos is an authentication protocol that uses tickets to allow
+access to resources within the network.
+Option D is incorrect. OAUTH is an authorization protocol that allows a third-party
+application to obtain users’ data without sharing login credentials.
+20. B, D. The correct answers are mitigating buffer overflow attacks and cross-site scripts
+(XSS) vulnerabilities. A buffer overflow attack occurs when a program attempts to place
+more data in a buffer (memory) than it can hold. This action can corrupt data, crash the
+program, or execute malicious code. XSS vulnerabilities are found in web applications and
+are executed by injecting malicious code to gather users’ information.
+Option B is incorrect. Shoulder surfing is a social engineering attack in which the attacker
+gathers personal information through direct observation such as looking over a person’s
+shoulder.
+Option D is incorrect. Address Resolution Protocol (ARP) poisoning is caused by an
+attacker sending spoofed ARP messages onto a local network. This allows the attacker to
+monitor data passing through the network.
+21. A. The correct answer is something you do. This is an example of picture password. A
+user selects a photo of their choice and record gestures over it. Each gesture can be a line,
+a circle, or a dot, executed in an exact order. The user will repeat the gestures to log into
+their Windows account.
+Option B is incorrect. Something you know is a knowledge factor such as a user knowing
+their username and password.
+Option C is incorrect. Something you have is a possession factor such as a user possessing
+a smartcard or a security token.
+Option D is incorrect. Something you are is an inherence biometric factor such as a user’s
+fingerprint.
+22. D. Account lockout prevents the hacker from accessing the user’s account by guessing a
+username and password. It also locks the account for a determined amount of time or until
+an administrator has unlocked the account.
+Option A is incorrect. Password complexity enforces the rule of inclusion of three of the
+four following character sets: lowercase letters, uppercase letters, numerals, and special
+characters. Password complexity will not lock out a hacker from potentially guessing a
+username and password.
+Option B is incorrect. Account disablement is implemented when an employee has left a
+company, whether temporarily or permanently. Account disablement makes a user account
+no longer usable. This action is performed by an administrator within the company.
+Option C is incorrect. Password length determines the minimum amount of alphanumeric
+characters a password must have. This will not lock out a hacker from potentially guessing
+a username and password.
+23. C. DNS Security Extensions (DNSSEC) protect against attackers hijacking the DNS process and taking control of the session. DNSSEC digitally signs data so that the user can be
+assured the data is valid.
+Option A is incorrect. Secure Socket Layer (SSL) is a protocol that secures connections
+between network clients and servers over an insecure network.
+Option B is incorrect. Secure Shell (SSH) is a protocol that provides an administrator with
+a secure connection to a remote computer.
+Option D is incorrect. Transport Layer Security (TLS) is a protocol that provides data integrity
+between two applications communicating. TLS is a successor to SSL and is more secure.
+24. B. Dumpster diving is an attack performed by searching through trash for sensitive information that could be used to perform an attack on a company’s network.
+Option A is incorrect. Tailgating, often referred to as piggybacking, is a physical security
+violation where an unauthorized person follows an authorized person (an employee) into a
+secure area.
+Option C is incorrect. Shoulder surfing is the ability to obtain information by looking
+over a person’s shoulder. Information that can be obtained includes personal identification
+numbers, usernames, passwords, and other confidential information.
+Option D is incorrect. A nan-in-the-middle attack is where an attacker captures and
+replays network data between two parties without their knowledge.
+25. D. Advanced Encryption Standard (AES) uses key sizes that are 128, 192, and 256 bits.
+Option A is incorrect. Data Encryption Standard (DES) uses a key size of 64 bits.
+Option B is incorrect. Hash-Based Message Authentication Code (HMAC) uses a cryptographic key for messages authentication in conjunction with a hash function.
+Option C is incorrect. MD5 is a 128-bit hashing algorithm.
+26. C. The correct answer is penetration testing authorization. This authorization’s goal is to
+protect the security auditor performing the work against likely attacks.
+Option A is incorrect. Vulnerability testing authorization protects the security auditor
+from identifying and quantifying security vulnerabilities in a company’s network. The
+question stated a simulated attack and this is referred to as penetration testing.
+Option B is incorrect. Transferring risk to a third party allows the third party to manage
+specific types of risk, thus reducing the company’s cost.
+Option D is incorrect. Change management is the process of managing configuration
+changes made to a network.
+27. C. Cloud computing is based on the concept of a hosted service provided over the Internet.
+Companies can have access to power processing and power storage rather than burdening
+the cost of creating and hosting their own system.
+Option A is incorrect. Sandboxing is the concept of isolating a computing environment,
+such as a software developer testing new programming code.
+Option B is incorrect. A demilitarized zone (DMZ) is designed to protect the internal network but allow access to resources from the Internet. This provides an additional layer of
+protection to the LAN.
+Option D is incorrect. Data loss prevention (DLP) prevents sensitive data from leaving a
+company’s network through scanning.
+28. C. A zero-day attack takes advantage of a security vulnerability on the same day the vulnerability becomes known. Attackers may find vulnerabilities before the company discovers it.
+Option A is incorrect. A buffer overflow attack occurs when a program attempts to place
+more data in a buffer (memory) than it can hold. This action can corrupt data, crash the
+program, or execute malicious code.
+Option B is incorrect. Session hijacking is a method in which an attacker takes over a web
+user’s session by capturing the session ID and impersonating the authorized user. This
+allows the attacker to do whatever the authorized user can do on the network
+Option D is incorrect. A distributed denial of service (DDoS) occurs when an attacker
+uses a large number of hosts to flood a server with packets, causing the server to crash and
+become unavailable.
+29. C, D. Wired Equivalent Privacy (WEP) and WiFi Protected Access (WPA) are security
+protocols for WLANs. They are known to have vulnerabilities and are prone to attacks.
+Options A and B are incorrect. WPA2 Personal and WPA2 Enterprise are considered
+stronger choices when encrypting data between the device and the wireless access point
+(WAP). WPA2 Enterprise uses IEEE 802.1x authentication, and WPA2 Personal uses preshared keys (PSK) and is designed for home use.
+30. D. Patch management consists of collecting, testing, and installing patches to a computer
+within a local network.
+Option A is incorrect. Sandboxing is the concept of isolating a computing environment,
+such as a software developer testing new programming code.
+Option B is incorrect. In an ad hoc network, devices are connected and communicating
+with each other directly.
+Option C is incorrect. Virtualization allows the creation of virtual resources such as a
+server operating system. Multiple operating systems can run on one machine by sharing
+resources such as RAM, hard drives, and CPU.
+31. A. FTPS (File Transfer Protocol Secure) is an extension to FTP (File Transfer Protocol)
+with added support for Transport Layer Security (TLS) and Secure Socket Layer (SSL)
+security technology.
+Option B is incorrect. Secure File Transfer Protocol (SFTP) uses SSH to transfer files to
+remote systems and requires the client to authenticate to the remote server.
+Option C is incorrect. Secure Shell is a protocol that provides an administrator with a
+secure connection to a remote computer.
+Option D is incorrect. Lightweight Directory Access Protocol Secure (LDAPS) uses SSL
+(Secure Socket Layer) to securely access and maintain directory information over an IP
+network.
+32. B. PIA (privacy impact assessment) is a tool used to collect personally identifiable information (PII). It states what is collected and how the information will be maintained and
+how it will be protected.
+Option A is incorrect. BIA (business impact analysis) is used to evaluate the possible effect
+a business can suffer should an interruption to critical system operations occur. This interruption could be as a result of an accident, emergency, or disaster.
+Option C is incorrect. RTO (recovery time objective) is the amount of time it takes to
+resume normal business operations after an event.
+Option D is incorrect. MTBF (mean time between failures) is the rating on a device or
+component that predicts the expected time between failures.
+33. D. The correct answer is quantitative. Specific dollar values are used to prioritize risk.
+This is why ALE (annual loss expectancy) is classified as quantitative risk analysis.
+Option A is incorrect. Qualitative risk analysis involves a ranking scale to rate risk rather
+than specific figures.
+Option B is incorrect. ROI (return on investment) cannot be calculated before a risk analysis is completed.
+Option C is incorrect. SLE (single loss expectancy) is related to risk management and risk
+assessment and is the expected monetary loss for each risk that occurs.
+34. D. Companies will use mandatory vacations policy to detect fraud by having a second person who is familiar with the duties help discover any illicit activities.
+Option A is incorrect. Companies usually don’t want many of their employees out at the
+same time. This will cause a shortage in a particular area and could compromise the security posture of the company.
+Option B is incorrect. Companies have a policy of “use or lose” vacation time if not taken
+by the end of the calendar year. Mandatory vacations policy isn’t the tool used to ensure
+employees are taking the correct amount of days off. This is usually maintained by the HR
+department.
+Option C is incorrect. Companies do want their employees to be recharged to properly
+conduct their duties, but from a security standpoint, this isn’t the best answer.
+35. D. Typosquatting is used by attackers by redirecting web traffic to another website the
+attacker maintains. The attacker achieves this by purchasing a misspelled URL and creating a website similar to the original. The attacker can then try to sell products or install
+malware on a user’s computer.
+Option A is incorrect. Session hijacking is a method by which an attacker takes over a web
+user’s session by capturing the session ID and impersonating the authorized user. This
+allows the attacker to do whatever the authorized user can do on the network.
+Option B is incorrect. Cross-site scripting enables attackers to insert client-side script into
+a webpage that other users can view.
+Option C is incorrect. Replay attack occurs when legitimate network transmission is captured by an attacker and then is maliciously retransmitted to trick the receiver into unauthorized operations.
+36. D. A Trusted Platform Module (TPM) should be enabled because it is a specialized chip,
+also known as a hardware root of trust, that stores RSA encryption keys that are specific
+to the operating system for hardware authentication.
+Option A is incorrect. Redundant Array of Independent Disks (RAID) provides redundancy by storing the same data in different places on multiple hard disks. If a hard drive
+fails, this would help protect the loss of data.
+Option B is incorrect. Universal Serial Bus (USB) is an interface that allows an add-on
+device to connect to a computer.
+Option C is incorrect. Hardware Security Module (HSM) is a physical device that manages digital keys for authentication, encryption, and decryption.
+37. C. Black-box testing refers to the process of testing a network without any information
+known about the network or layout.
+Option A is incorrect. White-box testing refers to the process of testing a network with all
+information known about the network or layout.
+Option B is incorrect. Red box is not a term referred to as a penetration test.
+Option D is incorrect. Gray-box testing refers to the process of testing a network with
+some information known about the network or layout.
+38. B. Tailgating, often referred to as piggybacking, is a physical security violation where an
+unauthorized person follows an authorized person (an employee) into a secure area.
+Option A is incorrect. Shoulder surfing is the ability to obtain information by looking over
+a person’s shoulder. Information that can be obtained is personal identification numbers,
+usernames, passwords, and other confidential information.
+Option C is incorrect. Vishing is a type of social engineering attack that tries to trick a
+person into disclosing secure information over the phone or a Voice over IP (VoIP) call.
+Option D is incorrect. Dumpster diving is performed by searching through trash for sensitive information that could be used to perform an attack on a company’s network.
+39. A. Implicit deny is placed at the bottom of the list. If traffic goes through the ACL list of
+rules and isn’t explicitly denied or allowed, implicit deny will deny the traffic as it is the
+last rule. In other words, if traffic is not explicitly allowed within an access list, then by
+default it is denied.
+Option B is incorrect. Port security allows an administrator to prohibit or permit devices
+based on their MAC address by configuring individual physical switch ports.
+Option C is incorrect. A flood guard helps prevent denial-of-service (DoS) attacks by stopping a large amount of traffic on a network in an attempt to stop a service of a device.
+Option D is incorrect. Signal strength is the power of electric field transmitted by an
+antenna. The lower the strength, the shorter the distance devices can connect to a wireless
+access point.
+40. D. ARP poisoning is an attack created by an attacker by sending spoofed Address Resolution Protocol (ARP) messages onto a local network. This allows the attacker to monitor
+data passing through the network.
+Option A is incorrect. DNS poisoning is an attack where the attacker modifies the DNS server
+records to redirect a user to another website that can contain different types of malware.
+Option B is incorrect. Injection is a computer attack where the attacker enters malicious
+code in an application and the malicious code is passed to the backend database.
+Option C is incorrect. Impersonation is a form of social engineering where an attack
+impersonates another person, such as a repair technician, to access a secured area.
+41. D. A Trojan is malware that is disguised as a legitimate program and can allow hackers to
+gain access to a user’s system.
+Option A is incorrect. A keylogger is a program that records every keystroke from the user
+and sends them to the hacker.
+Option B is incorrect. A worm is a self-replicating malware that spreads to other computers in the network. It is designed to consume network bandwidth.
+Option C is incorrect. Ransomware is malware that prevents and limits users from accessing their computer. This is achieved by locking the system’s screen or encrypting the user’s
+files unless a ransom is paid.
+42. B. MTTR (mean time to repair) is the average time it takes for a failed device or component to be repaired or replaced.
+Option A is incorrect. RTO (recovery time objective) is the amount of time it takes to
+resume normal business operations after an event.
+Option C is incorrect. MTBF (mean time between failures) is the rating on a device or
+component that predicts the expected time between failures.
+Option D is incorrect. RPO (recovery point objective) is the period of time a company can
+tolerate lost data being unrecoverable between backups.
+43. B. The correct answer is life. Natural disasters and intentional man-made attacks can
+jeopardize the lives of employees. These attacks could include severe weather events, arson
+and other fires, and terrorist attacks.
+Option A is incorrect. This type of impact could jeopardize the personal safety of employees and customers.
+Option C is incorrect. This type of impact could cause monetary damages to a company,
+not jeopardize the life of employees and customers.
+Option D is incorrect. This type of impact could negatively impact the image the company
+has in its community.
+44. B. A script kiddie is an immature hacker with little knowledge about exploits. The typical script kiddie will use existing and well-known techniques and scripts to search for and
+exploit weaknesses in a computer system.
+Answer A is incorrect. Man-in-the-middle is an attack option; an attacker captures and
+replays network data between two parties without their knowledge.
+Option C is incorrect. White-hat hackers attempt to break into a protected network. The
+skills are used to improve security of a network by revealing vulnerabilities and mitigating
+them before malicious attackers discover them.
+Option D is incorrect. A hacktivist performs hacktivism. This is the act of hacking into a
+computer system for a politically or socially motivated purpose.
+45. B. The correct answer is users. The company’s standard employees are their first line of
+defense. Users receive general cybersecurity awareness training.
+Option A is incorrect. Based on the user’s job role in the organization, different titles will
+receive different types of training. Data owners usually receive training on how to manage
+sensitive information.
+Option C is incorrect. System administrators usually receive training on how to configure
+and maintain certain systems.
+Option D is incorrect. System owners usually receive training on how to manage certain
+systems.
+46. B. Full-disk encryption will protect the data that is not currently being accessed should
+the hard drive be compromised. Full-disk encryption will prevent an unauthorized individual from reading the data on the hard drive.
+Option A is incorrect. Biometrics will not protect data stored on a storage device not in
+use, as an attacker can steal the storage device and retrieve the clear text data without the
+need of biometric authentication.
+Option C is incorrect. A host intrusion prevention system (HIPS) is used to monitor a client computer for malicious activity and performs an action based on an implemented rule.
+This will not protect data stored on a storage device should it be stolen.
+Option D is incorrect. A host intrusion detection system (HIDS) is used to monitor a client
+computer for malicious activity. An HIDS would not protect the data if the storage device
+is stolen.
+47. B. Qualitative risk analysis uses descriptions and words to measure the amount of impact
+of risk. A weakness of qualitative risk analysis involves sometimes subjective and untestable methodology.
+Options A, C, and D are incorrect. These statements describe quantitative risk analysis.
+48. A. A stateful firewall distinguishes valid packets for different types of connections. Packets that match a known active connection will be allowed to pass through the firewall.
+Option B is incorrect. A stateless firewall evaluates current packets and does not keep
+track of the state of network connections.
+Option C is incorrect. An application firewall scans, monitors, and controls network
+access and operations to and by an application or service. It makes it possible to control
+and manage the processes of an application or service from an external network to an
+internal network.
+Option D is incorrect. A packet filter firewall controls access to a network by watching
+outgoing and incoming packets. Based on the source and destination IP addresses, protocols, and ports, the firewall will allow or deny access to desired network.
+49. A, C. The correct answers are fingerprint and home address. This data is often used to
+distinguish an individual identity as per the personally identifiable information definition
+used by NIST.
+Option B is incorrect. The MAC address is used to identify a device that connects to a network. Anyone can use a particular device without being personally identified.
+Option D is incorrect. Gender alone is less often used to characterize an individual’s identity. When combined with a standalone PII element, gender can be used to identify an
+individual.
+50. B. The correct answer is to remotely wipe the mobile device. This action will prevent sensitive data from being accessed by an unauthorized person.
+Option A is incorrect. Push notification is a message that pops up on a mobile device. It
+can provide convenience and value to app users. Users can receive important information
+ranging from sports scores, new updates, flight status, to weather reports.
+Option C is incorrect. Screen lock requires the user to perform a specific action and will
+not be able to lock the screen if they don’t have possession of the mobile device.
+Option D is incorrect. Geofencing defines a virtual boundary in a geographical area and
+can generate alerts based on defined coordinates of the geographical area.
+51. B. The correct answer is full and differential. Full backup is considered the most basic
+type as it copies all of the files. Differential backup copies all the files that have changed
+since the last full backup.
+Option A is incorrect. Full backup is considered the most basic type because it copies all
+of the files. Incremental backup copies only the files that have changed since the last full or
+incremental backup.
+Option C is incorrect. Snapshots copy the entire architectural instance of a system. This
+process is also referred to as image backup.
+Option D is incorrect. Full backup is considered the most basic type because it copies all of
+the files.
+52. A. An IPv6 address is a 128-bit address that uses hexadecimal values (0–9 and A–F).
+Option B is incorrect. IPv4 is a 32-bit address that uses decimal values between 0 and 255.
+Option C is incorrect. A MAC address is a physical address of a device that connects to a
+network. It is made up of six pairs of hexadecimal values.
+Option D is incorrect. Automatic Private IP Addressing is a self-assigning address when no
+DHCP server is available or any other automatic method for assigning IP addresses.
+53. D. Bluejacking is the act of sending unsolicited messages from one Bluetooth device to
+another Bluetooth device such as smartphones, tablets, and laptop computers.
+Option A is incorrect. Jamming can compromise a wireless network denying service to
+authorized users by overwhelming frequencies of illegitimate traffic.
+Option B is incorrect. Bluesnarfing is the theft of information from a Bluetooth enabled
+device through a Bluetooth connection.
+Option C is incorrect. Brute force is a trial and error method that involves guessing all
+possible passwords and passphrases until the correct one is discovered.
+54. A. RSA is an asymmetric algorithm that uses private and public keys to encrypt and
+decrypt data.
+Option B is incorrect. Data Encryption Standard (DES) is a symmetric key algorithm that
+uses the same key to encrypt and decrypt data.
+Option C is incorrect. MD5 is a 128-bit hashing algorithm.
+Option D is incorrect. SHA is known as a hashing algorithm. Hashing transforms a string
+of characters into a key that represents the original string. This is also known as a one-way
+encryption because the hash cannot be decrypted to reveal the original string.
+55. A. Automatically encrypting outgoing emails will protect the company’s sensitive email
+that may contain personally identifiable information. Should the email be intercepted, the
+attacker wouldn’t be able to read the information contained in the email.
+Options B and D are incorrect. Monitoring all outgoing and incoming emails will not
+protect the company’s sensitive information. When the administrator receives a notice the
+email was compromised, it’s too late.
+Option C is incorrect. Automatically encrypting incoming emails doesn’t help secure the
+company’s sensitive information since this information is leaving the network, not entering
+the network.
+56. B. Clean desk policy ensures that all sensitive/confidential documents are removed from
+an end-user workstation and locked up when the documents are not in use.
+Option A is incorrect. Separation of duties is a concept of having more than one person
+required to complete a task.
+Option C is incorrect. A job rotation policy is the practice of moving employees between
+different tasks to promote experience and variety.
+Option D is incorrect. A privacy policy is a policy that describes the ways a party gathers,
+uses, discloses, and manages a customer’s or client’s data.
+57. A. The screen lock option can be enabled to prevent an unauthorized person from viewing
+the data on a device should the owner leave it unattended. This option can be configured
+to enable within seconds to minutes if device is unattended.
+Option B is incorrect. Push notification is a message that pops up on a mobile device. It
+can provide convenience and value to app users. Users can receive important information
+ranging from sports scores, new updates, flight status, to weather reports.
+Option C is incorrect. Remote wipe is an action that will prevent sensitive data from being
+accessed by an unauthorized person by resetting the device to its default state.
+Option D is incorrect. Full device encryption encodes all of the user’s data on a mobile
+device by using an encrypted key.
+58. A. Biometrics are a person’s physical characteristics, such as a fingerprint, retina, hand
+geometry, and voice.
+Option B is incorrect. A proximity card is a contactless smartcard that is held near an electronic reader to grant access to a particular area.
+Option C is incorrect. Least privilege gives users the lowest level of rights so they can do
+their job to limit the potential chance of security breach.
+Option D is incorrect. Group Policy is used by network administrators in a Microsoft
+Active Directory to implement certain configurations for users and computers.
+59. A. A virtual private network (VPN) creates an encrypted connection between a remote client and a private network over an insecure network such as the Internet.
+Option B is incorrect. Wireless LAN (WLAN) allows a mobile user to connect to a local
+area network (LAN) using the 802.11 wireless standard.
+Option C is incorrect. Network Address Translation (NAT) is a function in a router that
+translates the private IP address to the public IP address, and vice versa. A NAT will hide
+the private IP address from the Internet world and also is a solution for the limited IPv4
+addresses available.
+Option D is incorrect. Ad hoc is composed of devices connected and communicating with
+each other directly.
+60. B. A cross-site request forgery attack occurs when an attacker tricks a user into performing unwanted actions on a website the user is currently authenticated to.
+Option A is incorrect. A replay attack occurs when legitimate network transmission is
+captured by an attacker and then is maliciously retransmitted to trick the receiver into
+unauthorized operations.
+Option C is incorrect. Cross-site scripting enables attackers to insert client-side script into
+a webpage that other users can view.
+Option D is incorrect. Buffer overflow attack occurs when a program attempts to place
+more data in buffer (memory) than it can hold. This action can corrupt data, crash the
+program, or execute malicious code.
+61. C. The correct answer is mandatory access control (MAC). Access is controlled by comparing security labels with security clearances such as Confidential, Secret, and Top
+Secret.
+Option A is incorrect. Role-based access control (RBAC) controls access based on the roles
+the users have within the system and on rules stating the access that is allowed for the
+users in a given role.
+Option B is incorrect. Discretionary access control (DAC) controls access based on the
+object’s owner policy.
+Option D is incorrect. Attribute-based access control (ABAC) controls access on three
+types of attributes: the user attributes, current environmental conditions, and accessed
+application or system attributes.
+62. B. Virtualization allows the creation of virtual resources such as a server operating system. Multiple operating systems can run on one machine by sharing the resources such as
+RAM, hard drive, and CPU.
+Option A is incorrect. Infrastructure as a Service (IaaS) is a cloud computing concept that
+provides computing resources over the Internet.
+Option C is incorrect. Software as a Service (SaaS) is a concept that distributes software to
+customers over the Internet.
+Option D is incorrect. A public cloud is a cloud computing model that provides service to
+the public over the Internet.
+63. A, C. MD5 and SHA have known cases of collisions.
+Options B, D, and E are incorrect. There are no known collisions with AES, SHA-256,
+and RSA.
+64. C. An extranet will give customers, vendors, suppliers, and other business access to a
+controlled private network while preventing them from accessing the company’s entire
+network.
+Option A is incorrect. An intranet is a private network found within a company accessed
+from within the LAN.
+Option B is incorrect. The Internet is a global network of computers and devices that can
+communicate with anyone or any device anywhere in the world.
+Option D is incorrect. A honeynet is a collection of honeypots. A honeypot is a system that
+is set up with vulnerabilities to entice an attacker so as to view their activity and methods
+for research purposes.
+65. D. A property return form properly records all equipment, keys, and badges that must be
+surrendered to the company when the employee leaves the company.
+Option A is incorrect. Job rotation is a policy that describes the practice of moving
+employees between different tasks to promote experience and variety.
+Option B is incorrect. An NDA (nondisclosure agreement) protects sensitive and intellectual data from getting into the wrong hands.
+Option C is incorrect. Background checks is a process that is performed when a potential
+employee is considered for hire.
+66. D. Password Authentication Protocol (PAP) is an authentication protocol that sends the
+username and password as plain text to the authentication server.
+Option A is incorrect. TACACS+ is a protocol developed by Cisco and uses TCP for
+authentication, authorization, and accounting services.
+Option B is incorrect. Challenge-Handshake Authentication Protocol (CHAP) validates
+the identity of remote clients using a three-way handshake.
+Option C is incorrect. NTLM authenticates the client and server using a challengeresponse process that is made up of three messages.
+67. B, D. BCRYPT and PBKDF2 use key stretching to reduce brute-force attacks against vulnerabilities of encrypted keys. Both are considered password hashing functions.
+Option A is incorrect. ROT13 is an encrypting method by replacing each letter of the
+alphabet with the corresponding letter of the second half of the alphabet. A becomes N, B
+becomes O, and so on.
+Option C is incorrect. RIPEMD is a cryptographic hashing function based on MD4 and
+does not offer adequate protection.
+68. C. The correct answer is to reduce the signal strength for indoor coverage only. This
+action will prevent potential attackers from accessing the wireless access point and possibly compromising the users currently connected. Having the signal limited inside the business will help determine who is possibly connected.
+Option A is incorrect. The antenna type determines if the signal transmits in a 360-degree
+direction (omnidirectional) or in a direction between 80 and 120 degrees (directional).
+Option B is incorrect. Disabling the SSID broadcast will prevent the users from seeing the
+wireless access point (WAP). The users would be required to enter the name of the WAP
+and this will not prevent the signal from extending into the parking lot.
+Option D is incorrect. Enabling MAC filtering will not prevent the signal from extending
+into the parking lot. MAC filtering controls who is permitted or prohibited on the network.
+69. D. Least privilege gives users the lowest level of rights so they can do their job to limit the
+potential chance of security breach.
+Option A is incorrect. Job rotation is the practice of rotating employees who are assigned
+jobs within their employment to promote flexibility and keep employees interested in their
+jobs.
+Option B is incorrect. Time-of-day restriction is a form of logical access control where specific applications or systems are restricted access outside of specific hours.
+Option C is incorrect. Separation of duties is a control where error and fraud are prevented
+by having at least two employees responsible for separate parts of a task.
+70. D. Hashing transforms a string of characters into a key that represents the original string.
+When the string of characters is transformed and compared to the original hash, it will
+identify whether the string has been modified.
+Option A is incorrect. Key stretching is a technique to make a weak key stronger against
+brute-force attacks and increase the time the attacker must spend to guess the result.
+Option B is incorrect. Steganography is the practice of hiding a message such as a file
+within a picture.
+Option C is incorrect. Key exchange is the practice of exchanging cryptographic keys
+between two parties.
+71. C. A certificate revocation list (CRL) is a list of certificates that were revoked by a CA
+before their expiration date. The certificates listed in the CRL should not be considered
+trusted.
+Option A is incorrect. An intermediate certificate authority (CA) issues certificates to
+verify a digital device within a network or on the Internet.
+Option B is incorrect. A certificate signing request (CSR) is an encrypted message sent to a
+CA and validates the information that the CA requires in order to issue certificates.
+Option D is incorrect. Key escrow is a location in where keys can be gained by authorized
+users to decrypt encrypted data.
+72. C. The user is using an intimidation tactic to get the employee to take action quickly.
+Sometimes intimidation tactics can be combined with other principles such as urgency.
+Option A is incorrect. Scarcity is a tactic that gets people to make quick decisions without
+thinking through the decision. An example is when people are often encouraged to take
+action when they think there is a limited supply of a product.
+Option B is incorrect. Consensus is a tactic to get people to like what other people like.
+Option D is incorrect. Authority is a tactic to get people to comply when a person of
+authority says to do so. The user is not in an authoritative position. The user is calling on
+behalf of his manager.
+73. B, C. The correct answers are full-device encryption and screen locks. Full-device encryption encodes all the user’s data on a mobile device by using an encrypted key, and enabling
+screen lock prevents an unauthorized person from viewing the data on a device should the
+owner leave it unattended.
+Option A is incorrect. Geofencing defines a virtual boundary in a geographical area and
+can generate alerts based on defined coordinates of the geographical area.
+Option D is incorrect. Push notification is a message that pops up on a mobile device. It
+can provide convenience and value to app users. Users can receive important information
+ranging from sports scores, new updates, flight status, to weather reports.
+74. B. The correct answer is ifconfig. This command is used on a Linux OS to obtain a
+MAC address of the computer for which the OS is installed.
+Option A is incorrect. The ipconfig command is used on a Windows OS to obtain a
+MAC address of the computer for which the OS is installed.
+Option C is incorrect. tracert is a Windows command used to trace the pathway a packet
+takes on an IP network from the source to the destination.
+Option D is incorrect. ping is a command used to test the connectivity between two
+devices. ping uses an ICMP to receive an echo reply to know if the device is currently
+running.
+75. D. Account expiration policy will prevent the contracts from attempting to access the
+network after they leave. The provisioning team can set a date when the contract is set
+to leave, and the user will not be able to have access to systems within the company’s
+network.
+Option A is incorrect. Account disablement requires an administrator to manually disable
+the account. Should the administrator set a policy for failed logon attempts, this would
+disable the account. If the contractor can sign in without failed attempts, the disablement
+policy will not go into effect.
+Option B is incorrect. Account lockout policy is set if there are failed attempts to log into
+the system. If the contractor can sign in without failed attempts, the lockout policy will
+not go into effect.
+Option C is incorrect. Enforce password history is a policy that requires users to use a
+certain number of unique passwords before they can reuse a password. This policy will not
+help prevent contractors from accessing the company’s network.
+76. A. Password complexity is a rule that demands inclusion of three of the four following
+character sets: lowercase letters, uppercase letters, numerals, and special characters.
+Option B is incorrect. Password length determines the minimum amount of alphanumeric
+characters a password must have. This will not lock out a hacker from potentially guessing
+a username and password.
+Option C is incorrect. Password history determines the number of new passwords a user
+must use before an old password can be used again.
+Option D is incorrect. Group Policy is used by network administrators in a Microsoft
+Active Directory to implement certain configurations for users and computers.
+77. D. CYOD (Choose Your Own Device) allows an employee to choose from a limited number of devices. The business can also limit the usage of the device to work activities only.
+Option A is incorrect. Data loss prevention (DLP) prevents sensitive data from leaving a
+company’s network by method of scanning.
+Option B is incorrect. Company-owned, personally enabled (COPE) allows companies
+to provide employees with devices. The company maintains ownership of these devices,
+and frequently monitors and controls their activity to a larger scale. With COPE devices,
+employees can access social media sites, email, and personal calls.
+Option C is incorrect. Bring Your Own Device (BYOD) allows an employee to use their
+own personal device, such as a smartphone or laptop, and connect to the company’s
+network.
+78. C. Multifactor authentication requires more than one method of authentication from independent credentials: something you know, something you have, and something you are.
+Option A is incorrect. Identification is used to identify a user within the system. It allows
+each user to distinguish itself from other users.
+Option B is incorrect. Single authentication is one method of authentication from independent credentials: something you know, something you have, and something you are.
+Option D is incorrect. Transitive trust is a two-way relationship that is created between
+parent and child domains in a Microsoft Active Directory forest. When a child domain is
+created, it will share the resources with its parent domain automatically. This allows an
+authenticated user to access resources in both the child and parent domains.
+79. B, D. The correct answers are email address and fingerprint. Personally identifiable information (PII) is any information that can be used to distinguish or trace an individual’s identity.
+Options A and C are incorrect. Date of birth and race cannot identify an individual on its
+own because those items are considered general information.
+80. A. The correct answer is a false positive. When legitimate data enters a system and the
+host intrusion prevention system (HIPS) mistakenly marks it as malicious, it is referred to
+as a false positive.
+Option B is incorrect. False negative is the opposite of false positive, where an HIPS allows
+malicious data into your network by marking it as legitimate activity.
+Option C is incorrect. A credentialed vulnerability scan consists of a scanning computer
+with an account on the computer being scanned so that the scanner can perform a deeper
+check for problems not seen from the network.
+Option D is incorrect. A noncredentialed vulnerability scan provides a quick view of vulnerabilities by looking at network services that are exposed by the host.
+81. D. The correct answer is SNMPv3. Simple Network Management Protocol (SNMP) collects and organizes information about managed devices on an IP network. SNMPv3 is the
+newest version and its primary feature is enhanced security.
+Option A is incorrect. Secure Shell (SSH) allows users to securely log on to a remote computer and perform the same actions as though they were at the local computer.
+Option B is incorrect. SNMP is the original version and doesn’t provide security.
+Option C is incorrect. Simple Mail Transfer Protocol (SMTP) is the standard protocol for
+email communication over the Internet.
+82. A. A Time-Based One-Time Password (TOTP) is a temporary passcode that is generated
+for the use of authenticating to a computer system and the passcode is valid for a certain
+amount of time—for example, 30 seconds.
+Option B is incorrect. An HMAC-Based One-Time Password (HOTP) is a temporary passcode that is generated for the use of authenticating to a computer system and the passcode
+valid until it is used by the user.
+Option C is incorrect. A smartcard is a hardware token, usually the size of a credit card,
+with an embedded chip that connects to a reader.
+Option D is incorrect. A proximity card is a contactless smartcard that is held near an
+electronic reader to grant access to a particular area.
+83. C. Kerberos is an authentication protocol that uses tickets to allow access to resources
+within the network.
+Option A is incorrect. Remote Authentication Dial-In User Service (RADIUS) enables
+remote access servers to communicate with a central server. This central server is used to
+authenticate and authorize users to access network services and resources.
+Option B is incorrect. TACACS+ is a protocol developed by Cisco and uses TCP for
+authentication, authorization, and accounting services.
+Option D is incorrect. Security Assertion Markup Language (SAML) is an XML standard
+that allows a user to log in once to an affiliate website and that supports Single Sign-On
+(SSO) authentication.
+84. C. The correct answer is C. This is not a vulnerability, because most systems will not
+automatically shut down when they have reached their end-of-life period.
+Options A, B, and D are incorrect. These are a vulnerability to end-of-life systems. When
+a system reaches its end-of-life period, attackers can exploit it since the company will no
+longer support the system by, for example, sending patches to further protect it.
+85. B, C. A worm self-replicates itself over the network to consume bandwidth and a virus
+needs to be attached to a file to be replicated over the network.
+Options A and D are incorrect. A worm is a stand-alone malware that does not need to copy
+itself to a file. A virus requires a file to be attached and requires someone to knowingly or
+unknowingly spread the malware without the knowledge or permission of the user.
+86. B. An evil twin is a fake access point that looks like a legitimate one. The attacker will
+use the same network name and transmit beacons to get a user to connect. This allows the
+attacker to gain personal information without the end user knowing.
+Option A is incorrect. A rogue access point is a wireless access point that has been
+installed on a network without the user’s knowledge. It receives beacons transmitted by
+legitimate access points within the company.
+Option C is incorrect. Bluejacking is the act of sending unsolicited messages from one
+Bluetooth device to another Bluetooth device, such as smartphones, tablets, and laptop
+computers.
+Option D is incorrect. Bluesnarfing is the theft of information from a Bluetooth-enabled
+device through a Bluetooth connection.
+87. A. WPA2 with CCMP provides data confidentiality and authentication. CCMP uses a
+128-bit key, which is considered secured against attacks.
+Option B is incorrect. Wired Equivalent Privacy (WEP) is a security protocol for WLANs
+and is known to have vulnerabilities that make it prone to attacks.
+Option C is incorrect. WPA with CCMP does not exist. WPA adopted protocol TKIP.
+Option D is incorrect. WiFi Protected Setup (WPS) uses an 8-digit PIN and is vulnerable
+to a brute-force attack.
+88. C. Business impact analysis (BIA) usually identifies costs linked to failures. These costs
+may include equipment replacement, salaries paid to employees to catch up with loss of
+work, and loss of profits.
+Option A is incorrect. A security audit tests how effective security policies are in helping
+protect company’s assets, such as performing security vulnerability scans.
+Option B is incorrect. Asset identification identifies system assets based on known information about the asset. The policy usually describes the purpose of the asset and methods
+for identifying assets.
+Option D is incorrect. A disaster recovery plan (DRP) is a document that describes the
+steps for responding to an unplanned incident. Tony’s job is to determine what result
+would occur should the SQL server go down. A DRP is a plan when a system component
+actually fails.
+89. A. Cloud storage offers protection from cyberattacks since the data is backed up. Should
+the data become corrupted, the hospital can recover the data from cloud storage.
+Option B is incorrect. Wiping is the action of making data that is stored on a mobile
+device inaccessible.
+Option C is incorrect. A security incident and event management (SIEM) identifies, monitors, records, and analyzes any security event or incident in real time.
+Option D is incorrect. Supervisory Control and Data Acquisition (SCADA) is used in
+power plants to gather and analyze data information in real time from a remote location
+to control the equipment.
+90. A. A logic bomb is a malicious code that is inserted intentionally and designed to execute
+under certain circumstances. It is designed to display a false message, delete or corrupt
+data, or have other unwanted effects.
+Option B is incorrect. A Remote Access Trojan (RAT) is a malware program that allows
+administrative control over a system via a back door.
+Option C is incorrect. Spyware is installed on a computer system without the user’s knowledge. This is considered tracking software, and it can collect keystrokes and use cookies to
+track website the user visits.
+Option D is incorrect. Ransomware is malware that prevents and limits users from accessing their computer. This is achieved by locking the system’s screen or encrypting the user’s
+files unless a ransom is paid.
+91. A. A hacktivist’s purpose is to perform hacktivism. This is the act of hacking into a computer system for a politically or socially motivated purpose.
+Option B is incorrect. An insider is someone who threatens a company’s security from
+within the company.
+Option C is incorrect. A script kiddie is an immature hacker. The typical script kiddie will
+use existing and well-known techniques and scripts to search for and exploit weaknesses
+in a computer system.
+Option D is incorrect. An evil twin is a rouge wireless access point that impersonates an
+authentic WiFi access point. The purpose of an evil twin is to have the user connect to the
+rouge access point to collect their personal information without the user’s knowledge.
+92. C. Vishing is a type of social engineering attack that tries to trick a person into disclosing
+secure information over the phone or a Voice over IP (VoIP) call.
+Option A is incorrect. Whaling is a form of phishing attack designed to target the head of
+a company.
+Option B is incorrect. Phishing is the practice of sending emails claiming to be from a
+reputable company to individuals in order to persuade them to disclose their personal
+information by clicking a fraudulent link.
+Option D is incorrect. Spear phishing is a form of phishing attack designed to target individuals to disclose confidential information.
+93. A, D, E. The correct answers are third-party app store, rooting, and sideloading. Restricting these options will increase the security of a device. Third-party app stores can carry
+apps that may contain malware. Companies will allow certain apps to be downloaded.
+Rooting is the process of gaining privileged control over a device. For a user with root
+access, anything is possible, such as installing new applications, uninstalling system applications, and revoking existing permissions. Sideloading is installing applications on a
+mobile device without using an official distributed scheme.
+Option B is incorrect. Biometrics is a person’s physical characteristics, such as a fingerprint, retina, hand geometry, and voice.
+Option C is incorrect. Content management systems are used to create and manage digital
+content for enterprises and web content.
+94. A, C. The correct answers are IPSec and SSL. IPSec protects IP packets that are
+exchanged between the remote network and an IPSec gateway, which is located on the
+edge of a private network. Secure Socket Layer (SSL) usually supplies a secure access to a
+single application.
+Option B is incorrect. Data Encryption Standard (DES) is a deprecated symmetric-key
+data encryption method.
+Option D is incorrect. Secure File Transfer Protocol (SFTP) uses SSH to transfer files to a
+remote systems and requires the client to authenticate to the remote server.
+95. D. Public Key Infrastructure (PKI) distributes and identifies public keys to users and computers securely over a network. It also verifies the identity of the owner of the public key.
+Option A is incorrect. WiFi Protected Access (WPA) is a security protocol for WLANs.
+They are known to have vulnerabilities and are prone to attacks.
+Option B is incorrect. Object identifiers are unique numeric value to identify an object to
+avoid conflicts with another object when different directories are combined.
+Option C is incorrect. PFX is a file extension for an encrypted security file that stores
+secure certificates that are used for authentication.
+96. D. Transitive trust is a two-way relationship that is created between parent and child
+domains in a Microsoft Active Directory forest. When a child domain is created, it will
+share the resources with its parent domain automatically. This allows an authenticated
+user to access resources in both the child and parent domains.
+Option A is incorrect. Multifactor authentication requires more than one method of
+authentication from independent credentials: something you know, something you have,
+and something you are.
+Option B is incorrect. Federation refers to a group of network providers that agree on a
+standard of operation in a collective manner.
+Option C is incorrect. Single sign-on (SSO) is the ability to permit a user to use one set of
+credentials to log in and access multiple resources.
+97. C. Identification is used to identify a user within the system. It allows each user to distinguish itself from other users.
+Option A is incorrect. Authorization determines the user’s privilege or access level to a
+resource such as computer programs, files and data.
+Option B is incorrect. Authentication confirms a user’s identity from the credentials provided.
+Option D is incorrect. Accounting is the process of tracking a user’s activities within a network. These activities include services accessed, amount of data accessed or transferred,
+and login for authentication and authorization.
+98. B. Steganography is the practice of hiding a message such as a file within a picture.
+Option A is incorrect. Data sanitization is the act of permanently removing data stored on
+a memory device.
+Option C is incorrect. Tracert is a Window’s command-line utility that displays the route
+between your computer and the specified destination through Internet.
+Option D is incorrect. Network mapping discovers and displays the physical and virtual
+connectivity within a network.
+99. B, D. The correct answers are static ARP entries and port security. Static ARP entry is the
+process of assigning a MAC address to an IP address to prevent an attacker from poisoning the cache. Disabling unused physical ports will prevent an attacker from plugging in
+their laptop and performing an ARP poisoning.
+Option A is incorrect. An antivirus is designed to prevent, detect, and remove malware
+infections from a user’s computer.
+Option C is incorrect. Patching management is the process of collecting, testing, and
+installing patches to computers in a local network.
+100. D. Implicit deny is placed at the bottom of the list. If traffic goes through the ACL list of
+rules and isn’t explicitly denied or allowed, implicit deny will deny the traffic as it is the
+last rule. In other words, if traffic is not explicitly allowed within an access list, then by
+default it is denied.
+Option A is incorrect. USB blocking is the act of prohibiting a user from inserting a USB
+device and possibly transferring files from a PC or infecting a network with malware from
+the USB device.
+Option B is incorrect. Time synchronization ensures all devices have the same time. This
+is important since all aspects of managing, securing, and debugging networks are determined when events happen.
+Option C is incorrect. MAC filtering is the act of defining a list of devices that are permitted or prohibited on your WiFi network.

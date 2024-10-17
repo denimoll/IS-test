@@ -1,0 +1,1057 @@
+1. C. Adverse actions are administrative actions that are placed against employees. These
+actions include letters of reprimand, leave with or without pay, or termination. Along with
+these actions the policy should include actions such as disabling user accounts and revoking privileges, such as access to facilities to prevent data from being compromised. When
+an employee has been placed with administrative actions, the company shouldn’t worry
+about vindictive actions they will take against the company.
+Option A is incorrect. Mandatory vacation policy is used by companies to detect fraud by
+having a second person, familiar with the duties, help discover any illicit activities.
+Option B is incorrect. Exit interviews give the company an opportunity to find problems
+within departments. They also allow HR to identify any knowledge that is about to be
+lost, such as information the employee knows that is not written down anywhere.
+Option D is incorrect. Onboarding is the process of adding an employee to a company’s
+identity and access management system.
+2. C. Change management is the process of documenting all changes made to a company’s
+network and computers. Avoiding making changes at the same time makes tracking any
+problems that can occur much simpler.
+Option A is incorrect. Due diligence is the process of investigation and verification of the
+accuracy of a particular act.
+Option B is incorrect. Acceptable use is a policy stating what a user may or may not have
+access to on a company’s network or the Internet.
+Option D is incorrect. Due care is the effort made by a reasonable party to avoid harm to
+another. It is the level of judgment, care, determination, and activity a person would reasonably expect to do under certain conditions.
+3. A. The main reason to avoid penetration tests is answer A. It’s advised to perform vulnerability test often rather than penetration tests. Pentests can cause disruption to businesses.
+This is the main focus of the question.
+Options B, C, and D are incorrect. These options are positive reasons why penetration
+testing should be performed.
+4. A. Acceptable use policy is a document stating what a user may or may not have access to
+on a company’s network or the Internet.
+Option B is incorrect. Clean desk policy ensures that all sensitive/confidential documents
+are removed from an end-user workstation and locked up when the documents are not in
+use.
+Option C is incorrect. Mandatory vacation policy is used by companies to detect fraud by
+having a second person, familiar with the duties, help discover any illicit activities.
+Option D is incorrect. Job rotation is a policy that describes the practice of moving
+employees between different tasks to promote experience and variety.
+5. D. Encrypting the backup data before storing it off-site ensures data confidentiality.
+Option A is incorrect. Generating file hashes will ensure integrity; files have not changed
+or been tampered with.
+Option B is incorrect. Scanning the backup data for viruses is a task that’s performed
+before the data is restored.
+Option C is incorrect. Chain of custody refers to the chronological documentation showing the
+custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+6. C. A hot site contains all of the alternate computer and telecommunication equipment
+needed in a disaster. Testing this environment is simple.
+Option A is incorrect. A warm site is harder to test because it contains the equipment but
+no employees and company data.
+Option B is incorrect. A cold site is the hardest to test because it includes a basic room
+with limited equipment.
+Option D is incorrect. A medium site is not something referred to as a recovery site.
+7. B. Switches forwards data only to the devices that need to receive it, so when capturing
+network traffic the computer will see only broadcast and multicast packets along with
+traffic being sent and received to the connected computer.
+Option A is incorrect. Ethernet switches in an isolated broadcast domain will send broadcast packets to all computers that are part of the domain. The entire switch can be a
+broadcast domain or a certain number of ports can be grouped into a VLAN (virtual local
+area network).
+Option C is incorrect. Promiscuous mode enabled on the NIC will capture all traffic
+within the network, but this was not the problem in this scenario.
+Option D is incorrect. Promiscuous mode disabled on the NIC will not capture all traffic
+within the network but will only broadcast and multicast packets along with traffic being
+sent and received from the computer. The scenario focused on the Ethernet switch, not the
+laptop’s NIC.
+8. A. A snapshot is the state of a system at a particular point in time. It’s also known as a
+system image and is not a step in the incident response process.
+Options B, C, and D are incorrect. Preparation, recovery, and containment are steps of the
+incident response process.
+9. B. Technical controls are used to restrict data access and operating system components,
+security applications, network devices, and encryption techniques. Logical controls use
+authentication mechanisms.
+Option A is incorrect. Access controls can be part of technical controls; however, it is not
+a term that is synonymous with technical controls.
+Option C is incorrect. Detective controls detect intrusion as it happens and uncovers a
+violation.
+Option D is incorrect. Preventive controls avoid a security breach or an interruption of
+critical services before they can happen.
+10. A. Companies will use mandatory vacations policies to detect fraud by having a second
+person, familiar with the duties, help discover any illicit activities.
+Option B is incorrect. Clean desk policy ensures that all sensitive/confidential documents are
+removed from an end user workstation and locked up when the documents are not in use.
+Option C is incorrect. A nondisclosure agreement (NDA) protects sensitive and intellectual
+data from getting into the wrong hands.
+Option D is incorrect. Continuing education is the process of training adult learners in a
+broad list of post-secondary learning activities and programs. Companies will use continuing education in training their employees on the new threats and also reiterating current
+policies and their importance.
+11. A. Privacy impact assessment (PIA) is a measurement of how a company can keep private
+information safe while the company is in possession of PII.
+Option B is incorrect. Business impact analysis (BIA) determines the potential effects of an
+interruption to a company’s operations as a result of a disaster or emergency.
+Option C is incorrect. Recovery time objective (RTO) is the duration of time in which a
+company’s process must be restored after a disaster.
+Option D is incorrect. A single point-of-failure (SPF) is a component that will stop the
+entire operations of a system to work if it fails.
+12. B. A business continuity plan is a policy that describes and approves the company’s overall
+business continuity strategy. This also includes identifying critical systems to protect.
+Option A is incorrect. A disaster recovery plan (DRP) is a policy that describes and
+approves the company’s disaster recovery strategy. This plan will help the company recover
+from an incident with minimal loss of time and money.
+Option C is incorrect. An IT contingency plan is a component of the BCP. It specifies alternate IT procedures for a company to switch over to when it’s faced with a disruption of
+service leading to a disaster for the company.
+Option D is incorrect. A succession plan ensures all key company personnel have at least
+one designated backup who can perform the critical functions when required.
+13. B. Locking cabinets and drawers is the best solution because the employee would be the
+only one with a key.
+Option A is incorrect. Multiple people may have keys to a department door lock.
+Option C is incorrect. A proximity card is a contactless smartcard that is held near an
+electronic reader to grant access to a particular area.
+Option D is incorrect. Onboarding is the process of adding an employee to a company’s
+identity and access management system.
+14. D. The tabletop exercise test is considered a cost-effective and efficient way to identify
+areas of overlaps in a plan before implementing a test.
+Option A is incorrect. An after-action report examines a response to an incident or exercise and identifies its strengths that will be maintained and built on. Also, it helps recognize potential areas of improvement.
+Option B is incorrect. Failover is the continuous ability to automatically and flawlessly
+switch to a highly reliable backup. This can be activated in a redundant manner or in a
+standby operating mode should the primary server fail. The main purpose of failover is to
+provide availability of data or service to a user.
+Option C is incorrect. The eradication process involves removing and restoring affected
+systems by reimaging the system’s hard drive and installing patches.
+15. C. Fingerprints are considered PHI (Protected Health Information), according to HIPPA
+rules.
+Options A, B, and D are incorrect. These are classified as PII (Personally Identifiable Information), according to the NIST.
+16. D. Quantitative risk assessment is the process of assigning numerical values to the probability an event will occur and what the impact of the event will have.
+Option A is incorrect. Change management is the process of managing configuration
+changes made to a network.
+Option B is incorrect. Vulnerability assessment attempts to identify, quantify, and rank the
+weaknesses in a system.
+Option C is incorrect. Qualitative risk assessment is the process of ranking which risk
+poses the most danger such as low, medium, and high.
+17. B. Risk avoidance is a strategy to deflect threats in order to avoid the costly and disruptive
+consequences of a damaging event. It also attempts to minimize vulnerabilities that can
+pose a threat.
+Option A is incorrect. Risk transfer is the act of moving the risk to hosted providers who
+assume the responsibility for recovery and restoration or by acquiring insurance to cover
+the costs emerging from a risk.
+Option C is incorrect. Risk acceptance is a strategy of recognizing, identifying, and
+accepting a risk that is sufficiently unlikely or has limited impact that a corrective control
+is not warranted.
+Option D is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+18. D. A memorandum of understanding (MOU) is a type of agreement that is usually not
+legally binding. This agreement is intended to be mutually beneficial without involving
+courts or money.
+Option A is incorrect. A SLA (service level agreement) defines the level of service the customer expects from the service provider. The level of service definitions should be specific
+and measurable in each area.
+Option B is incorrect. A BPA (business partnership agreement) is a legal agreement
+between partners. It establishes the terms, conditions, and expectations of the relationship
+between the partners.
+Option C is incorrect. An ISA (interconnection security agreement) is an agreement
+that specifies the technical and security requirements of the interconnection between
+organizations.
+19. B. A SLA (service level agreement) defines the level of service the customer expects from
+the service provider. The level of service definitions should be specific and measurable in
+each area.
+Option A is incorrect. A MOU (memorandum of understanding) is a legal document that
+describes a mutual agreement between parties.
+Option C is incorrect. An ISA (interconnection security agreement) is an agreement
+that specifies the technical and security requirements of the interconnection between
+organizations.
+Option D is incorrect. A BPA (business partnership agreement) is a legal agreement
+between partners. It establishes the terms, conditions, and expectations of the relationship
+between the partners.
+20. A. The single loss expectancy (SLE) is the product of the value ($16,000) and the exposure
+factor (.35), or $5,600.
+Options B, C, and D are incorrect. These values do not represent the single loss
+expectancy.
+21. C. Antivirus is an example of a corrective control. A corrective control is designed to
+correct a situation.
+Option A is incorrect. An IDS (intrusion detection system) is a detective control because it
+detects security breaches.
+Option B is incorrect. An audit log is a detective control because it detects security
+breaches.
+Option D is incorrect. A router is a preventive control because it prevents security breaches
+with access control lists.
+22. A, C. A deterrent control is used to warn a potential attacker not to attack. Lighting
+added to the perimeter and warning signs such as a “no trespassing” sign are deterrent
+controls.
+Options B and D are incorrect. These are examples of detective controls. A detective
+control is designed to uncover a violation.
+23. D. Testing and training are preventative administrative controls. Administrative controls
+dictate how security policies should be executed to accomplish the company’s security goals.
+Option A is incorrect. Detective technical control uncovers a violation through technology.
+Option B is incorrect. Preventive technical control attempts to stop a violation through
+technology.
+Option C is incorrect. Detective administrative control uncovers a violation through policies, procedures, and guidelines.
+24. D. Eradication is the next step after containment.
+Options A, B, and C are incorrect. The correct steps of the incident response process are
+preparation, identification, containment, eradication, recovery, and lessons learned.
+25. A. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is
+sufficiently unlikely or has limited impact that a corrective control is not warranted.
+Option B is incorrect. Risk transfer is the act of moving the risk to hosted providers who
+assume the responsibility for recovery and restoration or by acquiring insurance to cover
+the costs emerging from a risk.
+Option C is incorrect. Risk avoidance is the removal of the vulnerability that can increase
+a particular risk so that it is avoided altogether.
+Option D is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+26. A. Taking screenshots gives an investigator a useful way to collect information on a
+computer screen. Screenshots can be acquired in many ways and allow the investigator to
+reproduce what happened on the screen.
+Option B is incorrect. The identification phase is part of an incident response process and
+deals with the discovery and determination of whether a deviation from normal operations
+within a company was an incident.
+Option C is incorrect. The tabletop exercise test is considered a cost-effective and efficient
+way to identify areas of overlaps in a plan before implementing a test.
+Option D is incorrect. Generating file hashes will ensure integrity and ensure that files
+have not changed or been tampered with.
+27. B. Storing backup data at an alternate site in another city will help protect the data if
+there were a complete disaster at the primary location. Storing backups outside of the
+original location is known as off-site backups. Also, the distance associated with an offsite backup can be a logistics challenge.
+Option A is incorrect. Storing backup data at an alternate location within the city may not
+be good if the area has to be evacuated.
+Option C is incorrect. Storing backup data in a safe at the company’s site may not be good
+should the primary location become completely destroyed.
+Option D is incorrect. Storing backup data at an employee’s home is never a good idea.
+28. C. Identifying systems that are considered a single point of failure is not a purpose of PTA.
+Options A, B, and D are incorrect. Privacy threshold analysis (PTA) can determine
+whether a program or system has privacy implications and whether additional privacy
+compliance documentation is required such as a privacy impact assessment (PIA).
+29. C. Purging removes all the data from a hard drive and the data cannot be rebuilt.
+Option A is incorrect. Destruction wouldn’t help the company sell the hard drive at the
+computer sale.
+Option B is incorrect. Shredding wouldn’t help the company sell the hard drive at the computer sale because it physically destroys the hard drive.
+Option D is incorrect. Formatting isn’t good enough to remove data because it can be
+recovered by third-party software. Formatting moves the pointer to the location the data
+resides.
+30. B. An acceptable use policy describes the limits and guidelines for users to make use of an
+organization’s physical and intellectual resources. This includes allowing or limiting the
+use of personal email during work hours.
+Option A is incorrect. A service level agreement (SLA) defines the level of service the customer expects from the service provider. The level of service definitions should be specific
+and measurable in each area.
+Option C is incorrect. An incident response plan provides instructions for detecting,
+responding to, and limiting the effects of an information security event.
+Option D is incorrect. Chain of custody refers to the chronological documentation showing the custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+31. C. After identifying the malware incident, the next step you would perform based on the
+incident response process is to contain the malware to further study the incident and prevent it from spreading across the network.
+Option A is incorrect. Recovery is performed after eradicating the malware.
+Option B is incorrect. Eradicating the malware is performed after you have contained the
+malware.
+Option D is incorrect. Identification has been performed when you discovered the
+malware.
+32. A. Onboarding is the process of adding an employee to a company’s identity and access
+management system.
+Option B is incorrect. Offboarding is the process of removing an employee from the
+company’s identity and access management system.
+Option C is incorrect. Adverse action is an official personnel action that is taken for
+disciplinary reasons.
+Option D is incorrect. Job rotation gives individuals the ability to see various parts of the
+organization and how it operates. It also eliminates the need for a company to rely on one
+individual for security expertise should the employee become disgruntled and decide to
+harm the company. Recovering from a disgruntled employee’s attack is easier when multiple employees understand the company’s security posture.
+33. D. An interconnection security agreement (ISA) is an agreement that specifies technical
+and security requirements for planning, establishing, maintaining, and disconnecting a
+secure connection between at least two companies.
+Option A is incorrect. A business partners agreement (BPA) is a written agreement that
+details what the relationship will be between business partners. This agreement will
+include the partner’s obligations toward the partnership. A BPA can help settle conflicts
+that arise within the partnership.
+Option B is incorrect. A memorandum of understanding (MOU) is an agreement of understanding between two or more parties signifying their purpose to work together toward a
+common goal. A MOU is less formal than an SLA and will not include monetary penalties.
+Option C is incorrect. A service level agreement (SLA) is an agreement between a company
+and a vendor that specifies performance expectations. Minimum uptime and maximum
+downtime levels are included in an SLA. Also included is a monetary penalty should the
+vendor not be able to meet the agreed expectations.
+34. A. A clean desk policy ensures that all sensitive/confidential documents are removed from
+an end-user workstation and locked up when the documents are not in use.
+Option B is incorrect. Background checks are performed when a potential employee is considered for hire.
+Option C is incorrect. Continuing education is the process of training adult learners in a
+broad list of postsecondary learning activities and programs. Companies will use continuing education in training their employees on the new threats and also reiterating current
+policies and their importance.
+Option D is incorrect. Job rotation policy is the practice of moving employees between different tasks to promote experience and variety.
+35. A. As users register for an account, they enter letters and numbers they are given on the
+web page before they can register. This is an example of a deterrent control as it prevents
+bots from registering and proves this is a real person.
+Option B is incorrect. Detective controls detect intrusion as it happens and uncovers a violation.
+Option C is incorrect. A compensating control is used to satisfy a requirement for a security measure that is too difficult or impractical to implement at the current time.
+Option D is incorrect. Degaussing is a method of removing data from a magnetic storage
+media by changing the magnetic field.
+36. D. Parking policy generally outlines parking provisions for employees and visitors. This
+includes the criteria and procedures for allocating parking spaces for employees.
+Option A is incorrect. An acceptable use policy describes the limits and guidelines for
+users to make use of an organization’s physical and intellectual resources. This includes
+allowing or limiting the use of personal email during work hours.
+Option B is incorrect. Social media policy defines how employees should use social
+media networks and applications such as Facebook, Twitter, LinkedIn, and others. It can
+adversely affect a company’s reputation.
+Option C is incorrect. Password policy defines the complexity of creating passwords. It
+should also define weak passwords and how users should protect password safety.
+37. C. Proprietary data is a form of confidential information, and if the information is
+revealed, it can have severe effects on the company’s competitive edge.
+Option A is incorrect. High is a generic label assigned to data internally that represents the
+amount of risk being exposed outside the company.
+Option B is incorrect. The top-secret label is often used within governmental systems
+where data and access may be granted or denied based on assigned categories.
+Option D is incorrect. Low is a generic label assigned to data internally that represents the
+amount of risk being exposed outside the company.
+38. B. Provide security user awareness training to all employees regarding the risk of using personal email through company computers. The ability to access personal email is a security risk
+because the company is unable to filter emails through the company’s Exchange server.
+Option A is incorrect. The company is unable to encrypt user’s email messages through
+services such as Yahoo Mail and Gmail. The encryption is performed by the company providing the email service.
+Option C is incorrect. Providing every user with their own device to access their personal email
+is not the best option as the next step. While employees use these devices within the company’s
+network, the company doesn’t have full control of what emails are entering the network.
+Option D is incorrect. The company may have some control of personal emails routing
+through the company’s Exchange server, but this is not the best next step after creating
+and approving the email use policy. The purpose of the email use policy is to limit the
+use of personal email because the company doesn’t have full control of what emails the
+employees are allowing into the network.
+39. C. Antivirus software is used to protect computer systems from malware and is not a
+physical security control.
+Options A, B, and D are incorrect. Physical controls are security measures put in place to
+reduce the risk of harm coming to a physical property. This includes protection of personnel, hardware, software, networks, and data from physical actions and events that could
+cause damage or loss.
+40. B. A disaster recovery plan (DRP) is a plan that helps a company recover from an incident
+with minimal loss of time and money. It prioritizes critical computer systems.
+Option A is incorrect. A single point of failure is a weakness in the design, or configuration of a system in which one fault or malfunction will cause the whole system to halt
+operating and would not be found within a DRP.
+Option C is incorrect. Exposure factor would be found within a risk assessment.
+Option D is incorrect. Asset value would be found within a risk assessment.
+41. A. Quantitative risk assessment is the process of assigning numerical values to the probability an event will occur and what the impact of the event will have.
+Option B is incorrect. Qualitative risk assessment is the process of ranking which risk
+poses the most danger such as low, medium, and high.
+Option C is incorrect. Business impact analysis is used to evaluate the possible effect a
+business can suffer should an interruption to critical system operations occur. This interruption could be as a result of an accident, emergency, or disaster.
+Option D is incorrect. Threat assessment is a process of identifying and categorizing different threats such as, environmental and manmade. It also attempts to identify the potential impact from the threats.
+42. D. A nondisclosure agreement (NDA) protects sensitive and intellectual data from getting
+into the wrong hands.
+Options A, B, and C are incorrect. An NDA is a legal contract between the company and
+third-party vendor to not disclose information per the agreement. Sending encrypted data
+can still be decrypted by the third-party vendor if they have the appropriate certificate but
+does not restrict access to the data. Violating an NDA would constitute unauthorized data
+sharing, and a violation of privileged user role-based awareness training has nothing to do
+with sharing proprietary information.
+43. A and C. FTP (File Transport Protocol) uses port 21 and Telnet uses port 23. These protocols are considered weak and are not recommended for use. They are susceptible to eavesdropping.
+Option B is incorrect. SMTP (Simple Mail Transport Protocol) uses port 25.
+Option D is incorrect. DNS (Domain Name System) uses port 53.
+44. A. Incremental backups are the quickest backup method but the slowest method to
+restore. Incremental backup backs up all new files and any files that have changed since
+the last full backup or incremental backup. To restore from incremental backups, you will
+need the full backup and every incremental backup in order.
+Option B is incorrect. Differential backup backs up all new files and any files that have
+changed since the last full backup. To restore from differential backups, you will need the
+full backup and the most recent differential backup.
+Option C is incorrect. Full backup backs up all the files each time the backup runs.
+Option D is incorrect. A snapshot is the state of a system at a particular point in time. It’s
+also known as a system image.
+45. C. Data labeling policy includes how data is labeled such as confidential, private, or public.
+It should also include how the data is handled and disposed of for all classifications of data.
+Before data can be disposed of, you will need to destroy it with a data sanitization tool.
+Option A is incorrect. Degaussing is a method of removing data from a magnetic storage
+media by changing the magnetic field.
+Option B is incorrect. An acceptable use policy describes the limits and guidelines for users
+to make use of an organization’s physical and intellectual resources. This includes allowing or limiting the use of personal email during work hours.
+Option D is incorrect. Wiping, also known as overwriting, will replace the data with all
+zeros to prevent data from being recovered by third-party software.
+46. D. A single point of failure is a weakness in the design or configuration of a system in
+which one fault or malfunction will cause the whole system to halt operating.
+Option A is incorrect. Failover is the continuous ability to automatically and flawlessly
+switch to a highly reliable backup.
+Option B is incorrect. A cluster ensures the availability of critical services by using a group
+of computers instead of a single computer.
+Option C is incorrect. Load-balancing divides the amount of work a computer can do
+between two or more computers. This allows more work to be completed in the same
+amount of time.
+47. A. Detective controls detect intrusion as it happens and uncovers a violation.
+Option B is incorrect. A guard is an example of a preventive control. Preventive controls
+stop an action from happening.
+Option C is incorrect. A firewall is an example of a technical control. Technical controls are
+applied through technology and may be deterrent, preventive, detective, or compensating.
+Option D is incorrect. An IPS (intrusion prevention system) is an example of a technical
+control. Technical controls are applied through technology and may be a deterrent, preventive, detective, or compensating.
+48. D. An ISA (interconnection security agreement) is an agreement that specifies the technical and security requirements of the interconnection between organizations.
+Option A is incorrect. A memorandum of understanding (MOU) is a type of agreement
+that is usually not legally binding. This agreement is intended to be mutually beneficial
+without involving courts or money.
+Option B is incorrect. A BPA (business partnership agreement) is a legal agreement
+between partners. It establishes the terms, conditions, and expectations of the relationship
+between the partners.
+Option C is incorrect. An SLA (service level agreement) defines the level of service the customer expects from the service provider. The level of service definitions should be specific
+and measurable in each area.
+49. C. Sharing of profits and losses and the addition or removal of a partner are typically included
+in a BPA (business partner agreement). Also included are the responsibilities of each partner.
+Option A is incorrect. Expectations between parties such as a company and an Internet
+service provider are typically found in a service level agreement. Expectations include the
+level of performance given during the contractual service.
+Option B is incorrect. A service level agreement will provide a clear means of determining
+whether a specific function or service has been provided according to the agreed-upon level
+of performance.
+Option D is incorrect. Security requirements associated with interconnecting IT systems
+are typically found in an interconnection security agreement.
+50. C. A continuity of operations plan focuses on restoring critical business functions after an
+outage to an alternate site. The plan will determine if a company can continue its operations during the outage.
+Option A is incorrect. BIA (business impact analysis) is performed before the creation of
+business continuity plans, and BIAs are not tested.
+Option B is incorrect. A succession plan ensures all key company personnel have at least
+one designated backup who can perform the critical functions when required.
+Option D is incorrect. A service level agreement (SLA) defines the level of service the customer expects from the service provider. The level of service definitions should be specific
+and measurable in each area.
+51. D. System owner is a type of employee who would receive role-based training on how best
+to manage a particular system.
+Option A is incorrect. Users are generally the front-line employees and would receive general security awareness training.
+Option B is incorrect. Privileged users would receive training on how best to handle additional network and system access.
+Option C is incorrect. Executive users would receive training on how to spot targeted attacks.
+52. A. A vulnerability scanner attempts to identify weaknesses in a system.
+Option B is incorrect. A protocol analyzer used with a promiscuous mode NIC can capture all network traffic.
+Option C is incorrect. A port scanner identifies open ports on a server or host.
+Option D is incorrect. Password crackers can be used to check for easily crackable passwords. Vulnerability scanners can provide more data about computer security such as
+open ports and weak passwords.
+53. C. Recovery process brings affected systems back into the company’s production environment carefully to avoid leading to another incident.
+Option A is incorrect. The lessons learned process is the most critical phase because it
+is the phase in which you complete any documentation that may be beneficial in future
+incidents. Documentation should include information such as when the problem was first
+detected and by whom, how the problem was contained and eradicated, the work that was
+performed during the recovery, and areas that may need improvement.
+Option B is incorrect. The preparation process prepares a company’s team to be ready to
+handle an incident at a moment’s notice.
+Option D is incorrect. The containment process is designed to minimize the damage and
+prevent any further damage from happening.
+54. D. Chain of custody refers to the chronological documentation showing the custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+Option A is incorrect. Incident handling is a guide that explains the process and procedures of how to handle particular incidents.
+Option B is incorrect. Legal hold is a written directive issued by attorneys ordering clients
+to preserve pertinent evidence in an anticipated litigation, audit, or government investigation. This evidence can include paper documents and electronically stored information.
+Option C is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+55. D. The first response from the incident response should be identification. The malware
+needs to be identified as well as the computers.
+Option A is incorrect. The containment process is designed to minimize the damage and
+prevent any further damage from happening.
+Option B is incorrect. The eradication process involves removing and restoring affected
+systems by reimaging the system’s hard drive and installing patches.
+Option C is incorrect. The lessons learned process is the most critical phase because it
+is the phase in which you complete any documentation that may be beneficial in future
+incidents. Documentation should include information such as when the problem was first
+detected and by whom, how the problem was contained and eradicated, the work that was
+performed during the recovery, and areas that may need improvement.
+56. A, D. Custodians maintain access to data as well as the integrity.
+Options B and C are incorrect. CEO and sales executives are not normally responsible for
+maintaining access to and integrity of the data.
+57. D. A backup generator is a compensating control—an alternate control that replaces the
+original control when it cannot be used due to limitations of the environment.
+Option A is incorrect. A firewall is considered a preventive control.
+Option B is incorrect. A security guard is considered a physical control.
+Option C is incorrect. An IDS (intrusion detection system) is considered a detective
+control.
+58. A. Preventive controls stop an action from happening—in this scenario, preventing an
+unauthorized user from gaining access to the network when the user steps away.
+Option B is incorrect. A corrective control is designed to correct a situation.
+Option C is incorrect. A deterrent control is used to deter a security breach.
+Option D is incorrect. A detective control is designed to uncover a violation.
+59. B. PHI (protected health information) is any data that refers to health status, delivery of
+health care, or payment for health care that is gathered by a health care provider and can
+be linked to an individual according to U.S. law.
+Option A is incorrect. AES (Advanced Encryption Standard) is a symmetrical 128-bit
+block encryption system.
+Option C is incorrect. PII (Personally Identifiable Information) is information that can be
+used on its own or with other information to identify an individual.
+Option D is incorrect. TLS (Transport Layer Security) is a protocol that encrypts data over
+a computer network.
+60. C. Job rotation allows individuals to see various parts of the organization and how it
+operates. It also eliminates the need for a company to rely on one individual for security
+expertise should the employee become disgruntled and decide to harm the company.
+Recovering from a disgruntled employee’s attack is easier when multiple employees understand the company’s security posture.
+Option A is incorrect. Separation of duties is the concept of having more than one person
+required to complete a task.
+Option B is incorrect. Mandatory vacation policy is used by companies to detect fraud by
+having a second person, familiar with the duties, help discover any illicit activities.
+Option D is incorrect. Onboarding is the process of adding an employee to a company’s
+identity and access management system.
+61. B and C. Backup tapes should not be stored near power sources such as CRT monitors
+and speakers. These devices can cause the tapes to be degaussed.
+Option A is incorrect. A workstation has no chance of degaussing backup tapes.
+Option D is incorrect. An LCD screen has no chance of degaussing backup tapes.
+62. A. The eradication process involves removing and restoring affected systems by reimaging
+the system’s hard drive and installing patches.
+Option B is incorrect. The preparation process prepares a company’s team to be ready to
+handle an incident at a moment’s notice.
+Option C is incorrect. The purpose of the containment process is to minimize the damage
+and prevent any further damage from happening.
+Option D is incorrect. The recovery process brings affected systems back into the company’s production environment carefully to avoid leading to another incident.
+63. D. A unified threat management (UTM) appliance is a single console a security administrator can monitor and manage easily. This could create a single point of failure.
+Options A, B, and C are incorrect. With a UTM, each protection can be performed simultaneously. This UTM can centralize various security techniques into a single appliance. It
+is also tied to one vendor and allows for a single, streamlined function.
+64. C. Unauthorized access of a network through a firewall by a threat actor is considered an
+external threat.
+Options A, B, and D are incorrect. Each of the threats are considered internal because they
+can compromise a company’s network from within.
+65. A and B. ALE (annual loss expectancy) is the product of the ARO (annual rate of occurrence) and the SLE (single loss expectancy) and is mathematically expressed as ALE =
+ARO × SLE. Single loss expectancy is the cost of any single loss and it is mathematically
+expressed as SLE = AV (asset value) × EF (exposure factor).
+Options C and D are incorrect. Training expenses and man-hour expenses are valid IT
+forensic budget items.
+66. C. Capturing the system image involves making an exact image of the drive so that it can
+be referenced later in the investigation.
+Option A is incorrect. Chain of custody offers assurances that evidence has been preserved, protected, and handled correctly after it has been collected. Documents show who
+handled the evidence and when they handled it.
+Option B is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+Option D is incorrect. Taking screenshots gives an investigator a useful way to collect
+information on a computer screen. This will allow the investigator to reproduce what happened on the screen.
+67. A. Risk is defined as the likelihood of occurrence of a threat and the corresponding loss
+potential. Risk is the probability of a threat actor to exploit vulnerability. The purpose of
+system hardening is to remove as many security risks as possible. Hardening is typically performed by disabling all nonessential software programs and utilities from the workstation.
+Option B is incorrect. The threat agent is the component that exploits a vulnerability.
+Option C is incorrect. The exposure factor is the percentage or portion of the asset that
+will be lost or destroyed when exposed to a threat.
+Option D is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+68. B. Lessons learned documentation is a phase of the incident response process.
+Options A, C, and D are incorrect. These elements should be included in the preparation
+phase.
+69. C. Nondisclosure agreements (NDAs) are signed by an employee at the time of hiring, and
+they impose a contractual obligation on employees to maintain the confidentiality of information. Disclosure of information can lead to legal ramifications and penalties. NDAs
+cannot ensure a decrease in security breaches.
+Option A is incorrect. Job rotation policy is the practice of moving employees between different tasks to promote experience and variety.
+Option B is incorrect. Separation of duties is the concept of having more than one person
+required to complete a task.
+Option D is incorrect. Mandatory vacation policy is used by companies to detect fraud by
+having a second person, familiar with the duties, help discover any illicit activities.
+70. C. Security policy defines how to secure physical and information technology assets.
+This document should be continuously updated as technology and employee requirements
+change.
+Option A is incorrect. Account policy enforcement regulates the security parameters of
+who can and cannot access a system.
+Option B is incorrect. Change management is the process of managing configuration
+changes made to a network.
+Option D is incorrect. Risk assessment identifies the dangers that could negatively impact
+a company’s ability to conduct business.
+71. C. A differential backup copies files that have changed since the last full backup.
+Option A is incorrect. A partial backup is when only portions of files changed are
+backed up.
+Option B is incorrect. A full backup is when all files are copied to a storage media.
+Option D is incorrect. Backing up only the files that have changed since the last full or
+incremental backup is considered an incremental backup.
+72. B. Lessons learned process is the most critical phase because it is the phase to complete
+any documentation that may be beneficial in future incidents. Documentation should
+include information such as when the problem was first detected and by whom, how the
+problem was contained and eradicated, the work that was performed during the recovery,
+and areas that may need improvement.
+Option A is incorrect. The preparation process prepares a company’s team to be ready to
+handle an incident at a moment’s notice.
+Option C is incorrect. The containment process is designed to minimize the damage and
+prevent any further damage from happening.
+Option D is incorrect. The recovery process brings affected systems back into the company’s production environment carefully to avoid leading to another incident.
+73. B and C. Penetration and vulnerability testing can help identify risk. Before a tester performs these tests, they should receive written authorization.
+Option A is incorrect. Quantitative risk assessment is the process of assigning numerical
+values to the probability an event will occur and what the impact of the event will have.
+Option D is incorrect. Qualitative risk assessment is the process of ranking which risk
+poses the most danger using measures such as low, medium, and high.
+74. C. Shredding is the process of reducing the size of objects so the information is no longer
+usable. Other practices includes burning, pulping, and pulverizing.
+Option A is incorrect. Degaussing is a method of removing data from a magnetic storage
+media by changing the magnetic field.
+Option B is incorrect. Capturing the system image involves making an exact image of the
+drive so that it can be referenced later in the investigation.
+Option D is incorrect. Wiping, also known as overwriting, will replace the data with all
+zeros to prevent data from being recovered by third-party software.
+75. C. SFTP (secure FTP) encrypts data that is transmitted over the network.
+Option A is incorrect. Telnet is a command-line utility for accessing remote computers and
+does not provide any security features.
+Option B is incorrect. FTP (File Transport Protocol) sends data in clear text and can easily
+be viewed over the network.
+Option D is incorrect. SMTP (Simple Mail Transfer Protocol) sends and receives emails
+and does not provide any security features.
+76. C. Zackary will need four backups to restore the server if it crashes on Thursday afternoon. The four backups are Sunday evening full backup, Monday evening incremental
+backup, Tuesday evening incremental backup, and Wednesday evening incremental
+backup. Incremental backups require the full backup and all the incremental backups in
+order.
+Options A, B, and D are incorrect. Incremental backups require the full backup and all the
+incremental backups in order.
+77. A. Risk avoidance is a strategy to deflect threats in order to avoid the costly and disruptive
+consequences of a damaging event. It also attempts to minimize vulnerabilities that can
+pose a threat.
+Option B is incorrect. The risk register is a document, also known as a risk log, created at
+the beginning of a project to track issues and address any problems as they arise.
+Option C is incorrect. Risk acceptance is a strategy of recognizing, identifying, and
+accepting a risk that is sufficiently unlikely or has limited impact that a corrective control
+is not warranted.
+Option D is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+78. C. A hot site, also known as an alternate processing site, contains all of the alternate computer and telecommunication equipment needed in a disaster. Testing this environment is
+simple.
+Option A is incorrect. A cold site is the hardest to test because it includes a basic room
+with limited equipment.
+Option B is incorrect. A warm site is harder to test because it contains only the equipment
+and no employees or company data.
+Option D is incorrect. A differential site is not a valid term.
+79. D. Systems should be restored within four hours with a minimum loss of one day’s worth
+of data. RTO is the amount of time within which a process must be restored after a disaster to meet business continuity. It defines how much time it takes to recover after notification of process disruption. RPO specifies the allowable data loss. It is the amount of time
+that can pass during an interruption before the quantity of data lost during that period
+surpasses business continuity planning’s maximum acceptable threshold.
+Options A, B, and C are incorrect. These restorations do not fall within the description of
+the plan.
+80. A. This statement refers to the data retention policy.
+Option B is incorrect. This statement refers to the clean desk policy.
+Option C is incorrect. This statement refers to the change management policy.
+Option D is incorrect. This statement refers to the memorandum of understanding (MOU)
+policy.
+81. B and D. Companies can lose a large amount of income in a short period of downtime.
+Companies can have business contracts that state a minimum amount of downtime can
+occur if a disaster occurs. These reasons can be used to support the reason for a warm site
+because the warm site relies on backups to recover from a disaster.
+Option A is incorrect. A company losing a small amount of income during a long period of
+downtime may not support the cost of a warm site.
+Option C is incorrect. A company can bring a cold site online within 72 hours and resume
+business services. This would not support the cost of a warm site.
+82. A and D. Confidentiality allows authorized users to gain access to sensitive and protected
+data. Integrity ensures that the data hasn’t been altered and is protected from unauthorized modification.
+Option B is incorrect. Safety is a common goal of security that includes providing protection to personnel and other assets.
+Option C is incorrect. Availability means information is always going to be something a
+user can access.
+83. B. ALE (annual loss expectancy) is the product of the ARO (annual rate of occurrence)
+and the SLE (single loss expectancy) and is mathematically expressed as ALE = ARO ×
+SLE. Single loss expectancy is the cost of any single loss and it is mathematically expressed
+as SLE = AV (asset value) × EF (exposure factor).
+84. A and D. The correct answer is life and property. Both of these impact scenarios include
+examples of severe weather events.
+Option B is incorrect. A reputation impact scenario includes price gouging during natural
+disasters and response time for addressing information disclosure.
+Option C is incorrect. Salary is not an impact scenario.
+85. A. RPO (recovery point objective) specifies the allowable data loss. It is the amount of
+time that can pass during an interruption before the quantity of data lost during that
+period surpasses business continuity planning’s maximum acceptable threshold.
+Option B is incorrect. A single point of failure is a weakness in the design, or configuration
+of a system in which one fault or malfunction will cause the whole system to stop operating.
+Option C is incorrect. MTTR (mean time to repair) is the average time it takes for a failed
+device or component to be repaired or replaced.
+Option D is incorrect. MTBF (mean time between failures) is a measurement to show how
+reliable a hardware component is.
+86. A and D. Preventive controls are proactive and are used to avoid a security breach or an
+interruption of critical services before they can happen.
+Options B and C are incorrect. Security cameras and door alarms are examples of detective control. Detective controls detect intrusion as it happens and uncovers a violation.
+87. C. Risk transfer is the act of moving the risk to hosted providers who assume the responsibility for recovery and restoration or by acquiring insurance to cover the costs emerging
+from a risk.
+Option A is incorrect. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is sufficiently unlikely or has such limited impact that a corrective control is
+not warranted.
+Option B is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+Option D is incorrect. Risk avoidance is the removal of the vulnerability that can increase
+a particular risk so that it is avoided altogether.
+88. C. The correct answer is property. Physical damage to a building and the company’s computer equipment can be caused by intentional man-made attacks.
+Option A is incorrect. Life impact endangers the lives of employees and customers.
+Option B is incorrect. Reputation impact could impact the image the company has in its
+community.
+Option D is incorrect. Safety impact jeopardizes the safety of employees and customers.
+89. A. A business impact analysis (BIA) helps identify the risks that would affect business
+operations such as finance impact. The will help a company recover from a disaster.
+Option B is incorrect. Return on investment (ROI) is used to assess the efficiency of an
+investment. ROI measures the amount of return on an investment to the investment’s cost.
+Option C is incorrect. Recovery time objective (RTO) is the duration of time in which a
+company’s process must be restored after a disaster.
+Option D is incorrect. Life impact endangers the lives of employees and customers.
+90. D. A preventive control is used to avoid a security breach or an interruption of critical services before they can happen.
+Option A is incorrect. Administrative controls are defined through policies, procedures,
+and guidelines.
+Option B is incorrect. A compensating control is used to satisfy a requirement for a security measure that is too difficult or impractical to implement at the current time.
+Option C is incorrect. A deterrent control is used to deter a security breach.
+91. A. Technical controls are applied through technology and may be deterrent, preventive,
+detective, or compensating. They include hardware or software solutions using access control in accordance with established security policies.
+Option B is incorrect. Administrative controls are defined through policies, procedures,
+and guidelines.
+Option C is incorrect. HTTPS is a communications protocol used to secure communication over a computer network used on the Internet.
+Option D is incorrect. Integrity ensures that the data hasn’t been altered and is protected
+from unauthorized modification.
+92. C. Mean time between failures (MTBF) is a measurement to show how reliable a hardware component is.
+Option A is incorrect. MTTR (mean time to repair) is the average time it takes for a failed
+device or component to be repaired or replaced.
+Option B is incorrect. RPO (recovery point objective) is the period of time a company can
+tolerate lost data being unrecoverable between backups.
+Option D is incorrect. ALE (annual loss expectancy) is the sum of the annual rate of
+occurrence and the single loss expectancy.
+93. C. Single point of failure is a single weakness that can bring an entire system down and
+prevent it from working.
+Option A is incorrect. Cloud computing allows the delivery of hosted service over the
+Internet.
+Option B is incorrect. Load-balancing divides the amount of work a computer can do
+between two or more computers. This allows more work to be completed in the same
+amount of time.
+Option D is incorrect. Virtualization allows the creation of virtual resources such as a
+server operating system. Multiple operating systems can run on one machine by sharing
+the resources such as RAM, hard drive, and CPU.
+94. D. A pop-up blocker program can help prevent pop-ups from displaying in a user’s web
+browser. Pop-ups can contain adware or spyware.
+Option A is incorrect. Antivirus software can help prevent the spreading of malware such
+as worms and Trojans.
+Option B is incorrect. Antispam software can help reduce the amount of junk email in a
+user’s inbox.
+Option C is incorrect. Spyware gathers personal information and computer usage habits
+without the user’s knowledge.
+95. A and C. Taking hashes of the hard drive will preserve the evidence. If the hash has not
+been changed, the data hasn’t changed. Capturing the system image involves making an
+exact image of the drive so that it can be referenced later in the investigation.
+Option B is incorrect. Taking screenshots gives an investigator a useful way to collect
+information on a computer screen. This will allow the investigator to reproduce what happened on the screen.
+Option D is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+96. B. A Computer Incident Response Team (CIRT) includes personnel who promptly and
+correctly handle incidents so that they can be quickly contained, investigated, and recovered from.
+Options A, C, and D are incorrect. These statements are not considered a CIRT.
+97. C. The account lockout threshold setting defines the number of failed sign-in attempts
+that will cause a user account to be locked. This policy best mitigates brute-force password
+attacks.
+Option A is incorrect. Password complexity is a series of guidelines that a password
+adheres to three of the four categories: uppercase letter, lowercase letter, numbers, and
+symbols.
+Option B is incorrect. Password hints help users remember their passwords.
+Option D is incorrect. Password history determines the number of unique new passwords
+a user can use before an old password can be reused.
+98. A. Random access memory (RAM) data is lost when the device is powered off. Therefore,
+RAM must be properly collected first.
+Option B is incorrect. A USB flash drive will maintain its data when the power is removed.
+Option C is incorrect. A hard disk will maintain its data when the power is removed.
+Option D is incorrect. A swap file is an extension of memory and is stored on the hard
+disk, so it is less volatile than RAM.
+99. A. A standard operating procedure (SOP) is a document that details the processes that
+a company will have in place to ensure that routine operations are delivered consistently
+every time. Guidelines and enforcement are items that are included in a SOP.
+Option B is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+Option C is incorrect. Penetration assessment is a simulated attack authorized on a network system that searches for security weaknesses that may potentially gain access to the
+network’s features and data.
+Option D is incorrect. A vulnerability assessment identifies, quantifies, and prioritizes vulnerabilities in a network system.
+100. B. Determining if the suspect is guilty is determined by the legal system and is not part of
+the basic concept of computer forensics.
+Options A, C, and D are incorrect. Other valid basic concepts include capture video and
+active logging. These options are valid basic concepts of computer forensics.
+101. C. A warm site is harder to test because it contains only the equipment and no employees
+or company data.
+Option A is incorrect. A hot site contains all of the alternate computer and telecommunication equipment needed in a disaster. Testing this environment is simple.
+Option B is incorrect. A cold site is the hardest to test because it includes a basic room
+with limited equipment.
+Option D is incorrect. Load-balancing divides the amount of work a computer can do
+between two or more computers. This allows more work to be completed in the same
+amount of time. Distributive allocation handles the assignment of jobs across the servers.
+102. D. Digital evidence for forensic review must first be collected from the most volatile (not
+permanent) locations such as RAM and swap files. A swap file is a location on a hard disk
+drive used as the virtual memory extension of a computer’s RAM. A hard disk drive is the
+next least volatile, then DVD-R. Some digital evidence can be gathered by using a live boot
+media.
+Options A, B, and C are incorrect. RAM is more volatile than swap files and hard disk
+drives. Swap files are more volatile than DVD-R.
+103. A, B, and C. The lessons learned process is the most critical phase because it is the phase
+in which you complete any documentation that may be beneficial in future incidents. Documentation should include information such as when the problem was first detected and by
+whom, how the problem was contained and eradicated, the work that was performed during the recovery, and areas that may need improvement.
+Option D is incorrect. The preparation process prepares a company’s team to be ready to
+handle an incident at a moment’s notice.
+104. B. The identification phase deals with the discovery and determination of whether a deviation from normal operations within a company is an incident. This phase requires a person
+to collect events from various sources and report the incident as soon as possible.
+Option A is incorrect. The preparation process prepares a company’s team to be ready to
+handle an incident at a moment’s notice.
+Option C is incorrect. The containment process is designed to minimize the damage and
+prevent any further damage from happening.
+Option D is incorrect. Eradication is a phase of the incident response process that removes
+and restores affected systems by reimaging the system’s hard drive and installing patches.
+105. D. Encrypting PII ensures confidentiality.
+Option A is incorrect. Hashing PII only ensures integrity.
+Option B is incorrect. A digital signature provides nonrepudiation.
+Option C is incorrect. RAID (redundant array of independent disks) ensures higher availability for a disk subsystem.
+106. C. Change management ensures that proper procedures are followed when configuration
+changes are made to a network.
+Options A, B, and D are incorrect. These statements do not define change management.
+107. C. The preparation phase of the incident response process prepares a company’s team
+to be ready to handle an incident at a moment’s notice. During this step, a company may
+identify incidents that can be prevented or mitigated.
+Option A is incorrect. The containment process is designed to minimize the damage and
+avoid any further damage from happening.
+Option B is incorrect. The eradication phase involves removing and restoring affected systems by reimaging the system’s hard drive and installing patches.
+Option D is incorrect. The lessons learned process is the most critical phase because it
+is the phase in which you complete any documentation that may be beneficial in future
+incidents. Documentation should include information such as when the problem was first
+detected and by whom, how the problem was contained and eradicated, the work that was
+performed during the recovery, and areas that may need improvement.
+108. A and D. Quantitative risk analysis requires complex calculations and is more timeconsuming.
+Options B and C are incorrect. These statements describe qualitative risk analysis, not
+quantitative risk analysis.
+109. B and C. Cold sites require a large amount of time to bring online after a disaster. They
+are not easily available for testing as other alternatives.
+Option A is incorrect. Cold sites are inexpensive and require no daily administration time.
+This is an advantage to using a cold site.
+Option D is incorrect. Cold sites do not require daily administration time to ensure the site
+is ready within a maximum tolerable downtime. This is an advantage to using a cold site.
+110. B. Personally identifiable information (PII) is personal information that can be used to
+identify an individual. Protecting PII is important because if an attacker gains PII, they
+can use it for financial gain at the expense of the individual.
+Option A is incorrect. Password policy defines the complexity of creating passwords. It
+should also define weak passwords and how users should protect password safety.
+Option C is incorrect. Chain of custody refers to the chronological documentation showing the custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+Option D is incorrect. Detective controls detect intrusion as it happens and uncover a violation.
+111. A. Wiping a drive can remove sensitive data. Disposal of hard drives can be done with
+shredding. Storage includes types of devices and configurations of data safety. Retention
+can be required for legal and compliance reasons.
+Options B, C, and D are incorrect. Virtualization and onboarding do not apply to data
+policies.
+112. D. Record time offset is used to validate the date and time stamps of digital forensic evidence.
+Option A is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+Option B is incorrect. Chain of custody refers to the chronological documentation showing
+the custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+Option C is incorrect. Eradication is the process of removing and restoring affected systems by reimaging the system’s hard drive and installing patches.
+113. D. Risk transfer is the act of moving the risk to hosted providers who assume the responsibility for recovery and restoration or by acquiring insurance to cover the costs emerging
+from a risk.
+Option A is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+Option B is incorrect. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is sufficiently unlikely or has such limited impact that a corrective control is
+not warranted.
+Option C is incorrect. Risk avoidance is the removal of the vulnerability that can increase
+a particular risk so that it is avoided altogether.
+114. D. An incremental backup backs up all new files and any files that have changed since the
+last full backup or incremental backup. Incremental backups clear the archive bit.
+Option A is incorrect. A full backup backs up all the files each time the backup runs.
+Option B is incorrect. A compressed full backup backs up all the files in a compressed format.
+Option C is incorrect. A differential backup backs up all new files and any files that have
+changed since the last full backup. Differential backups do not clear the archive bit.
+115. B. Each breach cost the company $60,000 per year and over the course of 5 years, the
+total amount will total $300,000. Transferring the risk will help save money for the company because the third-party vendor’s solution will cost $250,000.
+Option A is incorrect. Accepting the risk will cost the company $50,000.
+Option C is incorrect. Avoiding the risk is not engaging in the service at all, which may be
+the effective solution but often not possible due to the company’s requirements.
+Option D is incorrect. Mitigating the risk is reducing the engagement of the service, and
+the company may not be able to reduce the system.
+116. C. Approving and executing changes to ensure maximum security and availability of a
+company’s IT services is considered change management. A business impact analysis (BIA)
+identifies a company’s risk and determines the effect on ongoing, mission-critical operations and processes.
+Options A, B, and D are incorrect. These are considered guidelines when performing a
+BIA.
+117. B. Failover is the continuous ability to automatically and flawlessly switch to a highly reliable backup. This can be activated in a redundant manner or in a standby operating mode
+should the primary server fail. The main purpose of failover is to provide availability of
+data or service to a user.
+Option A is incorrect. Integrity ensures the data hasn’t been altered and is protected from
+unauthorized modification.
+Option C is incorrect. Authentication is the process of certifying and confirming a user’s
+identity.
+Option D is incorrect. Confidentiality allows authorized users to gain access to sensitive
+and protected data.
+118. B and C. An alternate business practice is a temporary substitute for normal business
+activities. When the power is out, the salespeople can use their cell phones to continue to
+sell and write the orders on a sheet of paper. Once the power is restored, the salespeople
+can enter the orders into the system without compromising business activities.
+Option A is incorrect. Having the salespeople go home until the power is restored is not
+an example of an alternate business practice. The company may not know how long the
+power will be out, and this could lead to lost business opportunities.
+Option D is incorrect. The company’s fax machine will not operate if the company’s power
+is out.
+119. D. A custodian configures data protection based on security policies.
+Option A is incorrect. The local community bank is the data owner, not Leigh Ann.
+Option B is incorrect. Leigh Ann is a network administrator, not a user.
+Option C is incorrect. Power user is not a standard security role in the industry.
+120. A. Formatting is not a recommended method. Formatting removes the pointer to the location of the data on the storage media but does not ensure the data is removed.
+Option B is incorrect. Shredding physically destroys the storage media in a way data cannot be retrieved.
+Option C is incorrect. Wiping, also known as overwriting, will replace the data with all
+zeros to prevent data from being recovered by third-party software.
+Option D is incorrect. Degaussing is a method of removing data from a magnetic storage
+media by changing the magnetic field.
+121. B and C. Encrypting the backup data before it is stored off-site ensures confidentiality.
+To avoid data tampering and ensure data integrity, a different employee should review the
+backup logs.
+Option A is incorrect. Using SSL (Secure Socket Layer) encrypts the data transmitting
+across the network, not the data that is stored off-site.
+Option D is incorrect. The employee performing the backup doesn’t need to be a member
+of the Administrators group. The employee should be a member of the Backup Operators
+group.
+122. C. A protocol analyzer used with a promiscuous mode NIC can capture all network traffic.
+Option A is incorrect. A port scanner identifies open ports on a server or host.
+Option B is incorrect. A vulnerability scanner attempts to identify weaknesses in a system.
+Option D is incorrect. A network intrusion detection system (NIDS) analyzes incoming
+network traffic.
+123. A. The correct answer is an Internet acceptable use policy. Leigh Ann will be using the
+company’s equipment to access the Internet, so she should read and sign this policy.
+Option B is incorrect. An audit policy defines the requirements and parameters for risk
+assessment and audits of the organization’s information and resources.
+Option C is incorrect. A password policy defines the standards for creating complex passwords such as an uppercase letter, lowercase letter, number, and symbol.
+Option D is incorrect. A privacy policy defines what information will be shared with third
+parties. This information includes company and customer information.
+124. D. Active-passive is a configuration that involves two load-balancers. Traffic is sent to the
+primary node, and the secondary node will be in listening mode. When too much traffic is
+sent to the main server, the second server will handle some of the requests. This will prevent a single point of failure.
+Option A is incorrect. In an active-active configuration, each server will handle the service
+requested by the user. This will distribute the load to each server.
+Option B is incorrect. Active Directory is a directory service Microsoft developed for the
+Windows domain network. It stores information about network components.
+Option C is incorrect. Round-robin configuration sends traffic to the first node, then the
+second node, then the third node, and then back to the first node. This configuration is not
+related to fault tolerance.
+125. C. A clean desk policy ensures that all sensitive/confidential documents are removed from
+an end-user workstation and locked up when the documents are not in use.
+Option A is incorrect. Job rotation is the practice of rotating employees that are assigned
+jobs within their employment to promote flexibility and keep employees interested in their
+jobs.
+Option B is incorrect. A data owner has administrative control and can be designated as
+accountable and responsible for a particular set of data.
+Option D is incorrect. Separation of duties is the concept of having more than one person
+required to complete a task.
+126. D. Chain of custody offers assurances that evidence has been preserved, protected, and
+handled correctly after it has been collected. Documents show who handled the evidence
+and when they handled it.
+Option A is incorrect. Delegating evidence to your manager is a task performed when
+gathering forensic evidence. Chain of custody is preserving evidence, also referred to as
+legal hold.
+Option B is incorrect. Capturing system image is making an exact copy of the hard disk to
+further investigate. This does not define chain of custody.
+Option C is incorrect. Capturing memory contents is defined as order of volatility.
+127. B. Gray-box testing uncovers any application vulnerabilities within the internal structure,
+devices, and components of a software application. During gray-box testing, limited information regarding the internal devices and structure is given to the testing team.
+Option A is incorrect. During white-box testing, complete information regarding the internal devices and structure is given to the testing team.
+Option C is incorrect. During black-box testing, very little or no information regarding the
+internal devices and structure is given to the testing team.
+Option D is incorrect. Clear-box testing is also known as white-box testing.
+128. B and C. A personnel hiring policy and separation of duties are administrative controls.
+Administrative controls are defined through policies, procedures, and guidelines.
+Options A and D are incorrect. Firewall rules and IPSs are considered technical controls.
+129. A and D. An alternate business practice is a temporary substitute for normal business
+activities. Having employees write down customers’ orders is a substitute for the point-ofsale system. Having employees work from another bank location means that the employees
+can continue using the computer system and phones to assist customers.
+Options B and C are incorrect. These are not examples of substitutes for normal business
+activities.
+130. A and C. Personally identifiable information (PII) is personal information that can be used
+to identify an individual. PII must be carefully handled and distributed to prevent ID theft
+and fraud. Personal electronic devices, in a BYOD environment, should be protected and
+secured because these devices can be used for personal and business purposes.
+Option B is incorrect. A MOU (memorandum of understanding) is a legal document that
+describes a mutual agreement between parties.
+Option D is incorrect. A nondisclosure agreement (NDA) protects sensitive and intellectual data from getting into the wrong hands.
+131. C. An after-action report examines a response to an incident or exercise and identifies its
+strengths that will be maintained and built on. Also, it helps recognize potential areas of
+improvement.
+Option A is incorrect. An MOU (memorandum of understanding) is a legal document that
+describes a mutual agreement between parties.
+Option B is incorrect. An SLA (service level agreement) defines the level of service the customer expects from the service provider. The level of service definitions should be specific
+and measurable in each area.
+Option D is incorrect. A nondisclosure agreement (NDA) protects sensitive and intellectual data from getting into the wrong hands.
+132. B. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is
+sufficiently unlikely or has such limited impact that a corrective control is not warranted.
+Option A is incorrect. Risk mitigation is when a company implements controls to reduce
+vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+Option C is incorrect. Risk avoidance is the removal of the vulnerability that can increase
+a particular risk so that it is avoided altogether.
+Option D is incorrect. Risk transfer is the act of moving the risk to hosted providers who
+assume the responsibility for recovery and restoration or by acquiring insurance to cover
+the costs emerging from a risk.
+133. A. Data owners assign labels such as top secret to data.
+Option B is incorrect. Custodians assign security controls to data.
+Option C is incorrect. A privacy officer ensures that companies comply with privacy laws
+and regulations.
+Option D is incorrect. System administrators are responsible for the overall functioning of
+the IT system.
+134. C. Employees can leak a company’s confidential information. Exposing a company’s
+information could put the company’s security position at risk because hackers can use this
+information to gain unauthorized access to the company.
+Option A is incorrect. Gaining access to a computer’s MAC address is not relevant to
+social media network risk.
+Option B is incorrect. Gaining access to a computer’s IP address is not relevant to social
+media network risk.
+Option D is incorrect. Employees can easily express their concerns about a company in
+general. This is not relevant to social media network risk as long as the employee doesn’t
+reveal any confidential information.
+135. B. A snapshot is the state of a system at a particular point in time. Snapshots offer considerably easier and faster backups than any traditional backup system can.
+Options A, C, D and are incorrect. Each of these backup concepts will take longer to
+restore the original OS settings should a problem occur with the installed patches.
+136. C. To test the integrity of backed-up data, restore part of the backup.
+Option A is incorrect. Reviewing written procedures will not ensure that the data has
+been backed up properly. The procedures only show you how and when the backup should
+occur.
+Option B is incorrect. You use software to recover deleted files after you restore from a
+backup.
+Option D is incorrect. Conducting another backup only ensures that the backup procedures are correct and properly working.
+137. C. Separation of duties is the concept of having more than one person required to complete a task.
+Option A is incorrect. A background check is a process that is performed when a potential
+employee is considered for hire.
+Option B is incorrect. Job rotation allows individuals to see various parts of the organization and how it operates. It also eliminates the need for a company to rely on one individual for security expertise should the employee become disgruntled and decide to harm the
+company. Recovering from a disgruntled employee’s attack is easier when multiple employees understand the company’s security posture.
+Option D is incorrect. Collusion is an agreement between two or more parties to defraud a
+person of his or her rights or to obtain something that is prohibited by law.
+138. D. Safety is a common goal of security that includes providing protection for personnel
+and other assets.
+Option A is incorrect. Confidentiality allows authorized users to gain access to sensitive
+and protected data.
+Option B is incorrect. Integrity ensures that the data hasn’t been altered and is protected
+from unauthorized modification.
+Option C is incorrect. Availability means that information is always going to be something
+a user can access.
+139. D. Nessus is considered a vulnerability scanner. It attempts to identify weaknesses in a
+system.
+Options A, B, and C are incorrect. These tools are used for cracking passwords.
+140. B. ALE (annual loss expectancy) = SLE (single loss expectancy) × ARO (annualized rate
+of occurrence). SLE equals $750,000 (2,500 records × $300), and ARO equals 5%, so
+$750,000 times 5% equals $37,500.
+Options A, C, and D are incorrect. Based on the calculation of ALE, the answer is $37,500.
+141. C. A parallel test can test certain systems to confirm their operation at alternate sites.
+Compare the results of the test to the results of the original system to confirm that the
+alternate site operates as close to normal as possible.
+Option A is incorrect. A cutover test will shut down the main system and everything will
+fail over to the backup systems.
+Option B is incorrect. A walkthrough test reviews the plan to confirm that all the steps are
+included.
+Option D is incorrect. A simulation test performs a practice run of the disaster recovery
+plan for a given scenario.
+142. C. RPO (recovery point objective) specifies the allowable data loss. It is the amount of
+time that can pass during an interruption before the quantity of data lost during that
+period surpasses business continuity planning’s maximum acceptable threshold.
+Option A is incorrect. MTBF (mean time between failures) is the rating on a device or
+component that predicts the expected time between failures.
+Option B is incorrect. MTTR (mean time to repair) is the average time it takes for a failed
+device or component to be repaired or replaced.
+Option D is incorrect. ARO (annual rate of occurrence) is the ratio of an estimated possibility that a threat will take place within a one-year time frame.
+143. B. A corrective control is designed to correct a situation.
+Option A is incorrect. Detective controls detect intrusion as it happens and uncover a
+violation.
+Option C is incorrect. A preventive control is used to avoid a security breach or an interruption of critical services before they can happen.
+Option D is incorrect. A deterrent control is used to deter a security breach.
+144. A. A snapshot is the state of a system at a particular point in time. It’s also known as a
+system image and is not a step in the incident response process.
+Options B, C, and D are incorrect. Preparation, recovery, and containment are steps of the
+incident response process.
+145. B. Shredding documents can prevent physical threats such as theft of the documents or
+obtaining information from the documents.
+Option A is incorrect. Shoulder surfing is using direct observation techniques, such as
+looking over someone’s shoulder, to obtain information.
+Option C is incorrect. Adware are ads that are delivered through pop-up windows or bars
+that appear on the program’s user interface.
+Option D is incorrect. Spyware is software that is installed on a system without the end user’s
+knowledge and is used for innocuous reasons. It is sometimes referred to as tracking software.
+146. D. A data retention policy states how data should be stored based on various types; such
+as storage location, amount of time the data should be retained, and the type of storage
+medium should be used.
+Option A is incorrect. A clean desk policy ensures that all sensitive/confidential documents
+are removed from an end-user workstation and locked up when the documents are not in
+use.
+Option B is incorrect. An acceptable use policy describes the limits and guidelines for users
+to make use of an organization’s physical and intellectual resources. This includes allowing or limiting the use of personal email during work hours.
+Option C is incorrect. A security policy defines how to secure physical and information
+technology assets. This document should be continuously updated as technology and
+employee requirements change.
+147. C. Onboarding is the process of adding an employee to a company’s identity and access
+management system.
+Option A is incorrect. Offboarding is the process of removing an employee from the company’s identity and access management system.
+Option B is incorrect. A system owner is an individual who is in charge of physically
+securing one or more systems and can include patching and updating operating systems.
+Option D is incorrect. An Executive User is a group that users are assigned to along with
+the least privilege policy.
+148. A, C, and D. The correct answer is standard, procedure, and guideline. A standard defines
+how to measure the level of adherence to the policy. A procedure contains the step-by-step
+instructions for implementing components of the policy. A guideline is a suggestion, recommendation, or best practices for how to meet the policy standard.
+Option B is incorrect. Privacy is a policy that defines standards for disclosing company
+information to third parties.
+149. A. Chain of custody refers to the chronological documentation showing the custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+Option B is incorrect. Order of volatility represents the order in which you should collect
+evidence. In general terms, evidence should be collected starting with the most volatile and
+moving to the least volatile. Volatile means data is not permanent.
+Option C is incorrect. Preparation is a phase of the incident response process that prepares
+a company’s team to be ready to handle an incident at a moment’s notice.
+Option D is incorrect. Eradication is a phase of the incident response process that removes
+and restores affected systems by reimaging the system’s hard drive and installing patches.
+150. C and D. The correct answers are asset estimation and rating potential threats. Qualitative risk analysis measures the probability of risks that will hinder normal business operations and rate them relative to one another. Assets that are protected from risks must have
+assigned value to determine whether the cost of risk mitigation is justified.
+Options A and B are incorrect. ARO (annual rate of occurrence) and SLE (single loss
+expectancy) are used to calculate the ALE (annual loss expectancy) by multiplying ARO
+by SLE.

@@ -1,0 +1,1028 @@
+1. D. The correct answer is stateful packet inspection (SPI). SPI looks at the entire context of
+the conversation and will stop SYN floods.
+Option A is incorrect. A packet filter examines each packet in isolation and won’t stop the
+SYN flood. A packet filter is stateless and won’t deter the SYN flood.
+Option B is incorrect. An application gateway may have SPI functionality, but its primary
+benefit is to protect against a specific application attack, such as web attacks.
+Option C is incorrect. Bastion is another name for a border firewall and does not indicate
+the process it uses.
+2. A. The correct answer is NAC, or Network Access Control. NAC is a network management solution that defines and implements a policy that enables only compliant and trusted
+endpoint devices to access network resources.
+Option B is incorrect. Stateful packet inspection (SPI) is a type of firewall.
+Option C is incorrect. IDS stands for intrusion detection system.
+Option D is incorrect. BYOD, or Bring Your Own Device, is the problem, but the solution
+described is Network Access Control (NAC).
+3. D. Transport mode is the mode wherein IPSec encrypts the data, but not the packet header.
+Option A is incorrect. Tunneling mode does encrypt the header as well as the packet data.
+Option B is incorrect. Internet Key Exchange (IKE) is used in setting up security associations in IPSec.
+Option C is incorrect. Encapsulating Security Payload (ESP) is used for authentication and
+encryption in IPSec, whether tunneling or transport mode is used.
+4. D. When an IDS (or any security device) labels legitimate traffic as an attack, that is called
+a false positive.
+Option A is incorrect. A false negative is when an attack is mislabeled as legitimate.
+Option B is incorrect. Passive refers to how the IDS responds to suspicious activity. The
+question does not tell you if this is passive or active.
+Option C is incorrect. Active refers to how the IDS responds to suspicious activity. The
+question does not tell you if this is passive or active.
+5. D. Security Information and Event Management (SIEM) systems are designed specifically
+for log aggregation and analysis.
+Option A is incorrect. Network Access Control (NAC) scans devices to ensure they meet
+minimum network security requirements.
+Option B is incorrect. Port forwarding could be used, in conjunction with other steps, to
+aggregate logs, but it would not be the best approach.
+Option C is incorrect. An intrusion detection system (IDS) won’t aggregate other systems logs.
+6. C. A web application firewall (WAF) is designed to provide firewall protection that also
+will protect against specific web attacks.
+Option A is incorrect. An access control list (ACL) is an important security measure but
+will not provide protection against web attacks.
+Option B is incorrect. A stateful packet inspector (SPI) is a robust firewall and will stop
+attacks such as SYN floods, but it won’t provide the best protection against web attacks.
+Option D is incorrect. An IDS is a good security measure, but it won’t provide the best
+protection against web attacks.
+7. C. A site-to-site VPN is a permanent VPN connection between sites. Connecting remote
+offices is a typical site-to-site VPN implementation.
+Option A is incorrect. L2TP is a protocol for VPN and could be used for either site-to-site
+or remote-access VPNs.
+Option B is incorrect. IPSec is a protocol for VPN and could be used for either site-to-site
+or remote-access VPNs.
+Option D is incorrect. A remote-access VPN is used by an individual to remotely access
+the corporate network.
+8. D. By mapping network jacks to specific MAC addresses of machines, you can prevent a
+rogue machine from being connected.
+Option A is incorrect. Access control lists won’t prevent a rogue device from being connected to a port.
+Option B is incorrect. Intrusion detection systems won’t prevent a rogue device from being
+connected to a port.
+Option C is incorrect. If that specific jack is part of a VLAN, it would limit the attacker
+to only that VLAN, but that is certainly not as reliable or as robust a security measure as
+port security.
+9. A. An active-active cluster has all servers working, rather than keeping a duplicate server
+in reserve.
+Option B is incorrect. An active-passive cluster has, for each pair of servers, one not functioning. It simply is used in case the primary server should fail.
+Options C and D are incorrect. These are means for a cluster deciding how to route traffic
+in the cluster.
+10. A. Round-robin load balancing simply sends each new connection to the next server in the
+cluster.
+Option B is incorrect. Affinity load balancing ties specific users to specific servers in the
+cluster.
+Option C is incorrect. Weighted load balancing examines the bandwidth utilization for
+each server and sends the next connection to the server with the least current bandwidth
+utilization.
+Option D is incorrect. Rotating is not a term used in load balancing.
+11. D. The term for this is thin wireless access point.
+Option A is incorrect. Fat wireless access points have all the functionality and features the
+wireless network needs.
+Option B is incorrect. A repeater resends a signal.
+Option C is incorrect. Thick is another term for fat access point.
+12. B. Controller-based wireless access points have minimal functionality, with most functions centrally controlled.
+Option A is incorrect. A fat wireless access point has all necessary functionality contained
+in the WAP.
+Option C is incorrect. Stand-alone is synonymous with fat WAP.
+Option D is incorrect. 802.11i is the wireless security standard.
+13. B. Encapsulating Security Payload provides both integrity and encryption.
+Option A is incorrect. Authentication Header only provides integrity, not encryption.
+Option C is incorrect. Internet Key Exchange is used during the setup of IPSec to establish
+security associations.
+Option D is incorrect. The Internet Security Association and Key Management Protocol
+provides a framework for authentication and key exchange.
+14. C. ESP provides encryption and AH provides complete authentication, including the
+header, so both are needed to meet the requirements.
+Option A is incorrect. Authentication Header will provide complete packet authentication,
+including the header, but it won’t provide encryption.
+Option B is incorrect. Encapsulating Security Payload provides both integrity and encryption but only authenticates the data, not the header.
+Option D is incorrect. Internet Key Exchange is used during the setup of IPSec to establish
+security associations.
+15. D. USB blocking will prevent anyone from plugging in a USB and taking out data.
+Option A is incorrect. An IPS would only stop exfiltration of data if it was sent over the
+network and appeared as an attack. It would not stop hand carrying out of data.
+Option B is incorrect. This is a more time-consuming option and would not be the first
+thing you implement.
+Option C is incorrect. Virtual local area networks (VLANs) won’t help with this issue.
+16. B. Secure Multipurpose Internet Mail Extensions (S/MIME) encrypts email using X.509
+certificates that are created and authenticated by a trusted third party.
+Option A is incorrect. The Internet Message Access Protocol is used for receiving email. It
+does not send email and is not natively encrypted.
+Option C is incorrect. PGP (Pretty Good Privacy) can be used to encrypt email, but it uses
+self-generated certificates that are not authenticated by a third party.
+Option D is incorrect. Simple Mail Transfer Protocol Secure is encrypted, but it is only for
+sending email, not receiving. It can also be done with S/MIME or PGP.
+17. D. Secure Shell gives a remote command-line interface that is encrypted.
+Option A is incorrect. HyperText Transport Protocol Secure is for encrypting web traffic.
+Option B is incorrect. Windows Remote Desktop Protocol is not encrypted.
+Option C is incorrect. Telnet is not encrypted.
+18. D. Earlier versions of SNMP sent all traffic in clear text. SNMP v3 sends all data
+encrypted.
+Options A, B, and C are incorrect. They are not features of SNMP v3.
+19. B. Choose Your Own Device (CYOD) allows employees to bring their own devices to
+work, but only if they are chosen from a list of approved models.
+Option A is incorrect. Bring Your Own Device (BYOD) allows employees to bring whatever model device they happen to have.
+Option C is incorrect. Company-Owned Personally Enabled (COPE) equipment is provided by and owned by the company.
+Option D is incorrect. BYOE is not a term used in the industry.
+20. C. Virtual Desktop Infrastructure does have all patch management centrally controlled.
+Option A is incorrect. This is a benefit of VDI but not a security benefit.
+Option B is incorrect. VDI is no more or less resistant to malware than physical desktops.
+Option D is incorrect. Some vendors claim VDI is less susceptible to man-in-the-middle
+attacks, but no one claims it is immune to them.
+21. C. Satellite communications are most resistant to disasters that disrupt communications.
+Option A is incorrect. While cellular is effective and reasonably resilient, it is not as resilient as SATCOM.
+Option B is incorrect. WiFi can fail for any number of reasons, and a disaster is very likely
+to affect it.
+Option D is incorrect. If there is any disruption to the network, then VoIP will not function.
+22. A. The most effective protection against data loss is the ability to remotely wipe the
+phone.
+Option B is incorrect. Geolocation will allow you to locate the phone, but data may have
+already been exfiltrated.
+Option C is incorrect. A strong PIN is a good idea, but not as effective as remote wiping.
+Option D is incorrect. This only limits how much data could be on the device to be stolen.
+23. B. Geofencing sets up geographic boundaries, beyond which a device won’t work.
+Option A is incorrect. Geolocation provides geographic location, not geofencing.
+Options C and D are incorrect because geofencing is not related to WiFi.
+24. B. Content management for a mobile device involves limiting what content can be placed
+on the phone.
+Option A is incorrect. Content management is not involved in limiting the amount of data.
+Option C is incorrect. In the context of a mobile device, this is not content management.
+Option D is incorrect. Digitally signing authorized content could be used in some content
+management systems, but this is not the best definition of content management.
+25. C. The ipconfig /renew command will request a new IP from the DHCP server.
+Option A is incorrect. There is no /request flag for ipconfig.
+Options B and D are incorrect. Netstat has nothing to do with getting a dynamic IP
+address. Also /request and -renew are not NETSTAT flags.
+26. D. ANT is a proprietary wireless network technology that provides low-power modes and
+is used in WiFi settings. It has been used in sports-related technologies.
+Option A is incorrect. WiFi uses power constantly, whether users connect or not.
+Option B is incorrect. Cellular consumes too much power.
+Option C is incorrect. The range of Bluetooth is too short.
+27. A. Date Execution Prevention (DEP) requires the user to authorize any executable to
+execute. It should be noted that this is the definition Microsoft used for its functionality.
+A more technical definition is that Data Execution Prevention is preventing software from
+accessing restricted memory such as the operating system’s memory.
+Option B is incorrect. Data Loss Prevention (DLP) is related to preventing exfiltration of data.
+Most DLP solutions have the capability to control removable medias such as USB devices.
+Option C is incorrect. Unified Threat Management (UTM) is the combining of security
+services such as antivirus, HIDS, log monitoring, firewall, and so forth in a single device.
+Option D is incorrect. ANT is a networking technology.
+28. D. Transport Layer Security (TLS) is used to encrypt and secure web traffic.
+Options A and B are incorrect. L2TP and IPSec are VPN technologies and not appropriate
+for securing web traffic.
+Option C is incorrect. Secure Sockets Layer was the appropriate choice a long time ago,
+but TLS is the successor to SSL and was released in 1999.
+29. A. Heuristic scanning involves scanning for anomalous behavior that might indicate an
+attack, even if there is no known attack signature.
+Option B is incorrect. Signature scanning can only detect known signatures, and that
+appears to be what the college is using now.
+Options C and D are incorrect. Neither is an IDS term.
+30. D. Lightweight Directory Access Protocol Secure (LDAPS) would at least mitigate the
+risk. LDAP is a directory of the network (computers, users, etc.). Securing that would help
+mitigate network enumeration.
+Option A is incorrect. HTTPS is for secure web pages.
+Option B is incorrect. TLS will help only if applied to a directory protocol, as it is in
+LDAPS.
+Option C is incorrect. A VPN won’t solve this issue.
+31. C. FTPS is File Transfer Protocol with SSL/TLS and uses digital certificates to secure file
+transfer.
+Option A is incorrect. File Transfer Protocol is not secure.
+Option B is incorrect. SFTP is secure, but it uses SSH for security and does not use digital
+certificates.
+Option D is incorrect. Secure Copy is secure, but it uses SSH for security and does not use
+digital certificates.
+32. C. Secure Real-Time Transport Protocol (SRTP) is used to encrypt and secure RTP. RTP is
+the protocol for transmitting VoIP.
+Option A is incorrect. Session Initiation Protocol is used to initiate a VoIP call but not to
+send the VoIP data.
+Option B is incorrect. TLS is used to secure data, but by itself it cannot secure VoIP.
+Option D is incorrect. Secure Shell SSH is for remote terminal connection and is not used
+in VoIP.
+33. B. A screen lock limits access to users who know the code.
+Option A is incorrect. While device encryption is common, the screen lock code does not
+encrypt the device.
+Option C is incorrect. Unlike desktop operating systems, mobile devices are not designed
+to be used by multiple users.
+Option D is incorrect. The lock codes for screen locks have no relationship to connecting
+to WiFi.
+34. A. Context-aware authentication does still require a username and password, but in addition to those criteria, it examines the user’s location, time of day they are logging in, computer they are logging in from, what they are trying to do, and so forth.
+Option B is incorrect. Context-aware authentication still requires a username and password.
+Options C and D are incorrect. Context-aware authentication is not about digital certificates or tokens.
+35. C. Application management is primarily concerned with ensuring only authorized and
+approved applications are installed on mobile devices.
+Option A is incorrect. Not every app in the iTunes store is appropriate for business use,
+and the iTunes store only affects Apple devices.
+Option B is incorrect. Simply knowing what is installed is not the same thing as ensuring
+only authorized apps are installed.
+Option D is incorrect. Patch management can be a part of application management, but
+the primary goal is controlling what apps get installed on a device.
+36. D. An inline IDS is actually in the traffic line (i.e., on the network segment where traffic is).
+Option A is incorrect. An active IDS refers to one that takes action against suspected
+attack traffic—it has nothing to do with where it is placed.
+Option B is incorrect. IPS is another name for active IDS.
+Option C is incorrect. Passive refers to whether or not the system acts against suspected
+traffic, not the location of the IDS.
+37. A. Split tunneling allows a mobile user to access dissimilar security domains like a public
+network (e.g., the Internet) and a local LAN or WAN at the same time.
+Option B is incorrect. IPSec is the protocol for establishing and securing a VPN, rather
+than connecting to different resources. You can use IPSec in either a split or full tunnel.
+Option C is incorrect. A full tunnel is a dedicated tunnel to one single target.
+Option D is incorrect. TLS is a protocol that can be used for establishing and securing a
+VPN, rather than connecting to different resources. You can use TLS in either a split or
+full tunnel.
+38. A. A forward proxy is a single location that provides access to a wide range of web
+sources.
+Option B is incorrect. A reverse proxy is usually an internal-facing proxy used as a front
+end to control and protect access to a server on a private network.
+Option C is incorrect. Stateful packet inspection is a type of firewall.
+Option D is incorrect. Open proxies are usable by anyone on the Internet.
+39. A. This is the term for rummaging through the waste/trash.
+Options B and D are incorrect. These terms, while grammatically correct, are simply not
+the terms used in the industry.
+Option C is incorrect. Nothing in this scenario describes social engineering.
+40. A. Affinity load balancing ties certain users or groups of users to a specific server so they
+will be routed to that server if possible.
+Option B is incorrect. Binding is not a term used in load balancing.
+Option C is incorrect. Yes, load balancing is needed, but the question asks what type of
+load balancing.
+Option D is incorrect. Round-robin simply goes to the next available server.
+41. D. Placing the WAPs carefully so as to provide the best coverage for the company, with
+minimum overlap outside the company, will be the best way to keep those in adjacent
+offices from attempting to breach the WiFi. When placing WAPs for the best coverage, one
+needs to focus on signal strength to ensure there is no gaps between WPAs.
+Option A is incorrect. Thin versus fat WAP refers to the functionality in the WAP and
+won’t have any effect on the ability of nearby people to breach the WAP.
+Option B is incorrect. Geofencing is used to limit the area in which a mobile device can
+be used.
+Option C is incorrect. Securing the admin screen is a great idea and should be done, but it
+won’t address the issue of nearby tenants attempting to breach the WiFi.
+42. D. Correlating the events from the servers related to the breach would be the most important issue to address for the SIEM manager.
+Option A is incorrect. Event duplication is an issue that needs to be addressed, but it is far
+less important than correlation.
+Option B is incorrect. Time synchronization will be important, but it is either done before
+an incident, during setup and maintenance of the servers, or after correlation, when correlated events need to have their time synchronized.
+Option C is incorrect. Impact assessment is important, but is not part of SIEM
+management.
+43. B. The total number of erroneous reports (i.e., false positives and false negatives) is the
+biggest concern because this determines effectiveness of the system.
+Option A is incorrect. Yes, cost is an issue, but effectiveness is the most important issue.
+Option C is incorrect. Yes, cost is an issue, but effectiveness is the most important issue
+and power consumption is a much less important concern.
+Option D is incorrect. Both the management interface and the cost are important but less
+important than efficacy.
+44. A. Access control lists are Cisco’s primary recommendation to prevent spoofing on routers. ACLs limit access to the router and its functionality.
+Option B is incorrect. A login for accessing a router is often not practical because the
+router access may be needed when a user is not present to log on.
+Option C is incorrect. A network intrusion prevention system is a good idea, but it won’t
+prevent spoofing.
+Option D is incorrect. A network intrusion detection system is a good idea, but it won’t
+prevent spoofing.
+45. A. A SYN attack is a type of flooding attack that is a denial of service. Flood guards are
+either stand-alone or, more often, part of a firewall, and they prevent flooding attacks.
+Option B is incorrect. DNS poisoning involves inserting fake entries into a DNS server; a
+flood guard will do nothing to prevent that.
+Option C is incorrect. Spoofing a MAC address does not involve any flooding.
+Option D is incorrect. Spoofing Address Resolution Protocol is a type of MAC spoofing
+and does not involve any flooding.
+46. A. An application proxy server is often used when the client and the server are incompatible for direct connection with the server.
+Option B is incorrect. Network address translation involves translating a private IP
+address to a public IP address.
+Option C is incorrect. Changing the server is a drastic measure. It is assumed that this
+server is being used for some valid reason.
+Option D is incorrect. A protocol analyzer is essentially a packet sniffer.
+47. C. Virtual IP load balancing does not take the load of each interface into account and
+assumes all loads are essentially similar.
+Option A is incorrect. This load balancing is not resource intensive.
+Option B is incorrect. Most servers do support virtual IP load-balancing.
+Option D is incorrect. Windows will also support virtual IP load-balancing.
+48. A. If Network Time Protocol (NTP) is disrupted, then the various servers that forward
+logs to the SIEM might not have the same time. This could lead to events that actually
+took place at the same time appearing to have occurred at different times.
+Option B is incorrect. Event correlation is related to time synchronization, but that is a
+secondary effect.
+Option C is incorrect. NTP issues should not lead to any event duplication.
+Option D is incorrect. NTP issues should not lead to events failing to be logged.
+49. A. The -n command is used to set the number of ping packets to send—in this case, 6—
+and -l sets the size—in this case, 100 bytes.
+Option A is incorrect. IV attacks are obscure cryptographic attacks on stream ciphers.
+Options B, C, and D are all incorrect. This is a ping command, but these options have
+incorrect flags.
+50. B. An insider could send out data as an email attachment.
+Option A is incorrect. Portable devices usually connect via USB, which is blocked, and if
+they don’t, they will likely be found on the exit search.
+Option C is incorrect. The range of Bluetooth is 10 meters. That makes it ineffective for
+data exfiltration.
+Option D is incorrect. Optical media is a type of portable media.
+51. D. Phishing emails are often sent out to masses of people and a spam filter would block at
+least some of that, thus reducing the phishing email attacks.
+Option A is incorrect. Although email encryption is a good idea, it will do nothing to stop
+phishing.
+Option B is incorrect. Hardening all servers is a good security practice, but it has no
+impact on phishing emails.
+Option C is incorrect. Although digitally signing email is a good idea, it cannot stop phishing or even reduce it significantly. It might mitigate phishing emails that claim to come
+from a company employee, but it won’t impact other phishing emails.
+52. C. A TLS accelerator is a processor that handles processing, specifically processor-intensive public-key encryption for Transport Layer Security (TLS). This should significantly
+improve server responsiveness.
+Option A is incorrect. Increasing RAM will have only a minimal effect on network
+responsiveness.
+Option B is incorrect. From the question, there is no indication that the servers were not
+performing fine before TLS implementation, so addressing the TLS issues is the best
+solution.
+Option D is incorrect. Setting up clustering is a rather significant step, and not the first
+thing that should be considered. Implementation of TLS accelerators is a better option.
+53. B. An employee could hide sensitive data in files using steganography and then exfiltrate
+that data.
+Option A is incorrect. Password crackers are a separate type of tool than steganography
+tools.
+Option C is incorrect. Very few steganography tools and methods allow you to hide network traffic.
+Option D is incorrect. Although it is possible to hide malware in a file via steganography,
+this is not the greatest or most common concern.
+54. B. The netstat command displays all connections, and the -o flag shows the process that
+owns that connection.
+Option A is incorrect. The netstat -a command will show listening ports.
+Option C is incorrect. The arp -a command shows the current address routing protocol
+entries.
+Option D is incorrect. The arp -g command is identical to arp -a.
+55. A. This is an example of a dictionary attack. The attacker uses a list of words that are
+believed to be likely passwords.
+Option B is incorrect. A rainbow table is a precomputed table of hashes.
+Option C is incorrect. Brute force tries every possible random combination.
+Option D is incorrect. Session hijacking is when the attacker takes over an authenticated
+session.
+56. C. Netcat is a tool widely used by network administrators to establish communication
+between two machines. Having netcat on a machine could indicate an intruder has compromised that machine and installed netcat as a backdoor, or that the employee is setting
+up covert communication channels.
+Option A is incorrect. Netcat is not a password cracker.
+Option B is incorrect. Netcat is not a packet sniffer.
+Option D is incorrect. Netcat is not a denial-of-service tool.
+57. A. The certificate revocation list designates certificates that have been revoked for some
+reason. Those certificates should no longer be used. But if the CRL is published only once
+per week, then a revoked certificate could potentially be used for up to a week after being
+revoked.
+Option B is incorrect. CRLs are not part of the certificate issuing process.
+Option C is incorrect. Yes, it would present a possible security issue.
+Option D is incorrect. Key generation for certificates is completely separate from CRLs.
+58. C. A clear security policy must be created that explains software licensing and the company processes for software licensing. Without clear policies, any other countermeasures
+will be less effective.
+Option A is incorrect. Although software audits are a good idea, meaningful audits can
+take place only after good policies are in place.
+Option B is incorrect. Scanning the network to see what is installed is a good idea, but policies must be established first.
+Option D is incorrect. This may, or may not, be a step the company wishes to take. But
+policies must be established first.
+59. B. The false rejection rate (FRR) is the rate at which authentication attempts are rejected
+when they should have succeeded. When you are getting a high number of authorized individuals being denied access, that is due to an FRR that is too high.
+Option A is incorrect. The false acceptance rate (FAR) is the rate at which people who
+should not be authenticated are. This is certainly a concern but a different concern.
+Option C is incorrect. The crossover error rate (CER) is the rate at which FAR and FRR
+are equal.
+Option D is incorrect. Equal error rate (ERR) is another name for CER.
+60. D. Unified threat management (UTM) combines multiple security services into one device.
+It is common for a UTM to have firewall, antivirus, and IDS services all in one device.
+Options A, B, and C are incorrect. These are all good devices, but the UTM is a better
+choice
+61. C. The security concept of implicit deny states that any new access account will by default
+be denied all access. When a request is made for specific privileges for that account, then
+the privileges are explicitly applied. This means that by default all privileges are implicitly
+denied.
+Option A is incorrect. Least privileges are what every account should have, but in this scenario the accounts were all given default privileges. The concept of implicit deny is a better
+answer.
+Option B is incorrect. Separation of duties is used to prevent any one person from executing any action that might have significant security ramifications for the company.
+Option D is incorrect. It is true that your network is only as secure as its weakest link, but
+that is not the best description of this scenario.
+62. C. Write once, read many (WORM) storage is a type of high-capacity storage wherein
+once the data is written to the storage, it cannot be edited. It provides both high-capacity
+storage and secure storage, since the backups cannot be tampered with.
+Option A is incorrect. Large-capacity external drives would need to be stored in a secure
+place, and they can be edited and are thus not secure. You could secure one with encryption, but the question does not mention encrypted drives.
+Option B is incorrect. Backup tapes are older technology. Tapes frequently have issues, and
+data can become irretrievable.
+Answer D is incorrect. Backup media should always be stored off-site, but there is the
+issue that tapes can easily be damaged or corrupted, which is unacceptable for long-term
+storage.
+63. A. An SIEM aggregates logs from multiple servers and devices. It is difficult to review so
+many logs, and of course issues could occur when Elizabeth is away from the SIEM management console. Having automatic alerts is the best way to be made aware of issues that
+require Elizabeth’s attention.
+Option B is incorrect. Logs and events anomalies can be quite large, and having them forwarded to her email is unwieldy and does not solve the problem. Elizabeth will still need
+to read through them to be aware of any issues that require her attention.
+Option C is incorrect. This situation is not optimal.
+Option D is incorrect. Reviewing SIEM logs is one way that administrators become aware
+of issues. So reviewing them only when you are already aware of an issue is not a good use
+of SIEM.
+64. D. Tethering is usually inexpensive, and simply tethering a portable device to a desk
+makes it difficult to steal the device. No antitheft method is foolproof, but tethering is
+simple, cost effective, and reasonably effective.
+Option A is incorrect. Full-disk encryption (FDE) can be a good idea and will protect the
+data on the laptop. However, the laptop can still be stolen, the drive wiped, and the laptop
+reused or sold.
+Option B is incorrect. GPS tagging may allow you to locate a stolen laptop, but it is usually
+more expensive than tethering.
+Option C is incorrect. Geofencing just limits where the device will work—it does not prevent theft of the device.
+65. A. Full-disk encryption (FDE) is the best way to protect data on any device. In this scenario, the sensitive data on the tablets is the most important concern; therefore, securing
+that data with FDE is the most important security measure to take.
+Option B is incorrect. GPS tagging might be a good idea—it would help locate lost or stolen devices. However, it is less important than FDE.
+Option C is incorrect. Geofencing limits where a device can be used, and it does not
+address the issues presented in this scenario.
+Option D is incorrect. Content management is always a good idea. But in this case, it
+won’t address the most important security concern.
+66. A. HIDSs/HIPSs and NIDSs/NIPSs each have output that the vendor specifies. But all
+such devices will output what protocol the traffic was, the source and destination IP
+addresses, as well as the source and destination port. More information may be provided,
+but this is the essential basic information all IDSs/IPSs display.
+Option B is incorrect. Many of these devices won’t display the suspected attack type. The
+person operating the device should recognize that a flood of SYN packets on a given port
+is a SYN flood.
+Option C is incorrect. Usernames and machine names may or may not be included, but IP
+addresses will be.
+Option D is incorrect. Usernames and machine names may or may not be included, but IP
+addresses will be.
+67. A. The standard items in any firewall log are the source and destination IP address and
+port of all traffic, the protocol the traffic is using, and whether that traffic was allowed or
+denied.
+Option B is incorrect. Firewall logs record both traffic that is allowed and traffic that is
+denied.
+Option C is incorrect. Many firewalls don’t record a reason the traffic was denied, but all
+record the protocol used.
+Option D is incorrect. Firewall logs record both traffic that is allowed and traffic that is
+denied.
+68. A. Since 20 servers send logs to the SIEM, de-duplicating events will be important.
+Option B is incorrect. An SIEM is a log aggregation and analysis tool. Log forwarding was
+established before the incident.
+Option C is incorrect. This is certainly something to do at some point, but it won’t be the
+first action.
+Option D is incorrect. This is certainly something to do at some point, but it won’t be the
+first action.
+69. A. In any IDS (HIDS/HIPS; NIDS/NIPS), the sensors collect data from the network segment they are on and forward that information to the analyzer.
+Option B is incorrect. A data source is any source of information for the IDS.
+Option C is incorrect. The manager is the interface that a human operator uses to interact
+with the NIDS/NIPS or HIDS/HIPS.
+Option D is incorrect. The analyzer takes data sent to it from the sensors and analyzes the
+data looking for indicators of an attack.
+70. A. An access control list (ACL) has a list of which requestors are allowed access to which
+resources. Using an IP address to block or allow requests is a common technique.
+Option B is incorrect. A network intrusion prevention system (NIPS) is not part of access
+control.
+Option C is incorrect. A network intrusion detection system (HIPS) is not part of access
+control.
+Option D is incorrect. Port blocking can be used to block a port on a router or switch, but
+it is not part of access control.
+71. D. Secure Shell (SSH) uses port 22 and provides a secure, encrypted command-line interface. Telnet uses port 23 and is not secure.
+Option A is incorrect. Telnet uses port 23 and is not secure, but ports 20 and 21 are for
+File Transfer Protocol (FTP).
+Option B is incorrect. Ports 20 and 21 are for File Transfer Protocol (FTP). Port 22, SSH,
+is what you should open.
+Option C is incorrect. This is the opposite of the correct answer. You should block 23 and
+allow port 22.
+72. B. A reverse proxy is a type of proxy server that retrieves resources on behalf of a client
+from one or more servers. The sources appear to the client as if they came from the proxy
+server. In other words, the entire outside world appears as the proxy server to the client.
+Option A is incorrect. A forward proxy server acts as an intermediary for requests from
+clients seeking resources from other servers.
+Option C is incorrect. A transparent proxy is between clients and the Internet, and as the
+name suggests, the clients are unaware. Often these are co-located with the gateway.
+Option D is incorrect. Although firewalls and proxy servers can be co-located, they are
+two different technologies.
+73. C. By giving the tester logins, you are allowing him to conduct a privilege scan (i.e., a scan
+with some privileges).
+Options A and B are incorrect. They describe the level of knowledge the tester is given of
+the network. A privilege scan cannot be a black-box test, but it could be either white box
+or gray box.
+Option D is incorrect. Although this is grammatically correct, it is not the term used in the
+industry.
+74. C. A network intrusion detection system (NIDS) will detect suspected attacks on a given
+network segment and notify the administrator. For example, in an anomaly detection,
+the administrator will be notified if there are any deviation from an expected pattern or
+behavior.
+Option A is incorrect. A host intrusion detection system (HIDS) only detects intrusions for
+a single host.
+Option B is incorrect. A host intrusion prevention system (HIPS) only detects intrusions on
+a single host, and it blocks suspected intrusions.
+Option D is incorrect. A network intrusion prevention system (NIPS) will check the entire
+network segment, but rather than simply notify the administrator for him or her to take
+action, the NIPS will block the suspected traffic.
+75. C. A network intrusion detection system (NIDS) will detect intrusions across a network segment, but it won’t block the possible attacks, thus not disrupting work due to false positives.
+Option A is incorrect. A host intrusion detection system (HIDS) will only detect intrusions
+for a specific host.
+Option B is incorrect. A host intrusion prevention system (HIPS) will only detect intrusions
+for a specific host, and will block them, so it would disrupt work due to false positives.
+Option D is incorrect. A network intrusion prevention system (NIPS) will detect intrusions
+across a network segment, but it will also block them, possibly disrupting workflow.
+76. A. Company-Provided Equipment provides the most security because the company owns
+and provides the equipment to employees. This allows the company to fully control security,
+such as preventing carrier unlocking, disable recording microphone, prevent WiFi direct and
+WiFi ad-hoc.
+Option B is incorrect. Choose Your Own Device (CYOD) would have the employees
+choose any device they wish from a set of options selected by the company. But these
+would still be employee-owned and -controlled devices.
+Option C is incorrect. Geotagging simply allows you to locate a device.
+Option D is incorrect. Bring Your Own Device (BYOD) allows employees to bring whatever device they have to work. This is a security concern.
+77. A. A tunneling mode is the mode wherein IPSec encrypts the entire packet, header, and
+data. This prevents someone sniffing traffic from gathering metadata about the traffic.
+Option B is incorrect. Authentication Header (AH) provides authentication and integrity
+but no encryption, so it cannot be the most secure mode.
+Option C is incorrect. Internet Key Exchange (IKE) is used in setting up security associations in IPSec.
+Option D is incorrect. Transport mode encrypts only the data, not the header. This allows
+metadata about traffic to be sniffed by an attacker. Therefore, this cannot be the most
+secure mode.
+78. D. An active-passive cluster has backup servers that are not handling any workload. They
+are brought into action if the primary server fails. This means the backup server will not
+have been subjected to any workload and is effectively a new machine.
+Option A is incorrect. An active-active cluster has all servers working, with the load balanced between them. Should a primary server fail, there is some chance the backup might
+fail in the near future.
+Options B and C are incorrect. Round-robin and affinity describe how connections are
+routed in the cluster, not how failover functions.
+79. A. A fat wireless access point (WAP) is one that has all the functionality needed, such as;
+ability to traffic forwarded between wired interfaces like a layer 2 or layer 3 switch and
+MAC filtering, and no other servers or devices are required. In this case, since each WAP
+might have completely different needs, a fat WAP is preferred.
+Option B is incorrect. Thin WAPs require some server or device to offload some functionality to. Since each WAP has different needs, this would be difficult to implement with thin
+WAPs.
+Option C is incorrect. A repeater resends a signal.
+Option D is incorrect. Full is not a term used in the industry.
+80. D. Pretty Good Privacy (PGP) is very appropriate for email security. It provides self-signed
+certificates for email signing and encrypting. It is also very low cost.
+Option A is incorrect. Simple Mail Transfer Protocol Secure (SMTPS) is encrypted, but it
+is only for sending email, not receiving. It also can be done with S/MIME or PGP.
+Option B is incorrect. Secure/Multi-Purpose Internet Mail Extensions (S/MIME) uses
+X.509 certificates, which are issued by a third party, and this has a cost associated with it.
+Option C is incorrect. Internet Message Access Protocol (IMAP) is for receiving email. It
+does not send email; therefore, IMAP would not provide a full solution.
+81. A. Date Execution Prevention (DEP) specifically monitors programs accessing system
+memory and prevents that. Note that the Microsoft implementation of DEP simply
+requires the end user to authorize all program execution.
+Option B is incorrect. Full-disk encryption (FDE) is a good idea, but it will not prevent
+running programs from accessing system memory.
+Option C is incorrect. Unified threat management (UTM) is the combining of security services such as antivirus, HIDS, log monitoring, firewall, and so forth in a single device.
+Option D is incorrect. An intrusion detection system (IDS) monitors traffic on the network, not running programs on a machine.
+82. B. Real-time Transport Protocol (RTP) is used to transport VoIP and video signals, but it
+is not encrypted. Secure Real-time Transport Protocol (SRTP) should be used.
+Option A is incorrect. Session Initiation Protocol (SIP) is used to initiate a VoIP call but
+not to send the VoIP data.
+Option C is incorrect. The speed is not the issue.
+Option D is incorrect. The speed is not the issue.
+83. A. The output shown is from nslookup, which is used to interact with the DNS server for
+your domain.
+Option A is incorrect. The ipconfig command will show the network configuration for
+your network cards.
+Option C is incorrect. The netstat -a command will show listening ports.
+Option D is incorrect. The dig command is a DNS-related utility, but the output shown is
+not from dig.
+84. A. Online Certificate Status Protocol (OCSP) checks the status of a certificate in real time.
+So when the browser is about to download a certificate, it first gets a real-time update if
+the certificate is valid or not.
+Option B is incorrect. X.509 is the standard for certificates and does not determine when
+they are checked for status.
+Option C is incorrect. A certificate revocation list (CRL) does show the status of certificates, but they are not updated in real time.
+Option D is incorrect. The public key infrastructure (PKI) does not determine when certificate status is checked.
+85. D. While most people think of content filtering in regard to filtering content you view, it
+can also be thought of in terms of content that is sent out. Implementing content filtering
+ensures that the problem of data exfiltration via email will be mitigated.
+Option A is incorrect. Email encryption would actually make it easier to exfiltrate data,
+since the data would be hidden from any analysis.
+Option B is incorrect. USB blocking won’t affect email filtration.
+Option C is incorrect. A network-based intrusion prevention system (NIPS) cannot stop
+email attachments.
+86. D. Encrypting a mobile device is the best way to ensure the data on the device is secure. If
+the device is stolen or simply misplaced, then the data cannot be retrieved.
+Option A is incorrect. Geofencing limits the operational area of a device. But even a device
+that is not operating can have data accessed.
+Option B is incorrect. A screen lock is always a good idea; however, that is not as effective
+as device encryption.
+Option C is incorrect. GPS tagging could be used to locate the device, but it won’t prevent
+data from being copied off the device.
+87. A. The nmap -O flag indicates that you want to guess the operating system. The -PT scan
+means do a ping with TCP. The -T1 is a very slow scan.
+Options B, C, and D are all incorrect. The ping scan variations all start with -P (-PT TCP
+ping, -TS SYN ping, etc.), the -T is timing, and the options are T1 (slowest) to T5 (fastest).
+88. D. Tcpdump is a widely used packet sniffer, made for Linux but ported to Windows. It
+works from the shell in Linux (the command line in Windows) and allows the user to
+dump current network traffic.
+Option A is incorrect. Ophcrack is a Windows password-cracking tool.
+Option B is incorrect. Nmap is a port scanner, rogue system detection, and network
+mapping tool.
+Option C is incorrect. Wireshark is a network traffic scanner, and wireless scanner but it
+is for Windows or Macintosh.
+89. A. The tracert command is used to trace the route to a target (the equivalent command
+in Linux is traceroute). The -h command sets the maximum number of hops before giving up.
+Option B is incorrect. The image shows a maximum of 10 hops. Without specifying the
+maximum, tracert will perform 30 hops.
+Option C is incorrect. This is not the output of netstat.
+Option D is incorrect. This is not the output of nmap.
+90. A. Transport Layer Security (TLS) can be used to secure any network communication
+(HTTP, LDAP, SMTP, etc.) and it uses digital certificates.
+Option B is incorrect. Secure Sockets Layer (SSL) is a much older technology that has been
+replaced by TLS. TLS was first released in 1999.
+Option C is incorrect. You could set up an IPSec VPN, but that would have more overhead
+than TLS, and it would not leverage the existing digital certificate infrastructure.
+Option D is incorrect. WPA2 is for security WiFi transmissions.
+91. C. Using cloud storage means that data is placed in the cloud, and can be accessed from
+outside the network. This presents a problem for data loss prevention (DLP) since it provides a convenient way to exfiltrate data from the network.
+Option A is incorrect. There is a security hazard for DLP.
+Option B is incorrect. Malware is unlikely from a cloud server, but it also is not a DLP
+concern.
+Option D is incorrect. Company security policies apply to any company asset, including
+cloud storage.
+92. D. The DMZ is the best location for a honeypot, if the concern is outside intruders. An
+intruder is likely to first breach the outer firewall of the DMZ. A honeypot could conceivably catch the intruder there and prevent him or her from going further into the network.
+Options A, B, and C are incorrect. Certainly, you can put a honeypot anywhere, but the
+most important area is in the DMZ.
+93. A. When backing up data, if you do not encrypt the data, then it would be possible for
+anyone to restore the backup and have access to all data you have backed up. Not all
+backup utilities include data encryption.
+Options B and D are incorrect. Both of these are very good ideas and ensure data integrity,
+but they were not mentioned as one of Sheila’s concerns.
+Option C is incorrect. Although this is important, it is a feature that exists in all backup
+utilities.
+94. C. Banner grabbing is a process whereby someone connects to a target web server and
+attempts to gather information, literally grabbing the web services “banner.” This is often
+done by telnetting into the web server. It can also be done with netcat, using an HTTP
+request.
+Option A is incorrect. Passive reconnaissance would not involve active connections to the
+server.
+Option B is incorrect. Although this is active reconnaissance, it is more accurately
+described as banner grabbing.
+Option D is incorrect. This scenario is not describing vulnerability scanning.
+95. B. Exploit frameworks are tools that provide a framework for finding vulnerabilities
+and then attempting to exploit those vulnerabilities. These tools are an important part of
+network security testing.
+Option A is incorrect. A vulnerability scanner would only identify the vulnerabilities; it
+would not provide a means to use the vulnerability.
+Option C is incorrect. Metasploit is a popular exploit framework, but the question asked
+about the class of tools, not about identifying a specific tool.
+Option D is incorrect. Nessus is a well-known vulnerability scanner.
+96. D. US DoD data sanitization standard DoD 5220.22-M recommends an average of 7 complete wipes to wipe data. The standard has a matrix wherein you match the sensitivity of
+the data to a specific number of wipes, but the general rule is 7.
+Options A, B, and C are all incorrect. Less than 7 wipes are considered inadequate to prevent data recovery tools from recovering the data.
+97. C. Firewalls do block inbound traffic and can be configured to fine-tune that blocking.
+However, they can and should also be configured to handle outbound traffic. This can prevent data exfiltration and other breaches.
+Option A is incorrect. This configuration is missing outbound rules.
+Option B is incorrect. It is often a good idea to encrypt some traffic, but not all traffic can
+or should be encrypted. DNS requests, for example, are not usually encrypted.
+Option D is incorrect. Digital certificates can be a very good mechanism for authentication. However, not all traffic can be authenticated with a digital certificate.
+98. C. X.509 is the most common standard for digital certificates. It is relatively easy to create your own self-signed certificate. However, if you use a self-signed certificate on a public website, everyone visiting the website will receive a security error message from their
+browser.
+Option A is incorrect. You can encrypt all web traffic, and it is usually done with TLS and
+X.509 certificates.
+Option B is incorrect. PGP certificates are usually for email and not used for websites.
+Option D is incorrect. This is not appropriate—he should not be using self-signed
+certificates.
+99. C. Port 442 is used for HTTPS, HTTP encrypted via TLS. Port 22 is used for secure shell
+(SSH), which is a secure, encrypted command-line interface often used by administrators. Port
+80 is for unencrypted HTTP traffic. Port 23 is for telnet, an insecure command-line interface.
+Options A, B, and D are incorrect. These are not the proper ports to block or to open.
+100. B. Steganography allows you to embed data, messages, or entire files in other files. It is
+common to use this to embed some identifying mark that would track the owner of the
+document and perhaps its originating location. Steganography can track confidential
+documents.
+Options A and D are incorrect. Encryption of any type can be used to secure a document
+but won’t help identify a document should it be leaked.
+Option C is incorrect. Hashes can be useful in detecting changes to a document but are
+less useful in identifying documents and their origin.
+101. B. Port 465 is for Simple Mail Transfer Protocol Secure (SMTPS). Port 993 is for Internet Message Access Protocol Secure (IMAPS). Port 995 is for Post Office Protocol Secure
+(POP3S). By allowing these ports you allow encrypted email. Port 25 is for SMTP, unencrypted. Port 110 is for POP3 unencrypted. Ports 143 (or 220) can be used for IMAP
+unencrypted. By blocking these ports, you prevent unencrypted email traffic.
+Options A, C, and D are incorrect. All of these have the wrong port configurations. In
+fact, option A is the exact opposite of what you would want to implement.
+102. A. Each of these firewalls is logging all activity, but the logs are not centralized. This
+makes it quite difficult to monitor all logs. By integrating with an SIEM, all logs are centralized and Mark can get alerts for issues.
+Options B and D are incorrect. A honeypot or honeynet might be a good idea, but neither
+is the next logical step or part of firewall configuration.
+Option C is incorrect. Integrating with Active Directory (AD) may or may not be a good
+choice for Mark, but it won’t improve his firewall configuration.
+103. C. In IPSec, tunneling mode encrypts not only the packet data but the header as well. This
+prevents someone from determining what protocol the traffic is using, the packet sequence
+number, or other metadata.
+Option D is incorrect. Transport mode is the mode wherein IPSec encrypts the data but
+not the packet header.
+Option A is incorrect. Authentication Header is used for integrity and authentication.
+Option B is incorrect. ESP (Encapsulating Security Payload) is used for authentication and
+encryption in IPSec, whether tunneling or transport mode is used.
+104. A. If an intrusion detection system is missing attacks (whether it is a NIDS or HIDS) this
+is a false negative. The IDS is incorrectly identifying traffic as not an attack. John needs to
+reconfigure to reduce false negatives.
+Option B is incorrect. Port blocking is a firewall function.
+Option C is incorrect. Stateful packet inspection (SPI) is a method of firewall operations.
+Option D is incorrect. When an IDS (or any security device) labels legitimate traffic as an
+attack, that is called a false positive.
+105. D. Remote-access VPNs are used to allow users at diverse locations to remotely access
+the network via a secure connection. Traveling employees is a typical scenario in which a
+remote-access VPN would be used.
+Option A is incorrect. L2TP is a protocol for VPN and could be used for either site-to-site
+or remote-access VPNs.
+Option B is incorrect. IPSec is a protocol for VPN and could be used for either site-to-site
+or remote-access VPNs.
+Option C is incorrect. A site-to-site VPN is a permanent VPN connection between sites.
+106. A. Since employees use the Company-Owned Personally Enabled (COPE) device for personal use, the devices will have the employee’s personal information. This can lead to
+personal and private data being exposed to the company.
+Option B is incorrect. Any portable device has the chance of being used for data exfiltration, but COPE is no more susceptible than other configurations such as BYOD.
+Option C is incorrect. In fact, the opposite is true. It is less likely that devices will be
+improperly configured because the company controls configuration.
+Option D is incorrect. There are issues with this option.
+107. B. Application management is primarily concerned with ensuring only authorized and
+approved applications are installed on mobile devices. This would be the next logical step to
+perform. Control of which applications are allowed on the device is central to basic security.
+Option A is incorrect. Geofencing may or may not even be appropriate for every company.
+Option C is incorrect. Geolocation is useful to locating stolen devices, but it is not the next
+step to take in security.
+Option D is incorrect. Remote wipe can be useful should a device be lost or stolen, but it is
+not the next step to take in security.
+108. A. Containerization establishes a secure, isolated area of the device that is also encrypted.
+It separates data and applications in the container from the rest of the phone. This would
+be the best way to segregate company data from personal data on BYOD.
+Option B is incorrect. Screen locks are fundamental to mobile device security, but they
+won’t address this concern.
+Option C is incorrect. SQL FDE is a good idea, but it does not segregate company from
+personal data.
+Option D is incorrect. Biometrics is an excellent idea for authentication but will do nothing to address the issue in this scenario.
+109. A. The term sideloading in general means to transfer data between two devices—more
+specifically, with mobile devices. It most often is associated with using the sideloading to
+install Android apps from places other than Google Play.
+Option B is incorrect. The loading is done via some device, not via WiFi.
+Option C is incorrect. The process of sideloading does not bypass the screen lock.
+Option D is incorrect. Sideloading could get malware on the device, but the process of
+sideloading involves active participation from the user.
+110. C. Whether the device is Company-Owned and Personally Enabled (COPE) or Bring Your
+Own Device (BYOD), any mobile device can be a USB On-the-Go (OTG) device. This
+means the device itself serves as a mass storage USB drive, and data can be exfiltrated on
+the device. This is a concern for data loss prevention (DLP).
+Options A and B are incorrect. Any device can be USB OTG.
+Option D is incorrect. You need not jailbreak a phone or tablet in order to use it as
+USB OTG.
+111. B. Domain Name System Security Extensions (DNSSEC) is a suite of extensions that add
+security to the DNS protocol by enabling DNS responses to be validated. With DNSSEC,
+the DNS protocol is much less susceptible to certain types of attacks, particularly DNS
+spoofing attacks.
+Option A is incorrect. IPSec is used for VPNs and will not mitigate DNS poisoning.
+Option C is incorrect. L2TP is used for VPNs and will not mitigate DNS poisoning.
+Option D is incorrect. TLS can be used to encrypt transmissions over the Internet, but it is
+not helpful in mitigating DNS poisoning.
+112. D. Kerberos uses encrypted tickets with a time limit. Service tickets are usually limited to
+less than 5 minutes. The Key Distribution Center, client, and services all need to have time
+synchronized. If Network Time Protocol (NTP) is not functioning, it is possible that legitimate tickets may appear to have expired.
+Options A, B, and C are incorrect. None of these require time synchronization.
+113. C. Network Address Allocation is the process of allocating network addresses. In a DHCP
+environment, this can be done to limit how many IP addresses are requested from a single
+network segment. For example, if a network segment has only 30 nodes, then no more
+than 30 addresses can be allocated to that segment. This would mitigate DHCP starvation.
+Option A is incorrect. Encrypting communications is often a good idea, but it won’t mitigate this issue.
+Option B is incorrect. Full-disk encryption (FDE) is often a good idea but won’t mitigate
+this issue.
+Option D is incorrect. Just like TLS, IPSec can often be a good answer for securing communications. But securing the transmission is not the issue in this case.
+114. D. This is really about network address allocation. Classless Inter-Domain Routing
+(CIDR) notation provides the number of bits that are masked for the network. Remaining
+bits are used for nodes. To determine the size of a subnet based in CIDR notation (/N), the
+formula is simple: [2 ^ (32 – N)] – 2. In this case, that is [2 ^ (32 – 26)] – 2 or (2 ^ 6) – 2,
+or 64 – 2, or 62 nodes.
+Options A, B, and C are all incorrect. They all yield subnets that are too small (/27 and
+/29) or are needlessly large (/24)>.
+115. B. Infrastructure as a Service (IaaS) uses a third-party service and templates to provide the
+network infrastructure in a virtualized manner, but the client company still administers
+the network. By moving to a virtualized solution, administration is very centralized. By
+using IaaS, Lydia will reduce costs, but she will still maintain direct control.
+Option A is incorrect. Outsourcing will remove control of the network to a third party.
+Option C is incorrect. Platform as a Service (PaaS) can only provide operating systems.
+Option D is incorrect. Open source won’t help centralized administration, and the total
+cost of ownership may not actually be less.
+116. C. Terminal Access Controller Access Control System+ (TACACS+) is a remote access
+protocol. It uses TCP, which is a reliable transport protocol, and it fully encrypts the messages. TACACS+ also supports a range of network protocols.
+Option A is incorrect. Remote Authentication Dial-In User Service (RADIUS) uses UDP,
+which is not a reliable transport protocol and does not support many networking protocols.
+Option B is incorrect. Diameter (not an acronym) does support TCP, but it does not fully
+encrypt the messages.
+Option D is incorrect. IPSec is a VPN protocol, not a remote access and authentication
+protocol.
+117. C. Voice over IP (VoIP) is accomplished with at least two protocols. Session Initiation Protocol (SIP) is used to establish the call. Real-time Transport Protocol (RTP) is used to send
+the actual data. These two, at a minimum, must be allowed through the firewall. If there
+are secure calls, the Secure Real-time Transport Protocol (SRTP) would also need to be
+allowed.
+Option A is incorrect. RADIUS is a remote authentication protocol and Simple Network
+Management Protocol (SNMP) is used to manage the network.
+Option B is incorrect. TCP and UDP are types of protocol; all network protocols are either
+TCP or UDP.
+Option D is incorrect. SIP is needed, but RADIUS is a remote authentication protocol.
+118. D. Classless Inter-Domain Routing (CIDR) notation provides the number of bits that are
+masked for the network. Remaining bits are used for nodes. To determine the size of a subnet based in CIDR notation (/N), the formula is simple: [2 ^ (32 –N)] – 2. In this case, that
+is [2 ^ (32 – 29)] – 2, or (2 ^ 3) – 2, or 8 – 2, or 6 nodes.
+Options A, B, and C are incorrect. The most common wrong answer is C, which would be
+the result if you forgot to subtract 2 at the end of the calculation.
+119. C. With application blacklisting, any application that is not on the blacklist is allowed.
+Since it is impossible to know all the malicious applications that exist in the world, this
+means that at least some malicious applications would not be blocked. A better approach is
+application whitelisting. In whitelisting, only those applications on the list can be installed.
+Option A is incorrect. Blacklisting will block only a finite number of malicious applications.
+Option B is incorrect. This approach won’t block any legitimate applications. In fact, it
+won’t block all malicious applications.
+Option D is incorrect. This should not have a deleterious effect on productivity.
+120. A. Patch management software is used to roll out patches to the network. Such software
+will also provide reports as to what machines are patched, which ones still have not been
+patched, and any issues with applying a patch.
+Option B is incorrect. Automatic updates should not be used on corporate networks. It is
+always possible that a particular update will interfere with some mission-critical application in the corporation. Instead patches are tested and then rolled out to the network.
+Option C is incorrect. The issue is to get the unpatched systems patched.
+Option D is incorrect. Scanning is possible but not as good a solution as patch management.
+121. C. Unified Threat Management (UTM) combines multiple security services into one
+device. In this example, we have blocking (firewall), detection (IDS), and anti-malware all
+in one device.
+Option A is incorrect. An IDS would only detect possible intrusions. It would not accomplish all the goals of the question.
+Option B is incorrect. A firewall would block incoming traffic, but would not accomplish
+the other goals in the question.
+Option D is incorrect. An SIEM is used for log aggregation and would not accomplish any
+of the goals of the question.
+122. B. Data loss prevention (DLP) is a broad term encapsulating a family of technologies and
+policies designed to prevent data from being lost. Limiting the use of unapproved USB
+devices is one example of DLP.
+Option A is incorrect. An intrusion detection system (IDS) would not address this issue.
+Option C is incorrect. Content filtering limits content users can access, such as via a web
+browser. This won’t stop them from copying documents to unapproved USB devices.
+Option D is incorrect. A network intrusion prevention system (NIPS) won’t stop the
+copying of documents to a USB.
+123. Firewall C
+HIDS A
+SIEM B
+NIDS D
+124. C. When a device is jailbroken—particularly an iOS device—the device owner can then
+install any application they wish onto the device. This can lead to unauthorized, and
+potentially malicious, applications being installed.
+Option A is incorrect. Jailbroken devices can still be patched.
+Option B is incorrect. Full disk encryption will still function on jailbroken devices.
+Option D is incorrect. Data can be exfiltrated on mobile devices, whether or not the device
+is jailbroken.
+125. B. Over-the-air (OTA) updates are accomplished wirelessly. This can be done over a cellular network, wherever the device is. Using OTA updates for the mobile devices is the most
+efficient solution.
+Option A is incorrect. This would work but would interrupt the employees’ normal work
+schedules and be inefficient.
+Option C is incorrect. Moving from Company-Owned and Personally Enabled to Bring
+Your Own Device (BYOD) would actually make the situation worse, but doing so would
+absolve the company of the responsibility of managing updates.
+Option D is incorrect. Policies require a mechanism for implementation. OTA is such a
+mechanism.
+126. A. Remote Authentication Dial-In User Service (RADIUS) is an older authentication and
+access control protocol, but it uses UDP. The other options mentioned do not use UDP.
+Options B and C are incorrect. Both Diameter and TACACS+ are newer protocols, but
+both use TCP.
+Option D is incorrect. IPSec is a VPN protocol, not a remote authentication and access
+control protocol.
+127. C. Employees using tethering can be a significant security issue. However, none of the
+technological solutions listed would solve it. Therefore, implementing (and enforcing) a
+clear policy against tethering is the only viable option.
+Option A is incorrect. She is not using the company wireless; she is making her phone into
+a WAP (wireless access point).
+Option B is incorrect. A web application firewall (WAF) protects the web server; it does
+nothing to limit outgoing web traffic.
+Option D is incorrect. A host intrusion prevention system (HIPS) would have a chance of
+addressing this issue only if it was installed on the machine being tethered.
+128. A. Many banks already implement a policy of sending a customer an SMS message
+with an authentication code anytime someone tries to log into the bank website from an
+unknown location. This provides a second communications channel for authenticating the
+customer.
+Option B is incorrect. All bank websites are already encrypted with TLS, and that does
+not address this issue.
+Option C is incorrect. Strong passwords are an excellent idea, but it won’t address this
+issue.
+Option D is incorrect. This sort of restriction would seriously impede usability of the bank
+website.
+129. A. Although many things can occur from running custom firmware on a device, the most
+likely issue is that unauthorized software can be installed. This software could be malicious software.
+Options B and C are incorrect. It is certainly possible that these could occur, but they are
+not the primary issues.
+Option D is incorrect. It is a security issue.
+130. B. Network Access Control (NAC) allows the network to enforce a level of host health
+checks on devices before allowing it to connect. With agent NAC, a software agent is
+installed on any device that wishes to connect to the network. That agent can do a much
+more thorough systems health check of the BYOD.
+Option A is incorrect. Agentless NAC can be useful but is less effective than agent NAC.
+Options C and D are incorrect. Stronger authentication is a good security measure but
+won’t address the issue of scanning BYOD to ensure compliance with security rules.
+131. C. Network Access Control (NAC) performs a systems health check on devise and validates that the device meets minimum security standards before allowing it to connect. An
+agent-based NAC is more thorough in scanning the device. However, that leaves an agent
+on the visitor’s device. A dissolvable agent will delete after a period of time.
+Option A is incorrect. A permanent NAC would have an impact on visitors’ devices.
+Option B is incorrect. Agentless NAC would have less impact, and would also be less thorough and thus less secure.
+Option D is incorrect. Company-Owned Personally Enabled (COPE) devices are not possible for guests.
+132. C. File integrity checkers work by storing hashes of various files. At any time, the
+administrator can use the file integrity checker to compare the stored hash to the hash of
+the “live” file on the network. This will detect whether any changes have been made to
+the file.
+Option A is incorrect. Network Access Control (NAC) is used to ensure devices connecting to the network meet minimum security standards.
+Option B is incorrect. A network intrusion detection system (NIDS) won’t be able to tell
+you whether files have been altered.
+Option D is incorrect. A vulnerability scanner only scans for known vulnerabilities.
+133. B. An out-of-band network intrusion detection system (NIDS) places the management
+portion on a different network segment, making detection of the NIDS more difficult.
+Option A is incorrect. A hybrid NIDS combines a network node IDS with a host IDS.
+Option C is incorrect. A network intrusion prevention system (NIPS) is usually quite
+detectable, by its very nature. By blocking offending traffic, it will absolutely be noticed.
+Option D is incorrect. A network node IDS (NNIDS) uses a network approach, but it
+delegates the IDS functions to individual hosts.
+134. B. An SSL decryptor is used to decrypt SSL/TLS transmission. The decryptor must have
+the appropriate encryption keys and certificate to accomplish this. It is a good way for a
+company to monitor outbound SSL/TLS traffic. The traffic is first decrypted before the
+network gateway, and then re-encrypted to leave the network. This allows outbound traffic to be analyzed.
+Options A and C are incorrect. NIDS and NIPS cannot see the content of encrypted traffic.
+Option D is incorrect. An SSL accelerator is used to offload some of the processing for
+establishing an SSL/TLS tunnel.
+135. A, C. One for the gateway and one for the call agent. From the call agent to the gateway is
+using UDP port 2427, and if it’s from the gateway to the call agent, it uses UDP port 2727.
+Options B and D are incorrect. 1707 is L2TP, and 1727 is PPTP.
+136. IPSec C
+WPA2 A
+SSH D
+SIP B
+137. C. When you must support machines that cannot connect to newer, more secure WiFi
+protocols, then put those machines on a separate WiFi network. That won’t prevent them
+from being breached, but it will prevent that breach from exposing your entire network.
+Option A is incorrect. A VLAN is not applicable to this scenario.
+Option B is incorrect. Denying wireless access is not necessary.
+Option D is incorrect. Although encrypting network traffic is often a good idea, it won’t
+solve this problem.
+138. A. Secure File Transfer Protocol (SFTP) is a protocol based on Secure Shell, and it provides directory listing, remote file deletion, and other file management abilities. It is also
+secure.
+Option B is incorrect. Secure Shell (SSH) provides a secure terminal connection.
+Option C is incorrect. Secure Copy (SCP) is based on SSH and does allow file transfer. But
+it does not support other file management capabilities.
+Option D is incorrect. IPSec is a VPN protocol.
+139. A. Third-party app stores are stores run by someone other than the vendor. They don’t
+have restrictions on what apps can be placed in them. This can lead to malicious apps
+being in the store. By only using vendor stores (iTunes, Google Play, etc.), you can be
+assured that the apps have been scanned for malware.
+Option B is incorrect. Vulnerability scanning is an automated process that checks for the
+presence of known vulnerabilities.
+Options C and D are incorrect. These both refer to how much information about the network the tester is given. In both black-box and white-box tests, there will still be an initial
+exploit.
+140. C. The best way to see if passwords are crackable is to attempt to crack them. This is done
+by using one or more well-known and reliable password crackers. If you are able to crack
+your passwords, that demonstrates they are not adequate.
+Option A is incorrect. Many vulnerability scanners don’t check passwords, and those that
+do only check rudimentary requirements.
+Option B is incorrect. The concern is that the policies may not be adequate. So, an audit
+will only show if people are complying with the policy, not whether the policy itself is
+adequate.
+Option D is incorrect. Passwords are usually stored as a hash. This does not prevent tools,
+like rainbow tables, from cracking passwords.
+141. B. Port 25 is for Simple Mail Transfer Protocol (SMTP), which is used to send email. Port
+110 is for Post Office Protocol (POP) version 3, which is used to receive email. These two
+ports are used for the unencrypted versions of these email protocols. So if these are being
+used, then you will see unencrypted email credentials. The username and password will be
+sent in clear text.
+Option A is incorrect. Ports 80 and 443 are for website traffic.
+Option C is incorrect. Ports 20 and 21 are for FTP traffic.
+Option D is incorrect. Digital certificates would indicate encrypted data, and ports 25 and
+110 are not encrypted.
+142. B. Secure Shell (SSH) uses port 22. If there was a breach that allowed external access to
+the SSH server, there will be traffic on port 22.
+Option A is incorrect. Port 23 is for telnet, not SSH.
+Option C is incorrect. SSH is encrypted, so you would not see clear-text credentials.
+Option D is incorrect. This breach would not cause malformed credentials.
+143. B. Push notifications are used to send out updates when they are ready. With push notifications, you do not wait for the user to check for an update; the update is sent as soon as it
+is ready.
+Option A is incorrect. Firmware Over-the-Air (OTA) updates are a good idea, but this
+question is about custom apps, not firmware.
+Option C is incorrect. This issue in this question is not if updates are being scheduled but
+if they are being applied.
+Option D is incorrect. A policy against custom firmware is a good security policy. However, this question is about custom apps, not firmware.
+144. D. Rooting is a process that allows you to attain root access to the Android operating system code. Rooting allows the user to do virtually anything, including modify the software
+code on the device or install other software that normally would be blocked.
+Option A is incorrect. Blocking third-party apps is a good idea but does not address the
+administrative access issue.
+Option B is incorrect. Jailbreaking is the term used for iOS devices, not Android.
+Option C is incorrect. You would first need to get administrative access in order to install
+custom firmware.
+145. A. Biometrics, type III authentication, are very robust. Biometrics are based on a biological
+part of the authorized user, so they are very difficult to fake and impossible for the user to lose.
+Option B is incorrect. Screen locks are necessary, but they are only a rudimentary security
+measure.
+Option C is incorrect. In combination with the username and password, context-aware
+authentication examines the user’s location, the time of day the user is logging in, the
+computer that the user is logging in from, what the user is trying to do, the context, and so
+forth. This is a very good authentication method, but biometrics can still be more effective
+and more user-friendly.
+Option D is incorrect. Storage segmentation is very good for separating user personal data
+from company data, but it won’t address unauthorized access.
+146. C. Infrared uses a wavelength of light that is not visible to humans. Since it is light, it is
+not susceptible to EMI. It can be used over most distances, provided there is a line of sight.
+The disadvantage is that any break in the line of sight breaks communication.
+Option A is incorrect. Bluetooth has a range of only 10 meters.
+Option B is incorrect. WiFi is susceptible to EMI.
+Option D is incorrect. RF is susceptible to EMI.
+147. D. The -sW flag for Windows is a Windows scan. The -sT is a TCP full-connect scan.
+Those are not at all stealthy, but they are very accurate. The -sO is a protocol scan that
+will check all protocols. The -T determines timing. Since stealth is not important, simply
+scan as fast as you wish using -T5.
+Option A is incorrect. The -sL just lists targets, and the /24 would scan the entire subnet,
+not just the target.
+Option B is incorrect. The -T1 would be very slow but stealthy. And this command lacks
+the -sO protocol scan.
+Option C is incorrect. This scan lacks the -sO protocol scan and scans the entire subnet
+needlessly.
+148. B. The arp -a command displays the Address Resolution Protocol routing table. That is
+what is shown in the figure.
+Options A and D are incorrect. The netstat command lists the current network
+connections.
+Option C is incorrect. The arp -s command adds a host to the Address Resolution
+Protocol routing table.
+149. A. Blacklisting blocks any sites or content specifically on the blacklist. However, it is
+impossible to list every inappropriate site on the Internet, so some are not going to be listed
+and thus are accessible.
+Option B is incorrect. You could argue that this issue is due to misconfiguration, but that
+is most likely cause.
+Option C is incorrect. The proxy server as a whole is not the issue. It is the content filtering that is at issue.
+Option D is incorrect. While this is possible, it is not the most likely explanation.
+150. C. Metasploit is a widely used exploit framework. It provides a complete suite of tools
+that allow you to scan targets, locate vulnerabilities, and then attempt to exploit those vulnerabilities.
+Options A, B, and D are incorrect. Although each of these describes aspects of Metasploit,
+they are incomplete definitions.
+151. B. Configuration compliance scanning solutions take the configuration settings that the
+administrator provides and scans targeted devices and computers to see whether they comply. This is an effective method for checking compliance.
+Options A, C, and D are all incorrect. Each of these would uncover at least some configuration compliance issues but would be less effective and/or more cumbersome than configuration compliance scanning.

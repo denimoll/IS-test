@@ -1,0 +1,574 @@
+1. B. Type II authentication is something you have. A smartcard is a physical item that you
+have. Though more sophisticated than a key, ultimately it is still just something you have.
+Option A is incorrect. Type I is something you know, such as a password or pin.
+Option C is incorrect. Type III is something you are, such as biometrics.
+Option D is incorrect. Strong authentication uses at least two different types, such as Type
+I and Type II.
+2. A. The correct answer is that Kerberos uses various tickets, each with a time limit. The
+service tickets are typically only good for 5 minutes or less. This means that if NTP is failing, valid tickets may appear to be expired.
+Options B, C, and D are incorrect. None of these are likely to have any significant effect
+due to NTP failure.
+3. C. The correct answer is that Challenge Handshake Authentication Protocol (CHAP)
+periodically has the client reauthenticate. This is transparent to the user, but specifically is
+done to prevent session hijacking.
+Option A is incorrect. Password Authentication Protocol is actually quite old and does not
+reauthenticate. In fact, it even sends the password in clear text, so it should not be used
+any longer.
+Option B is incorrect. SPAP (Shiva Password Authentication Protocol) adds password
+encryption to PAP but does not reauthenticate.
+Option D is incorrect. OAUTH is used in web authentication and does not reauthenticate.
+4. C. Type III authentication is biometrics. Anything based on biology, or “something you
+are,” is type III.
+Option A is incorrect. Type I is something you know, such as a password or pin.
+Option B is incorrect. Type II is something you have, such as a card or key.
+Option D is incorrect. Strong authentication uses at least two different types, such as Type
+I and Type II.
+5. D. A service account is the most appropriate in this scenario. Service accounts are given
+the least privileges the service needs and are used by the service, without the need for a
+human user.
+Option A is incorrect. You could assign a user account, but that is not as good a solution
+as using a service account.
+Option B is incorrect. A guest account would never be a good idea for a service. Guest
+accounts are typically too limited. It’s common practice to disable default accounts such as
+the Guest account.
+Option C is incorrect. An admin account would give too many privileges to the service and
+violate the principle of least privileges.
+6. A. Shibboleth is a middleware solution for authentication and identity management that
+uses SAML (Security Assertions Markup Language) and works over the Internet.
+Option B is incorrect. OAUTH (Open Authorization) allows an end user’s account information to be used by third-party services, without exposing the user’s password.
+Option C is incorrect. Shiva Password Authentication Protocol (SPAP) is an older authentication method that simply encrypted the username and password in transit.
+Option D is incorrect. Challenge Handshake Authentication Protocol (CHAP) periodically
+re-authenticates the user.
+7. D. NTLM (NT Lan Manager) was the method used in Windows for many years. It was eventually replaced by NTLM v2 for many years, and Microsoft networks now use Kerberos.
+Option A is incorrect. Password Authentication Protocol (PAP) is a very old authentication
+protocol that sent username and password in clear text.
+Option B is incorrect. Challenge Handshake Authentication Protocol (CHAP) periodically
+re-authenticates the user.
+Answer C is incorrect. Open Authorization (OAUTH) allows an end user’s account information to be used by third-party services, without exposing the user’s password.
+8. A. Mandatory Access Control (MAC) is the correct solution. It will not allow lower privilege users to even see the data at a higher privilege level.
+Option B is incorrect. Discretionary Access Control (DAC) has each data owner configure
+his or her own security.
+Option C is incorrect. Role- Based Access Control (RBAC) could be configured to meet the
+needs, but is not the best solution for these requirements.
+Answer D is incorrect. Security Assertions Markup Language (SAML) is not an access
+control model.
+9. D. Lightweight Directory Access Protocol Secure (LDAPS) will use TLS to protect the
+LDAP information, thus mitigating the risk of an attacker gathering information about
+network resources.
+Option A is incorrect. LDAP (Lightweight Directory Access Protocol) contains information about network resources, which is what Clarice is trying to protect.
+Option B is incorrect. Transport Layer Security (TLS) is used to secure data, but TLS
+alone can secure any transmission. Therefore, it needs to be combined with the data you
+are securing.
+Option C is incorrect. Simple Network Management Protocol (SNMP) does have information about network resources, but not as much information as LDAP. Also, all networks
+have LDAP, but not all networks have SNMP.
+10. B. Kerberos does not send the users password across the network. When the user’s name is
+sent to the authentication service, the service retrieves the hash of the user’s password from
+the database, and then uses that as a key to encrypt data to be sent back to the user. The
+user’s machine takes the password that the user entered, hashes it, and then uses that as a
+key to decrypt what was sent back by the server.
+Option A is incorrect. CHAP sends the user’s password encrypted.
+Option C is incorrect. RBAC is an access control model, not an authentication protocol.
+Option D is incorrect. Type II authentication is something you have, such as a key or card.
+11. C. OAUTH (Open Authorization) is an open standard for token-based authentication and
+authorization on the Internet and allows an end user’s account information to be used by
+third-party services, without exposing the user’s password.
+Option B is incorrect. Kerberos is a network authentication protocol and not used for cross
+domain/service authentication.
+Option B is incorrect. Security Assertion Markup Language (SAML) is an XML-based,
+open-standard data format for exchanging authentication and authorization data between
+parties.
+Option D is incorrect. OpenID is an authentication service often done by a third party,
+and it can be used to sign into any website that accepts OpenID. It would be possible for
+this to work, but only with websites that support OpenID, so it is not as good a solution as
+OAUTH.
+12. A. Remote Authentication Dial-In User Service (RADIUS) is a protocol specifically
+designed for remotely accessing a network.
+Option B is incorrect. Kerberos could be used to authenticate these users, but by itself cannot connect them.
+Option C is incorrect. CHAP could be used to authenticate these users, but by itself cannot connect them.
+Option D is incorrect. OpenID is an authentication service often done by a third party,
+and it can be used to sign into any website that accepts OpenID. It is not used for remotely
+accessing a network.
+13. B. NTLM is an older Windows authentication protocol. Microsoft no longer recommends
+it except for certain specific situations. One of those is attempting to authenticate to a
+server that is not part of the domain.
+Option A is incorrect. Kerberos is used in Windows domains, but cannot be used to
+authenticate to a server not in the domain. Microsoft, recommends using NTLM for this
+purpose.
+Option C is incorrect. OpenID is an authentication service often done by a third party,
+and it can be used to sign into any website that accepts OpenID.
+Option D is incorrect. CHAP is not specifically used for Windows, and while it might be
+used in this scenario, NTLM is the recommendation of Microsoft.
+14. A. The correct answer is that OpenID is an authentication service often done by a third
+party, and it can be used to sign into any website that accepts OpenID.
+Option B is incorrect. Kerberos is a network authentication protocol for use within a
+domain.
+Option C is incorrect. NTLM is an older Windows authentication protocol.
+Option D is incorrect. Shibboleth is a single sign-on system, but it works with federated
+systems.
+15. A. Cross-over Error Rate (CER), also sometimes called Equal Error Rate (EER), is the
+point at which false rejection and false acceptance are the same.
+Options B, C, and D are incorrect. These are not correct terms for this situation.
+16. D. A Time-based One-time Password (TOTP), can only be used once and is only valid for
+a brief period of time after issues. Users can request a password reset and a TOTP can be
+sent to some alternate communications, such as a text message to their phone.
+Option A is incorrect. Many users won’t have the equipment to support facial recognition.
+Option B is incorrect. Not all users will have Digital certificates.
+Option C is incorrect. Role Based Access Control won’t solve this problem.
+17. C. IEEE 802.1x port-based network access control (PNAC) is a network authentication
+protocol that can integrate with RADIUS for remote access, and can use digital certificates
+to authenticate clients.
+Option A is incorrect. CHAP does not use digital certificates.
+Option B is incorrect. 802.11i is the IEEE wireless security standard.
+Option D is incorrect. OAuth (Open Authorization) is an open standard for token-based
+authentication and authorization on the Internet and allows an end user’s account information to be used by third-party services, without exposing the user’s password.
+18. D. A Database Activity Monitoring and Prevention (DAMP) system would be the most
+effective of the choices given. These systems work like an IPS, but specifically for databases.
+Option A is incorrect. Attribute-Based Access Control (ABAC) can be a powerful way to
+control access in any system. However, DAMP is specifically designed for databases, so it
+would be the best choice in this scenario.
+Option B is incorrect. A Time-based One-time Password (TOTP) is not for regular use, as
+each user would need a new password each time they need to access the database.
+Option C is incorrect. A Host-Based Intrusion Detection System (HIDS) doesn’t prevent
+access; it simply records anomalous behavior.
+19. A. Attribute Based Access Control (ABAC) looks at a group of attributes, in addition to
+the login username and password, to make decisions about whether or not to grant access.
+One of the attributes examined is the location of the person. Since the users in this company travel frequently, they will often be at new locations, and that might cause ABAC to
+reject their logins.
+Option B is incorrect. Wrong passwords can certainly prevent login, but are not specific to
+ABAC.
+Option C is incorrect. ABAC does not prevent remote access.
+Option D is incorrect. A firewall can be configured to allow, or prohibit, any traffic you
+wish.
+20. B. Personal Identity Verification is a standardized FIPS 201 (Federal Information Processing Standard Publication 201) for use with federal employees.
+Option A is incorrect. Common Access Cards (CACs) are for U.S. Military personnel.
+Option C is incorrect. Near Field Communication (NFC) cards might be used, but PIV
+cards are more appropriate for DoD contractors.
+Answer D is incorrect. Smartcard is a generic term. Both PIV and CAC are smartcards.
+21. B. Single Sign-On (SSO) is designed specifically to address this risk. Users have only a
+single logon to remember; thus, they have no need to write down the password.
+Option A is incorrect. OAuth (Open Authorization) is an open standard for token-based
+authentication and authorization on the Internet. It does not eliminate the use or need for
+multiple passwords.
+Option C is incorrect. OpenID is a third-party authentication service but does not eliminate the use or need for multiple passwords.
+Option D is incorrect. Kerberos is an authentication service but does not eliminate the use
+or need for multiple passwords.
+22. D. Rule-Based Access Control applies a set of rules to an access request. Based on the
+application of the rules, the user may be given access to a specific resource that they were
+not explicitly granted permission to.
+Options A, B, and C are all incorrect. None of these could give a user access unless that
+user has already been explicitly given said access.
+23. A. The False Acceptance Rate (FAR) indicates how often the system will accept an invalid
+login. This is a measure of the mistakes a biometric system makes, and the lower the rate,
+the better.
+Options B, C, and D are all incorrect. These are all inaccurate.
+24. B. Tokens are physical devices that often contain cryptographic data for authentication.
+They can store digital certificates for use with authentication.
+Option A is incorrect. OAuth (Open Authorization) is an open standard for token-based
+authentication and authorization on the Internet. The user still must remember a
+password.
+Option C is incorrect. OpenID is a third-party authentication service; the user still must
+remember a password.
+Option D is incorrect. Role-Based Access Control and Rule-Based Access Control (which
+both use the acronym RBAC) are access control models.
+25. D. Least privileges is the most fundamental concept in establishing accounts. Each user
+should only have just enough privileges to do his or her job. This also applies to service
+accounts.
+Options A, B, and C are all incorrect. Each of these is something you would consider, but
+none are as important as least privileges.
+26. A. Restricting each faculty account so that it is only usable when that particular faculty
+member is typically on campus will prevent someone from logging in with that account
+after hours, even if he or she has the password.
+Option B is incorrect. Usage auditing may detect misuse of accounts, but will not
+prevent it.
+Option C is incorrect. Longer passwords are effective security, but they are not the most
+effective answer to this question.
+Answer D is incorrect. Credential management is always a good idea, but won’t address
+this specific issue.
+27. A. A permissions audit will find what permissions each user has and compare that to his
+or her job requirements. Permission audits should be conducted periodically.
+Option B is incorrect. Job rotation, while beneficial for other security reasons, will actually exacerbate this problem.
+Option C is incorrect. It is impractical to forbid anyone from ever changing job roles.
+Option D is incorrect. Separation of duties would have no impact on this issue.
+28. C. Password complexity requires that passwords have a mixture of uppercase letters, lowercase letters, numbers, and special characters. This would be the best approach to correct
+the problem described in the question.
+Option A is incorrect. Longer passwords are a good security measure, but will not correct
+the issue presented here.
+Option B is incorrect. Changing passwords is a good security measure, but won’t make
+those passwords any stronger.
+Option D is incorrect. Single Sign-On (SSO) will have no effect on the strength of passwords.
+29. B. TACACS+ (Terminal Access Controller Access Control System plus) uses TCP rather
+than UDP, and is therefore more reliable. It also supports a wide range of protocols.
+Option A is incorrect. RADIUS uses UDP, an unreliable protocol, and does not support
+many protocols.
+Option C is incorrect. NTLM is the Windows authentication protocol.
+Option D is incorrect. CHAP is an authentication protocol, not a remote access protocol.
+30. C. HMAC-based One-Time Password (HOTP) is a one-time password that is used by the
+Initiative for Open Authentication.
+Option A is incorrect. CHAP is an authentication protocol but is not a one-time password.
+Option B is incorrect. A Time-based One-time Password (TOTP) algorithm does work
+with Initiative for Open Authentication, but it is time limited. The password must be used
+within a short time of being issued.
+Option D is incorrect. Attribute-Based Access Control (ABAC) is a method for controlling
+access to your system.
+31. D. The original TACACS defined in RFC 1492 can use either UDP or TCP.
+Option A is incorrect. RADIUS uses only UDP.
+Option B is incorrect. DIAMETER uses only TCP.
+Option C is incorrect. TACACS+ uses only TCP.
+32. B. Voice recognition systems have to be trained to recognize the voices of authorized
+users, and that training takes time.
+Option A is incorrect. Minor and normal changes to a person’s voice will not prevent voice
+recognition from recognizing the user.
+Options C and D are incorrect. Voice recognition does not have a false negative or false
+positive rate that is particularly higher than other biometrics.
+33. A. The correct answer is that facial recognition is among the most expensive biometrics to
+implement.
+Option B is incorrect. They cannot be fooled easily. Adding glasses, changing hair color,
+or even gaining or losing some weight, will not prevent most facial recognition systems
+from functioning properly.
+Option C is incorrect. Facial recognition systems actually have very low false positive rates.
+Option D is incorrect. Most of these systems only need a few seconds.
+34. D. Rainbow table attacks are best mitigated by longer passwords. Generating rainbow
+tables are computationally intensive, and longer passwords (over 14 characters) cannot be
+cracked by most rainbow tables.
+Options A, B, and C are incorrect. These are all password issues that should be addressed,
+but they have no impact on rainbow tables.
+35. A. Disabling the account will leave all resources intact, including history and logs, but
+will render the account unusable.
+Option B is incorrect. At some point, the account will be deleted, but not immediately.
+Deleting the account could render some resources inaccessible.
+Option C is incorrect. Changing the account password is effective, but not as effective as
+disabling the account. It is always possible for any password to be compromised.
+Option D is incorrect. This is a very significant security violation.
+36. C. Biometric security is any security based on a user’s physical characteristics.
+Option A is incorrect. CHAP is an authentication protocol.
+Option B is incorrect. Multi-factor authentication is authentication using at least one of
+two categories of authentication. That might include biometrics, but might not.
+Option D is incorrect. A token is a physical item you have that is used for authentication.
+37. B. TACACS uses TCP and UDP 49.
+Option A is incorrect. IMAP4 uses TCP 143.
+Option C is incorrect. SSL uses port TCP 443 for web communications.
+Option D is incorrect. DNS queries use UDP 53.
+38. B. Mandatory access control (MAC) is based on documented security levels associated
+with the information being accessed.
+Option A is incorrect. Role-Based Access Control (RBAC) is based on the role the user is
+placed in.
+Option C is incorrect. Discretionary Access Control (DAC) lets the data owner set access
+control.
+Option D is incorrect. BBC is not an access control model.
+39. B. All accounts should have just enough privileges to execute their job functions. This is
+referred to as least privileges.
+Option A is incorrect. Separation of duties means that no one person can perform all the
+steps of a critical task.
+Option C is incorrect. Transitive trust is when party A trusts party B and B trusts party C;
+therefore, A trusts C.
+Option D is incorrect. Account management is a general set of guidelines for managing
+accounts.
+40. A. Discretionary Access Control (DAC) allows data owners to assign permissions.
+Option B is incorrect. Role-Based Access Control (RBAC) assigns access based on the role
+the user is in.
+Option C is incorrect. Mandatory Access Control (MAC) is stricter.
+Option D is incorrect. Attribute-Based Access Control (ABAC) considers various attributes
+such as location, time, computer, etc. in addition to username and password.
+41. D. Secure lightweight directory access protocol uses port 636 by default.
+Option A is incorrect. DNS uses port 53.
+Option B is incorrect. LDAP (without security) uses 389.
+Option C is incorrect. Secure HTTP uses port 443.
+42. B. Role-Based Access Control (RBAC) grants permissions on the user’s position within the
+organization.
+Option A is incorrect. Mandatory Access Control uses security classifications to grant
+permissions.
+Option D is incorrect. Discretionary Access Control (DAC) allows data owners to set
+permissions.
+Option D is incorrect. Attribute-Based Access Control (ABAC) considers various attributes
+such as location, time, computer, etc. in addition to username and password.
+43. D. Dual-factor authentication requires at least one authentication method from at least
+two categories. The categories are: Type I, which is something you know; Type II, which
+is something you have; and Type III, which is something you are. Option D is correct
+because it names authentication methods from two different categories: Type III (iris scan)
+and Type I (password).
+Option A is incorrect. Both of these are type I.
+Option B is incorrect. These are not authentication methods.
+Option C is incorrect. These are not authentication methods.
+44. D. The Key Distribution Center (KDC) issues tickets. The tickets are generated by the
+ticket-granting service, which is usually part of the KDC.
+Option A is incorrect. The authentication service simply authenticates the user.
+Option B is incorrect. X.509 certificates and certificate authorities are not part of Kerberos.
+Option C is incorrect. The ticket-granting service does generate the ticket, but the KDC
+issues it.
+45. B. Two-factor authentication requires at least one authentication method from at least
+two categories. The categories are: Type I, which is something you know; Type II, which
+is something you have; and Type III, which is something you are. The question has two
+types: Type III (something you are) and Type I (something you know).
+Option A is incorrect. A token is something you have (type II).
+Option C is incorrect. Kerberos is not related to this question.
+Option D is incorrect. Biometrics is something you are (type III).
+46. A. Digital certificates use the X.509 standard (or the PGP standard) and allow the user to
+digitally sign authentication requests.
+Option B is incorrect. OAUTH allows an end user’s account information to be used by
+third-party services, without exposing the user’s password. It does not use digital certificates or support digital signing.
+Option C is incorrect. Kerberos does not use digital certificates nor does it support digitally signing.
+Option D is incorrect. Smartcards can contain digital certificates, but don’t necessarily
+have them.
+47. C. SAML (Security Assertion Markup Language) is an Extensible Markup Language
+(XML) framework for creating and exchanging security information between partners
+online. The integrity of users is the weakness in the SAML identity chain. To mitigate this
+risk, SAML systems need to use timed sessions, HTTPS, and SSL/TLS.
+Option A is incorrect. LDAP (Lightweight Directory Access Protocol) is a protocol that
+enables a user to locate individuals and other resources such as files and devices in a network.
+Option B is incorrect. TACACS+ is a protocol that is used to control access into networks.
+TACACS+ provides authentication and authorization in addition to accounting of access
+requests against a central database.
+Option D is incorrect. Transitive trust is a two-way relationship that is automatically created between a parent and a child domain in a Microsoft Active Directory forest. It shares
+resources with its parent domain by default and enables an authenticated user to access
+resources in both the child and parent domain.
+48. C. A permissions audit will tell Greg exactly what the current situation is. He must know
+what is occurring now, in order to address any weaknesses.
+Option A is incorrect. Minimum password length is a good idea, but he first needs to
+know the current situation.
+Option B is incorrect. Password lockout is a good idea, but he first needs to know the current situation.
+Option D is incorrect. It’s important to ensure least privileges, but Greg must first conduct
+a permissions audit in order to determine if this principle is being adhered to or not.
+49. D. An essential part of account maintenance is checking all accounts to ensure there are
+no active accounts for employees who are no longer with the company.
+Option A is incorrect. Two-factor authentication is always preferred, but is not part of
+account maintenance.
+Option B is incorrect. Time-of-day restrictions are optional. If they are implemented, then
+that would be a part of account maintenance, but option D is a better answer because it is
+always a part of account maintenance.
+Option C is incorrect. Onboarding is critical (as is offboarding), but is not generally considered a part of account maintenance.
+50. C. Location-based policies can be used to prevent any login that is not from within the physical
+network. In this scenario, since no employees work remotely, such a policy would be practical.
+And it would prevent an attacker from using an employee’s login from outside the network.
+Option A is incorrect. Kerberos is an effective authentication protocol, but if the attacker
+has the user’s login credentials, Kerberos cannot prevent them from logging in.
+Option B is incorrect. Time-based One-Time Passwords (TOTPs) are not practical for
+daily use.
+Option D is incorrect. Group-based access control would do nothing to prevent an
+attacker who had the credentials of a legitimate user.
+51. B. If the system maintains a password history, that would prevent any user from reusing
+an old password. Common password histories can be up to 24 passwords.
+Option A is incorrect. Password complexity is always preferred, but is not part of account
+maintenance.
+Options A and C are incorrect. Password length and complexity are very important but
+would not mitigate this issue.
+Option D is incorrect. The password age indicates how frequently a password must be
+changed, and does not affect password reuse.
+52. A. Auditing and reviewing how users actually utilize their account permissions would be
+the best way to determine if there is any inappropriate use. A classic example would be a
+bank loan officer. By the nature of their job, they have access to loan documents. But they
+should not be accessing loan documents for loans they are not servicing.
+Option B is incorrect. The issue in this case is not permissions, because the users require
+permission to access the data. The issue is how the users are using their permissions.
+Option C is incorrect. Usage auditing and permissions auditing are both part of account
+maintenance, but answer A is directly addressing the issue in this question.
+Option D is incorrect. This is not a policy issue.
+53. B. A scenario such as guest WiFi access does not provide the logins with any access to corporate resources. The people logging in merely get to access the Internet. This poses very
+limited security risk to the corporate network, and thus is often done with a common or
+shared account.
+Option A is incorrect. Tech support personnel generally have significant access to corporate network resources.
+Option C is incorrect. While this is a relatively low access scenario, it is still important to
+know which specific student is logging on and accessing what resources.
+Option D is incorrect. Any level of access to corporate resources should have its own individual login account.
+54. B. While password length is important, it is not part of password complexity.
+Options A, C, and D are all incorrect. These are all part of password complexity. Password complexity means passwords contain uppercase letters, lowercase letters, numbers,
+and symbols.
+55. A. Credential management is expressly designed for this, and it is explicitly for federated
+identities. In fact, Microsoft has a credential management API that programmers can use
+to implement this.
+Option B is incorrect. OAUTH allows an end user’s account information to be used by
+third-party services, without exposing the user’s password and is used for services, not
+federated identities. Even the service being logged onto won’t know the password.
+Option C is incorrect. Kerberos is a network/domain authentication protocol.
+Option D is incorrect. Shibboleth is a middleware solution for authentication and identity
+management that uses SAML (Security Assertion Mark-up Language) and works over the
+Internet.
+56. B. A formal password recovery process is needed. This allows users the possibility of
+recovering forgotten passwords.
+Option A is incorrect. This might work (or it may not) but would have a negative impact
+on security.
+Option C is incorrect. This might work (or it may not) but would have a negative impact
+on security.
+Option D is incorrect. This might work (or it may not) but would have a negative impact
+on security.
+57. D. Password expiration would mean that even if the exiting employee’s login is not disabled, the password will simply expire without anyone having to take any action.
+Option A is incorrect. Password complexity won’t address this issue. That would simply
+make a password harder to guess.
+Option B is incorrect. Offboarding would help in this situation and should be implemented. But password expiration would occur automatically, even if offboarding procedures are not followed. That is why password expiration is a better answer.
+Option C is incorrect. Onboarding involves bringing a new employee into the team, not
+the process of exiting an employee.
+58. D. 802.1x is the IEEE standard for port-based Network Access Control. This protocol is
+frequently used to authenticate devices.
+Option A is incorrect. Challenge handshake authentication protocol is an authentication
+protocol, but not the best choice for device authentication.
+Option B is incorrect. Kerberos is an authentication protocol, but not the best choice for
+device authentication.
+Option C is incorrect. 802.11i is the WiFi security standard, and is fully implemented in
+WPA2. It is not a device authentication procedure.
+59. C. Multi-factor authentication uses at least one authentication method from at least two of
+the three categories. For example, a password (Type I: something you know) and a swipe card
+(Type II: something you have). Multi-factor authentication is the strongest authentication.
+Options A, B, and D are all incorrect. Each of these is a good method of authentication,
+but they all are simply one single factor.
+60. B. Lightweight Directory Access Protocol (LDAP) is often described as a phone book for
+your network. It lists all the network resources. Various attacks on LDAP can give the
+attacker a very thorough inventory of your network. Furthermore, an attacker can remove
+an item from LDAP and thus render it inaccessible. LDAP can be secured with TLS, and
+thus become LDAPS (LDAP Secure).
+Option A is incorrect. Simple Network Management Protocol (SNMP) would give an
+attacker a great deal of information about your network, but not all. Also, it would not
+allow the attacker to make resources unavailable.
+Option C is incorrect. Hyper Text Transfer Protocol (HTTP) is used for web pages.
+Option D is incorrect. Dynamic Host Configuration Protocol (DHCP) is used to dynamically assign IP addresses.
+61. C. Password Authentication Protocol (PAP) is a very old protocol that sent username and
+password in clear text. This should no longer be used.
+Options A, B, and D are all correct; however, these are not the most significant issues with
+PAP.
+62. A. With larger organizations, group-based is usually the most effective. Users are placed
+in groups (student, faculty, IT staff, support staff, administration, etc.), and permissions
+are managed for the group.
+Option B is incorrect. Location-based would not help manage the large number of users.
+Option C is incorrect. MAC is very secure, but requires granular account management
+that is impractical with such a large group.
+Option D is incorrect. DAC would simply not be secure enough for most situations.
+63. A. Periodic recertification of accounts is critical. The recertification process verifies that
+the account holder still requires the permissions they have been granted.
+Option B is incorrect. Usage auditing could be done to support recertification, but is not as
+important as the recertification process.
+Option C is incorrect. Standard naming conventions would not help.
+Option D is incorrect. Account recovery won’t help in managing permissions.
+64. D. While you should use standard naming conventions, the names of accounts should not
+reflect the actual account role.
+Options A, B, and C are all incorrect. Each of these clearly indicates the role of the
+account holder.
+65. B. Access control to files and directories is the most fundamental aspect of file system
+security. This includes selecting the correct access control methodology (MAC, DAC,
+RBAC).
+Option A is incorrect. Encryption is a very good technique for file system security, but is
+not the most fundamental.
+Option C is incorrect. Auditing is definitely recommended for file system security, but is
+not the most fundamental activity.
+Option D is incorrect. RAID provides fault tolerance, which is certainly necessary for
+servers, but is not the most fundamental form of file system security.
+66. B. While there are multiple issues with this account, the password length is the most significant. Shorter passwords are inherently insecure.
+Option A is incorrect. Even for a low security account, these parameters are too insecure.
+Options C and D are both incorrect. Both of these are issues, but the short password
+length is the most significant. If the password were complex and long (perhaps over
+14 characters), then the lack of password history and the password age would be less
+serious issues.
+67. C. Disabling all accounts for the exiting user should happen immediately.
+Options A and B are both incorrect. While each of these might be done, they would not be
+done before disabling of accounts.
+Option D is incorrect. You should not delete the accounts. That might render some data
+(logs, files, etc.) inaccessible. Simply disable the account.
+68. D. TACACS+ can use TCP or UDP, though it is more common to use TCP. It should also
+be noted that TACACS+ is not backward compatible.
+Options A, B, and C are all incorrect. These do not accurately describe TACACS v
+TACACS+.
+69. D. CHAP uses a hash, often MD5 for authentication, as does MS-CHAPv2. However,
+MS-CHAPv2 provides for mutual authentication, whereas CHAP only provides authenticating the client to the server.
+Options A and C are incorrect. Neither one of these uses AES.
+Option B is incorrect. CHAP does not provide mutual authentication, MS-CHAPv2 does.
+70. B. With a challenge response token, the system will encrypt some value (often a random
+number) with the user’s public key. If the user’s token has the correct private key, it can
+decrypt the value that the system sent, and confirm that.
+Option A is incorrect. An asynchronous password token generates a one-time password
+without the use of a clock.
+Option C is incorrect. TOTP is a time synchronized one-time password.
+Option D is incorrect. A static password token simply contains a password.
+71. D. Discretionary Access Control (DAC) is based on the Trusted Computer System Evaluation Criteria (TCSEC). The data owner has control over the access control.
+Options A, B, and C are all incorrect. These models are not based on TCSEC.
+72. B. While all of these features are important to security, the Encrypted File System (EFS)
+allows a person to easily encrypt any file or folder. This is important to file systems security.
+Option A is incorrect. Password policies are important, but not as important to file system
+security as being able to encrypt files and folders.
+Option C is incorrect. Account lockout, like password policies, is important. But EFS is
+more central to file system security.
+Option D is incorrect. User account control prevents unauthorized applications from running, which is important. But it’s not as central to file system security as EFS.
+73. D. Access control is the most important issue for database security. It is critical that the
+principle of least privileges is adhered to and that each database user only has access to the
+data necessary to do his or her job.
+Option A is incorrect. Password policies are important, but are less important than access
+control.
+Option B is incorrect. Anti-virus is always important. But database servers are not usually
+used for web surfing or email, thus two common means of getting a virus removed. This
+means anti-virus is less important than access control.
+Option C is incorrect. Encrypting files is not as important to database security as access
+control. The files must be decrypted for access; therefore, access control is more important.
+74. C. Recertification is a means for checking permissions. It essentially involves conducting
+certification of accounts, as if they were new. This can be done to audit permissions.
+Option A is incorrect. While usage auditing is related to permissions auditing, they are not
+the same topic.
+Option B is incorrect. Recertification is not part of onboarding.
+Option D is incorrect. Credential management is important, but is not part of
+re-certification.
+75. A. While there are security concerns with password managers, they can provide a method
+for storing large numbers of passwords so that users don’t have to remember them all.
+Option B is incorrect. Using shorter passwords would compromise security.
+Option C is incorrect. OAUTH allows an end user’s account information to be used by
+third-party services, without exposing the user’s password. It won’t reduce the number of
+passwords one has to remember.
+Option D is incorrect. Kerberos is an excellent authentication protocol, but will not reduce
+the number of passwords one must remember.
+76. C. Accounts should lock out after a small number of login attempts. Three is a common
+number of attempts before the account is locked out. This prevents someone from just
+attempting random guesses.
+Option A is incorrect. Password aging will force users to change their passwords, but
+won’t affect password guessing.
+Option B is incorrect. Longer passwords would be harder to guess, but this is not as effective as account lockout policies.
+Option D is incorrect. Account usage auditing won’t have any effect on this issue.
+77. A. Security Assertion Markup Language (SAML) is an XML-based, open-standard format for exchanging authentication and authorization data between parties.
+Option B is incorrect. OAUTH allows an end user’s account information to be used by
+third-party services, without exposing the user’s password.
+Option C is incorrect. RADIUS is a remote access protocol.
+Option D is incorrect. NTLM is how Windows hashes passwords.
+78. B. Authentication is the process that validates an identity. When a user provides their credentials (username and password), it is compared to those on file in a database on a local
+operating system or within an authentication server.
+Option A is incorrect. Identification is the process of presenting information such as username that claims an identity.
+Option C is incorrect. Authorization is the process of granting a user permission to do
+something.
+Option D is incorrect. Accounting is the process of logging session and usage information.
+This can include the amount of time a user has used a resource or the amount of data the
+user has sent or received during their session.
+79. B. Mandatory Access Control (MAC) is a type of access control that enforces authorization rules by the operating system. Users cannot override authentication or access control
+policies.
+Option A is incorrect. Discretionary Access Control (DAC) does not have centralized control of authorization, and users can override authentication and access control policies.
+Option C is incorrect. Role-Based Access Control (RBAC) provides access control based
+on the group the user is placed in.
+Option D is incorrect. Attribute-Based Access Control (ABAC) looks at a set of environmental attributes to determine access.
+80. D. The cross-over error rate or (CER) is also sometimes called the equal error rate (EER)
+and is the point at which the false acceptance and false rejection rates are the same.
+Options A, B, and C are all incorrect. None of these accurately describes the CER.
+81. A. Challenge Handshake Authentication Protocol (CHAP) was designed specifically for
+this purpose. It periodically reauthenticates, thus preventing session hijacking.
+Options B and C are incorrect. Neither of these prevents session hijacking.
+Option D is incorrect. RADIUS is a protocol for remote access, not authentication.
+82. C. OpenID connect works with the Oauth 2.0 protocol and supports multiple clients
+including web-based and mobile clients. OpenID connect also supports REST.
+Option A is incorrect. Shibboleth is a middleware solution for authentication and identity
+management that uses SAML (Security Assertion Mark-up Language) and works over the
+internet.
+Option C is incorrect. RADIUS is a remote access protocol.
+Option D is incorrect. OAUTH allows an end user’s account information to be used by
+third-party services, without exposing the user’s password.
+83. B. Proximity cards only need to be very close to the card reader to work properly.
+Option A is incorrect. Smartcards can include proximity cards, but don’t have to. Put
+another way, there are smartcards that don’t work based on proximity and have to be
+inserted or swiped.
+Option C is incorrect. Tokens don’t have a hands-free option.
+Option D is incorrect. Clearly a fingerprint scanner is not hands free.
+84. D. Federated identities introduce transitive trust. A login account can be used across multiple business entities, thus creating an implied trust relationship between them. The security of any of the federated identities is impacted by the security of the others.
+Option A is incorrect. Kerberos can be configured to work with federated identities via
+remote ticket granting servers.
+Options B and C are incorrect. The use of federated identities has no impact on whether or
+not least privileges is being obeyed or if good password management is being practiced.
+85. C. Type II authentication is something you have. A smartcard is an item that the person
+has.
+Option A is incorrect. Passwords are something you know, type I.
+Option C is incorrect. Retinal scans, and all biometrics, are something you are, type III.
+Option D is incorrect. These are still passwords, and thus type I.
+86. A. A TPM (Trusted Platform Module) can be used in authentication. These are computer
+chips, and thus hardware-based access control.
+Option B is incorrect. While one could argue that all hardware has at least firmware operating it, software-based access control is not a good description of this scenario.
+Option C is incorrect. TPMs may use digital certificates, but this question did not specify
+that this particular TPM did or did not use digital certificates.
+Option D is incorrect. While grammatically correct, this is not a term used in the industry
